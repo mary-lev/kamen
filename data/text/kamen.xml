@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI
+  xmlns="http://www.tei-c.org/ns/1.0"
+  xmlns:xi="http://www.w3.org/2001/XInclude"
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Камень / The Stone</title>
+                <author>Осип Мандельштам / Osip Mandelstam</author>
+                <respStmt>
+                    <resp>Edited and encoded by</resp>
+                    <name xml:id="maria">Maria Levchenko</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <interpGrp>
+                        <interp xml:id="rec1">Recensio 1</interp>
+                        <interp xml:id="rec2">Recensio 2</interp>
+                        <!-- Third recensio added for testing purposes -->
+                        <interp xml:id="rec3">Recensio 3</interp>
+                    </interpGrp>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <p></p>
+            </publicationStmt>
+            <notesStmt>
+                <note>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <listWit>
+                    <listWit xml:id="rec1_wits" ana="#rec1" resp="#maria">
+                    <head>Witnesses of version A</head>
+                    <witness xml:id="V">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Città del Vaticano</settlement>
+                                <repository>Biblioteca Apostolica Vaticana</repository>
+                                <idno>Vat.lat.2186</idno>
+                            </msIdentifier>
+                            <physDesc>
+                                <handDesc>
+                                    <handNote xml:id="V2">Seconda mano su Vat. lat. 2186. Gotica, con tratti forse francesi (e.g. taglio del segno tachigrafico per "et").</handNote>
+                                </handDesc>
+                            </physDesc>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="P">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Paris</settlement>
+                                <repository>Bibliothèque nationale de France</repository>
+                                <idno>Latin 6443</idno>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="N">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Napoli</settlement>
+                                <repository>Biblioteca Nazionale</repository>
+                                <idno>VIII.E.33</idno>
+                            </msIdentifier>
+                            <physDesc>
+                                <handDesc>
+                                    <handNote  xml:id="N2">Seconda mano su N; si tratta di una mano scrivente con inchiostro differente (nero) e scrittura differente.</handNote>
+                                </handDesc>
+                            </physDesc>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="M">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Oxford</settlement>
+                                <repository>Merton Coll.</repository>
+                                <idno>282</idno>
+                            </msIdentifier>
+                            <physDesc>
+                                <handDesc>
+                                    <handNote xml:id="M2"></handNote>
+                                </handDesc>
+                            </physDesc>
+                        </msDesc>
+                    </witness>
+                    </listWit>
+                    <listWit xml:id="rec2_wits" ana="#rec2" resp="#maria">
+                    <head>Witnesses of version B</head>
+                    <witness xml:id="G">Graz, Universitaetsbibl. 482</witness>
+                    <witness xml:id="C">Cordoba, Bibl. capit.52</witness>
+                    <witness xml:id="R">Roma, Bibl. Angelica 242 (C.4.10)</witness>
+                    <witness xml:id="F">Paris. BnF lat. 16096</witness>
+                    <witness xml:id="D">Dubrovnik, Dominik. Samostan 63 (36-V-6)</witness>
+                    <witness xml:id="O">Oxford, Bodl. Libr. Digby 217</witness>
+                    </listWit>
+                    <listWit xml:id="rec3_wits" ana="#rec3" resp="#maria">
+                    <head>Witnesses of version C</head>
+                    <witness xml:id="W">Oxford, Oriel Coll. 7</witness>
+                    <witness xml:id="M5mg">M5mg.</witness>
+                    <witness xml:id="B">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Bruges</settlement>
+                                <repository>Sted. Openb. Bibl.</repository>
+                                <idno>510</idno>
+                            </msIdentifier>
+                            <physDesc>
+                                <handDesc>
+                                    <handNote xml:id="B2"></handNote>
+                                </handDesc>
+                            </physDesc>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="U">
+                        <msDesc>
+                            <msIdentifier></msIdentifier>
+                            <physDesc>
+                                <handDesc>
+                                    <handNote xml:id="U2"></handNote>
+                                </handDesc>
+                            </physDesc>
+                        </msDesc>
+                    </witness>
+                    </listWit>
+                </listWit>
+                <listPerson>
+                    <person xml:id="p_Aristotele" sortKey="Aristotele">
+                        <persName full="yes" xml:lang="it">Aristotele</persName>
+                        <persName full="yes" type="alternative" xml:lang="en">Aristotle</persName>
+                        <persName full="abb" xml:lang="it">Arist.</persName>
+                        <birth calendar="#gregorian" notBefore="-0384" notAfter="-0383">384/383 a.C.</birth>
+                        <death  calendar="#gregorian" when="-0322">322 a.C.</death>
+                    </person>
+                    <person xml:id="p_Avicenna" sortKey="Avicenna">
+                        <persName full="yes" xml:lang="la">Avicenna</persName>
+                        <persName full="yes" type="alternative" xml:lang="ar-Latn">Abū ʿAlī al-Ḥusayn ibn ʿAbd Allāh ibn Al-Hasan ibn Ali ibn Sīnā</persName>
+                        <persName full="abb" type="alternative" xml:lang="ar-Latn">Ibn Sīnā</persName>
+                        <persName full="yes"  type="alternative" xml:lang="ar-Latn">Sharaf al-Mulk</persName>
+                        <persName full="yes"  type="alternative" xml:lang="ar-Latn">Hujjat al-Haq</persName>
+                        <birth calendar="#gregorian" when="0980-08-22">22 agosto 980 d.C.</birth>
+                        <death  calendar="#gregorian" when="1037-06-21">21 giugno 1037 d.C.</death>
+                    </person>
+                    <person xml:id="p_Boezio" sortKey="Boezio_Anicio">
+                        <persName full="yes" xml:lang="la">Anicius Manlius Severinus Boethius</persName>
+                        <persName full="yes"  type="alternative" xml:lang="it">Anicio Manlio Severino Boezio</persName>
+                        <persName full="abb" xml:lang="it">Boezio</persName>
+                        <persName full="abb" xml:lang="la">Boethius</persName>
+                        <persName full="yes"  type="alternative" xml:lang="ar-Latn">Sharaf al-Mulk</persName>
+                        <persName full="yes"  type="alternative" xml:lang="en">Boetius</persName>
+                        <birth calendar="#gregorian" when="0480">480 d.C.</birth>
+                        <death  calendar="#gregorian" when="0524">524 d.C.</death>
+                    </person>
+                    <person xml:id="p_Afrodita" sortKey="Афродита">
+                        <persName xml:lang="ru">Афродита</persName>
+                    </person>
+                </listPerson>
+                <listBibl>
+                    <head>Works</head>
+                    <bibl type="work" xml:id="w_metaph" sortKey="Metafisica">
+                        <title xml:lang="it">Metafisica</title>
+                        <title xml:lang="en">Metaphysics</title>
+                        <title type="short">Metaph.</title>
+                        <author ref="#p_Aristotele">Aristotele</author>
+                        <ref type="manifestation" target="#ar_met_perseus"/>
+                    </bibl>
+                    <bibl type="work" xml:id="w_sifa" sortKey="Kitab_al-Šifāʾ">
+                        <title xml:lang="ar-Latn">Kitab al-Šifāʾ</title>
+                        <title xml:lang="it">Libro della guarigione</title>
+                        <author ref="#p_Avicenna" xml:lang="ar-Latn">Ibn Sīnā</author>
+                    </bibl>
+                    <bibl type="work" xml:id="w_nafs" sortKey="Kitāb_al-Nafs">
+                        <title xml:lang="ar-Latn">Kitāb al-Nafs</title>
+                        <title type="short">Nafs</title>
+                        <author ref="#p_Avicenna" xml:lang="ar-Latn">Ibn Sīnā</author>
+                        <relatedItem type="isPartOf" target="#w_sifa"/>
+                        <ref type="manifestation" target="#Rahman1959"/>
+                    </bibl>
+                    <bibl type="work" xml:id="w_burhan" sortKey="Kitāb_al-Burhān">
+                        <title xml:lang="ar-Latn">Kitāb al-Burhān</title>
+                        <title type="short">Burhān</title>
+                        <author ref="#p_Avicenna" xml:lang="ar-Latn">Ibn Sīnā</author>
+                        <relatedItem type="isPartOf" target="#w_sifa"/>
+                        <ref type="manifestation" target="#Afifi1956"/>
+                    </bibl>
+                    <bibl type="work" xml:id="w_boe-in-isagoge" sortKey="In_Porphyrii_Isagogen">
+                        <title xml:lang="la">In Porphyrii Isagogen</title>
+                        <title type="short" xml:lang="it">In Porph. Isag.</title>
+                        <author ref="#p_Boezio" xml:lang="la">Boethius</author>
+                         <ref type="manifestation" target="#CPT_PLD64"/>
+                    </bibl>
+                    <bibl type="work" xml:id="w_boe-traslatio-isagoge" sortKey="Porphyrii_Isagoge_Translatio">
+                        <title xml:lang="la">Porphyrii Isagoge translatio</title>
+                        <title type="short" xml:lang="it">Porph. Isag. translatio.</title>
+                        <author ref="#p_Boezio" xml:lang="la">Boethius</author>
+                        <ref type="manifestation" target="#CPT_PLD64"/>
+                    </bibl>
+                    <bibl type="work" xml:id="w_boe-traslatio-topicorum" sortKey="Aristotelis_Topicorum_Translatio">
+                        <title xml:lang="la">Aristotelis Topicorum translatio</title>
+                        <title type="short" xml:lang="it">Arist. Top. translatio.</title>
+                        <author ref="#p_Boezio" xml:lang="la">Boethius</author>
+                        <ref type="manifestation" target="#ATT_PLD64"/>
+                    </bibl>
+                    <!-- non avendo i riferimenti precisi la segno così a utilità degli esempi -->
+                    <bibl type="work" xml:id="w_logica" sortKey="Logica">
+                        <title xml:lang="it">Logica</title>
+                        <title type="short" xml:lang="it">Logica</title>
+                        <author ref="#p_Avicenna" xml:lang="ar-Latn">Ibn Sīnā</author>
+                        <ref type="manifestation" target="#msAr #trLa"/>
+                    </bibl>
+                </listBibl>
+                <listBibl>
+                    <head>Editions and Manuscripts</head>
+                    <bibl xml:id="ar_met_perseus">Aristotle, Metaphysics (greek), in <title>Perseus Digital Library</title>, ed. <editor>Gregory R. Crane</editor>, Tufts University, <ref target="http://www.perseus.tufts.edu">http://www.perseus.tufts.edu</ref></bibl>
+                    <bibl xml:id="Rahman1959"><title>Avicenna's De Anima (Arabic Text), being the psychological part of the Kitab_al-Šifāʾ</title>, ed. by <editor>F. Rahman</editor>, London 1959</bibl>
+                    <bibl xml:id="Afifi1956"><title>Al-Šifāʾ, al-Manṭiq, al-Burhān</title>, ed. by <editor>A. F. ʿAfīfī, Al-Maṭbaʿa al-amīriyya</editor>, Cairo 1956</bibl>
+                    <bibl xml:id="msAr">Manoscritto arabo</bibl>
+                    <bibl xml:id="trLa">Manoscritto arabo del traduttore latino</bibl>
+                    <bibl xml:id="CPT_PLD64"><author>An. Manl. Sev. Boetii</author> <title>Commentaria in Porphyrium a se translatum</title>, in <title>Patrologia latina. The full text database</title>, versione elettronica di <title>Patrologiae cursus completus. Series Latina</title>, a cura di <editor>Jacques-Paul Migne, ProQuest-CSA, 1996-2017,  <ref target="http://pld.chadwyck.co.uk/">http://pld.chadwyck.co.uk/</ref> </editor>.</bibl>
+                    <bibl xml:id="ATT_PLD64"><title>Topicorum Aristoteli libri octo</title>,  <author>An. Manl. Sev. Boetii</author> interprete, in <title>Patrologia latina. The full text database</title>, versione elettronica di <title>Patrologiae cursus completus. Series Latina</title>, a cura di <editor>Jacques-Paul Migne, ProQuest-CSA, 1996-2017,  <ref target="http://pld.chadwyck.co.uk/">http://pld.chadwyck.co.uk/</ref> </editor>.</bibl>
+                    <!--Bibl entries added for testing purposes-->
+                    <bibl>
+                        <editor>ed. G. Roper</editor>
+                        <title>World Survey of Islamic Manuscripts</title>
+                        <pubPlace>London</pubPlace>
+                        <publisher>Al-Furqan Islamic Heritage Foundation</publisher>
+                        <date>1992-1994</date>
+                    </bibl>
+                    <bibl>
+                        <author>A. Q. Ahmed</author>
+                        <title level="j">“The Shifāʾ in India I: Reflections on the Evidence of the Manuscripts”</title>
+                        <title level="j">Oriens, 40</title>
+                        <date>2012</date>
+                    </bibl>
+                    <bibl>
+                        <author>J. J. Witkam</author>
+                        <title level="j"> “Avicenna’s Copyists at Work: Codicological Features of the Two Leiden Manuscripts of the Kitāb al-Shifāʾ”</title>
+                        <title level="j">Oriens, 40</title>
+                        <date>2012</date>
+                    </bibl>
+                    <bibl>
+                        <author>S. H. Rizvi,</author>
+                        <title level="a"> “Mīr Dāmād in India: Islamic Philosophical Traditions and the Problem of Creation”</title>
+                        <title level="j">Journal of the American Oriental Society</title>
+                        <date>2011</date>
+                    </bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <variantEncoding method="parallel-segmentation" location="internal" />
+            <tagsDecl>
+            </tagsDecl>
+        </encodingDesc>
+    </teiHeader>
+    <!--END OF TEIHEADER-->
+
+    <!--BEGINNING OF TEXT-->
+    <text>
+        <group>
+            <text type="Дыхание">
+        <body>
+            <!--First div-->
+            <div type="1">
+                <!--Beginning of Head-->
+                <head>
+                    <app resp="#silvia">
+                        <lem wit="#G #M #N #P #R #V">ДЫХАНІЕ</lem>
+                        <rdg cause="om" wit="#F"></rdg>
+                    </app> 
+                </head>
+                <!--End of Head-->
+                <!--Beginning of first Paragraph-->
+                <l n="1"><lb facs="#OM_kamen_line_1913_03_01" n="1" xml:id="OM_kamen_lb_1913_03_01"/>
+                    <app resp="#silvia">
+                        <lem wit="#G #M #N #P #R #V">Дано мнѣ тѣло —</lem>
+                        <rdg type="subs" wit="#F" resp="#maria">Имѣю тѣло: </rdg>
+                    </app> что мнѣ дѣлать съ нимъ,</l>
+                <l n="2"><lb facs="#OM_kamen_line_1913_03_02" n="2" xml:id="OM_kamen_lb_1913_03_02"/>Такимъ единымъ и такимъ моимъ?</l>
+                <lb rend="empty"/>
+                <l n="3"><lb facs="#OM_kamen_line_1913_03_03" n="3" xml:id="OM_kamen_lb_1913_03_03"/>За
+                    радость тихую дышать и жить,</l>
+                <l n="4"><lb facs="#OM_kamen_line_1913_03_04" n="4" xml:id="OM_kamen_lb_1913_03_04"/>Кого,
+                    скажите, мнѣ благодарить?</l>
+                <lb rend="empty"/>
+                <l n="5"><lb facs="#OM_kamen_line_1913_03_05" n="5" xml:id="OM_kamen_lb_1913_03_05"/>Я и
+                    садовникъ, я же и цвѣтокъ,</l>
+                <l n="6"><lb facs="#OM_kamen_line_1913_03_06" n="6" xml:id="OM_kamen_lb_1913_03_06"/>Въ
+                    темницѣ міра я не одинокъ.</l>
+                <lb rend="empty"/>
+                <l n="7"><lb facs="#OM_kamen_line_1913_03_07" n="7" xml:id="OM_kamen_lb_1913_03_07"/>На
+                    стекла вѣчности уже легло</l>
+                <l n="8"><lb facs="#OM_kamen_line_1913_03_08" n="8" xml:id="OM_kamen_lb_1913_03_08"/>Мое
+                    дыханіе, мое тепло.</l>
+                <lb rend="empty"/>
+                <l n="9"><lb facs="#OM_kamen_line_1913_03_09" n="9" xml:id="OM_kamen_lb_1913_03_09"
+                    />Запечатлѣется на немъ узоръ,</l>
+                <l n="10"><lb facs="#OM_kamen_line_1913_03_10" n="10" xml:id="OM_kamen_lb_1913_03_10"
+                    />Неузнаваемый съ недавнихъ поръ.</l>
+                <lb rend="empty"/>
+                <l n="11"><lb facs="#OM_kamen_line_1913_03_11" n="11" xml:id="OM_kamen_lb_1913_03_11"/><app>
+                        <lem wit="#G #M #N #P #R #V">Пускай</lem>
+                        <rdg type="subs" wit="#F" resp="#maria">Пока</rdg>
+                </app> мгновенія стекаетъ муть —</l>
+                <l n="12"><lb facs="#OM_kamen_line_1913_03_12" n="12" xml:id="OM_kamen_lb_1913_03_12"/>Узора
+                    милаго не зачеркнуть.<figure>
+                        <graphic url="../images/single/kamen_1913_03.jpg" xml:id="kamen_1913_03"/>
+                        <figure>
+                        <graphic url="../images/single/kamen_1913_03.jpg"/>
+                        </figure>
+                    </figure>
+                    <pb ed="#C" n="03"/>
+                </l>
+            </div>
+            <!--End of first Div-->
+
+
+        </body>
+        <!--END OF BODY-->
+
+        <!--BEGINNING OF BACK-->
+        <back>
+
+            <!--SOURCES DIV-->
+            <div>
+                <head>Sources</head>
+                <cit xml:id="Ari_Meta_1-2-982b28-983a11">
+                    <bibl>
+                        <author ref="#p_Aristotle">Arist.</author>
+                        <title ref="#w_metaph">Metaph.</title>
+                        <citedRange corresp="#ar_met_perseus" target="http://data.perseus.org/citations/urn:cts:greekLit:tlg0086.tlg025.perseus-grc1:1.982b">Α, 2, 982b28-983a11</citedRange>
+                    </bibl>
+                    <quote></quote>
+                </cit>
+                <!--**ASSIGNED**-->
+                <cit xml:id="Ari_Meta_4-1-1003a31-32" source="#Ari_Meta_4-1-1003a31-32.xml">
+                    <bibl>
+                        <author ref="#p_Aristotle">Arist.</author>
+                        <title ref="#w_metaph">Metaph.</title>
+                        <citedRange corresp="#ar_met_perseus" target="http://data.perseus.org/citations/urn:cts:greekLit:tlg0086.tlg025.perseus-grc1:4.1003a">Γ, 1, 1003a31-32</citedRange>
+                    </bibl>
+                    <quote></quote>
+                </cit>
+                <!--**UNASSIGNED**-->
+                <cit xml:id="Ari_Meta_6-1-1025b1-2">
+                    <bibl>
+                        <author ref="#p_Aristotle">Arist.</author>
+                        <title ref="#w_metaph">Metaph.</title>
+                        <citedRange corresp="#ar_met_perseus" target="http://data.perseus.org/citations/urn:cts:greekLit:tlg0086.tlg025.perseus-grc1:6.1025b">Ε, 1, 1025b1-2</citedRange>
+                    </bibl>
+                    <quote></quote>
+                </cit>
+                <cit xml:id="Ari_Meta_6-1-1026a16-21">
+                    <bibl>
+                        <author ref="#p_Aristotle">Arist.</author>
+                        <title ref="#w_metaph">Metaph.</title>
+                        <citedRange corresp="#ar_met_perseus" target="http://data.perseus.org/citations/urn:cts:greekLit:tlg0086.tlg025.perseus-grc1:6.1026a">Ε, 1, 1026a16-21</citedRange>
+                    </bibl>
+                    <quote></quote>
+                </cit>    
+                <cit xml:id="boe_inPorfIsag_I-80A-B">
+                    <bibl>
+                        <author ref="#p_Boethius">Boethius</author>
+                        <title ref="#w_inIsagogen">In Porph. Isag.</title>
+                        <citedRange  corresp="#CPT_PLD64">I, coll. 80A-B</citedRange>
+                    </bibl>
+                    <quote>Rursus divisio est quoties vox plura significans aperitur, et quam multa sint quae ab ea voce signantur ostenditur, ut si quis dicat: nomen canis plura significat, et hunc latrabilem quadrupedemque, et coeleste sidus, et marinam bestiam, quae omnia a se diffinitione disjuncta sunt.</quote>
+                </cit>
+                <cit xml:id="boe_porpIsagTrans_II-91A" source="boe_porpIsagTrans_II-91A.xml">
+                    <bibl>
+                        <author ref="#p_Boethius">Boethius</author>
+                        <title ref="#w_boe-traslatio-isagoge">Porph. Isag. translatio</title>
+                        <citedRange  corresp="#CPT_PLD64">II, coll. 91A</citedRange>
+                    </bibl>
+                    <quote>Tripliciter igitur cum genus dicatur, de tertio apud philosophos est sermo, quod etiam describentes assignaverunt, dicentes genus esse quod de pluribus et differentibus specie in eo quod quid sit praedicatur, ut animal.</quote>
+                </cit>
+                <cit xml:id="boe_transAristTop_I-4-913B">
+                    <bibl>
+                        <author ref="#p_Boethius">Boethius</author>
+                        <title ref="#w_boe-traslatio-topicorum">Porph. Isag. translatio</title>
+                        <citedRange  corresp="#ATT_PLD64">I, 4, coll. 913B</citedRange>
+                    </bibl>
+                    <quote>Genus autem est, quod de pluribus et differentibus specie in eo quod quid est praedicatur.</quote>
+                </cit>
+            </div>
+
+            <!--PARALLEL PASSAGES DIV-->
+            <div>
+                <head>Parallel passages</head>
+                <cit xml:id="burhan_2-7-165-7-10">
+                    <bibl>
+                        <author ref="#p_Avicenna">Avicenna</author>
+                        <title ref="#w_burhan">Burhān</title>
+                        <citedRange corresp="#Afifi1956">II, 7, p. 165, 7-10</citedRange>
+                    </bibl>
+                    <quote></quote>
+                </cit>
+                <cit xml:id="burhan_2-9-178-17-19">
+                    <bibl>
+                        <author ref="#p_Avicenna">Avicenna</author>
+                        <title ref="#w_burhan">Burhān</title>
+                        <citedRange corresp="#Afifi1956">II, 9, p. 178, 17-19</citedRange>
+                    </bibl>
+                    <quote></quote>
+                </cit>
+            </div>
+        </back>
+        <!--END OF BACK-->
+
+    </text>
+    <text type="Silentium">
+        <body>
+            <!--First div-->
+            <div type="2">
+                <!--Beginning of Head-->
+                <head>
+                    <app resp="#silvia">
+                        <lem wit="#G #M #N #P #R #V">SILENTIUM</lem>
+                        <rdg cause="om" wit="#F"></rdg>
+                    </app> 
+                </head>
+                <l n="1"><lb facs="#OM_kamen_line_1913_04_01" n="1" xml:id="OM_kamen_lb_1913_04_01"/>Она
+                    еще не родилась,</l>
+                  <l n="2"><lb facs="#OM_kamen_line_1913_04_02" n="2" xml:id="OM_kamen_lb_1913_04_02"/>Она и
+                    музыка и слово,</l>
+                  <l n="3"><lb facs="#OM_kamen_line_1913_04_03" n="3" xml:id="OM_kamen_lb_1913_04_03"/>И
+                    потому всего живого</l>
+                  <l n="4"><lb facs="#OM_kamen_line_1913_04_04" n="4" xml:id="OM_kamen_lb_1913_04_04"
+                    />Ненарушаемая связь.</l>
+                <lb rend="empty"/>
+                <l n="5"><lb facs="#OM_kamen_line_1913_04_05" n="5" xml:id="OM_kamen_lb_1913_04_05"
+                  />Спокойно дышатъ моря груди,</l>
+                <l n="6"><lb facs="#OM_kamen_line_1913_04_06" n="6" xml:id="OM_kamen_lb_1913_04_06"/>Но,
+                  какъ безумный, свѣтелъ день</l>
+                <l n="7"><lb facs="#OM_kamen_line_1913_04_07" n="7" xml:id="OM_kamen_lb_1913_04_07"/>И пѣны
+                  блѣдная сирень</l>
+                <l n="8"><lb facs="#OM_kamen_line_1913_04_08" n="8" xml:id="OM_kamen_lb_1913_04_08"/>Въ
+                  мутно-лазоревомъ сосудѣ.</l>
+                <lb rend="empty"/>
+                <l n="9"><lb facs="#OM_kamen_line_1913_04_09" n="9" xml:id="OM_kamen_lb_1913_04_09"/>Да
+                  обрѣтутъ мои уста</l>
+                <l n="10"><lb facs="#OM_kamen_line_1913_04_10" n="10" xml:id="OM_kamen_lb_1913_04_10"
+                  />Первоначальную нѣмоту —</l>
+                <l n="11"><lb facs="#OM_kamen_line_1913_04_11" n="11" xml:id="OM_kamen_lb_1913_04_11"/>Какъ
+                  кристаллическую ноту,</l>
+                <l n="12"><lb facs="#OM_kamen_line_1913_04_12" n="12" xml:id="OM_kamen_lb_1913_04_12"/>Что
+                  отъ рожденія чиста.</l>
+                <lb rend="empty"/>
+                <l n="13"><lb facs="#OM_kamen_line_1913_04_13" n="13" xml:id="OM_kamen_lb_1913_04_13"/>Останься пѣной, <persName ref="#Aphrodita" type="religion"
+                      >Афродита,</persName></l>
+                <l n="14"><lb facs="#OM_kamen_line_1913_04_14" n="14" xml:id="OM_kamen_lb_1913_04_14"/>И
+                  слово въ музыку вернись,</l>
+                <l n="15"><lb facs="#OM_kamen_line_1913_04_15" n="15" xml:id="OM_kamen_lb_1913_04_15"/>И
+                  сердце сердца устыдись,</l>
+                <l n="16"><lb facs="#OM_kamen_line_1913_04_16" n="16" xml:id="OM_kamen_lb_1913_04_16"/>Съ
+                  первоосновой жизни слито. <figure>
+                    <graphic url="../images/single/kamen_1913_04.jpg" xml:id="kamen_1913_04"/>
+                    <figure>
+                      <graphic url="../images/single/kamen_1913_04.jpg"/>
+                    </figure>
+                  </figure></l>
+                  <pb ed="#C" n="04"/>
+            </div>
+            <!--End of first Div-->
+
+
+        </body>
+        <!--END OF BODY-->
+
+       
+    </text>
+    </group>
+</text>
+    <!--END OF TEXT-->
+
+<!--END OF DOCUMENT-->
+</TEI>
