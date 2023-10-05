@@ -1,6 +1,6 @@
 {
     "indexTitle": "Осип Мандельштам. Камень",
-    "webSite": "",
+    "webSite": "https://mary-lev.github.io/kamen",
     "logoUrl": "",
     
     "dataUrl": "data/text/kamen.xml",
@@ -109,7 +109,7 @@
         {
             "tagName": "orgName",
             "label": "Organizations",
-            "available": true
+            "available": false
         }
     ],
     "otherEntitiesToHandle": [
