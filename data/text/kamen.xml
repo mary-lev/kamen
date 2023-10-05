@@ -36,8 +36,18 @@
                 <listWit>
                     <listWit xml:id="rec1_wits" ana="#rec1" resp="#maria">
                     <head>Witnesses of version A</head>
-                    <witness xml:id="V">
-                        <msDesc>
+                    <witness xml:id="K1">
+                        <bibl>
+                            <author>
+                                <forename>Осип</forename>
+                                <surname>Мандельштам</surname>
+                            </author>
+                            <title>Камень</title>
+                            <publisher>Акме</publisher>
+                            <pubPlace>Санкт-Петербург</pubPlace>
+                            <date>1913</date>
+                        </bibl>
+                        <!-- <msDesc>
                             <msIdentifier>
                                 <settlement>Città del Vaticano</settlement>
                                 <repository>Biblioteca Apostolica Vaticana</repository>
@@ -48,29 +58,27 @@
                                     <handNote xml:id="V2">Seconda mano su Vat. lat. 2186. Gotica, con tratti forse francesi (e.g. taglio del segno tachigrafico per "et").</handNote>
                                 </handDesc>
                             </physDesc>
-                        </msDesc>
+                        </msDesc> -->
                     </witness>
-                    <witness xml:id="P">
+                    <witness xml:id="K2">
+                        <bibl>
+                            <author>
+                                <forename>Осип</forename>
+                                <surname>Мандельштам</surname>
+                            </author>
+                            <title>Камень</title>
+                            <publisher>Гиперборей</publisher>
+                            <pubPlace>Петроград</pubPlace>
+                            <date>1916</date>
+                        </bibl>
+                    </witness>
+                    <witness xml:id="K2-Av">
                         <msDesc>
                             <msIdentifier>
-                                <settlement>Paris</settlement>
-                                <repository>Bibliothèque nationale de France</repository>
-                                <idno>Latin 6443</idno>
-                            </msIdentifier>
-                        </msDesc>
-                    </witness>
-                    <witness xml:id="N">
-                        <msDesc>
-                            <msIdentifier>
-                                <settlement>Napoli</settlement>
-                                <repository>Biblioteca Nazionale</repository>
+                                <settlement>?</settlement>
+                                <repository>Список Аверьянова с автографом</repository>
                                 <idno>VIII.E.33</idno>
                             </msIdentifier>
-                            <physDesc>
-                                <handDesc>
-                                    <handNote  xml:id="N2">Seconda mano su N; si tratta di una mano scrivente con inchiostro differente (nero) e scrittura differente.</handNote>
-                                </handDesc>
-                            </physDesc>
                         </msDesc>
                     </witness>
                     <witness xml:id="M">
@@ -90,10 +98,26 @@
                     </listWit>
                     <listWit xml:id="rec2_wits" ana="#rec2" resp="#maria">
                     <head>Witnesses of version B</head>
-                    <witness xml:id="G">Graz, Universitaetsbibl. 482</witness>
+                    <witness xml:id="K3">
+                        <bibl>
+                        <author>
+                            <forename>Осип</forename>
+                            <surname>Мандельштам</surname>
+                        </author>
+                        <title>Камень</title>
+                        <publisher>Госиздат</publisher>
+                        <pubPlace>Петроград</pubPlace>
+                        <date>1923</date>
+                    </bibl></witness>
                     <witness xml:id="C">Cordoba, Bibl. capit.52</witness>
                     <witness xml:id="R">Roma, Bibl. Angelica 242 (C.4.10)</witness>
-                    <witness xml:id="F">Paris. BnF lat. 16096</witness>
+                    <witness xml:id="F">
+                        <bibl>
+                            <title>Аполлон</title>
+                            <date>1910</date>
+                            <biblScope>№ 9. С. 6.</biblScope>
+                        </bibl>
+                    </witness>
                     <witness xml:id="D">Dubrovnik, Dominik. Samostan 63 (36-V-6)</witness>
                     <witness xml:id="O">Oxford, Bodl. Libr. Digby 217</witness>
                     </listWit>
@@ -267,51 +291,46 @@
             <div type="1">
                 <!--Beginning of Head-->
                 <head>
-                    <app resp="#silvia">
-                        <lem wit="#G #M #N #P #R #V">ДЫХАНІЕ</lem>
+                    <app resp="#maria">
+                        <lem wit="#K1 #K2 #K3 #N #R">ДЫХАНІЕ</lem>
                         <rdg cause="om" wit="#F"></rdg>
                     </app> 
                 </head>
                 <!--End of Head-->
                 <!--Beginning of first Paragraph-->
                 <l n="1"><lb facs="#OM_kamen_line_1913_03_01" n="1" xml:id="OM_kamen_lb_1913_03_01"/>
-                    <app resp="#silvia">
-                        <lem wit="#G #M #N #P #R #V">Дано мнѣ тѣло —</lem>
+                    <app resp="#maria">
+                        <lem wit="#K1 #K2 #K3 #N #R">Дано мнѣ тѣло —</lem>
                         <rdg type="subs" wit="#F" resp="#maria">Имѣю тѣло: </rdg>
-                    </app> что мнѣ дѣлать съ нимъ,</l>
-                <l n="2"><lb facs="#OM_kamen_line_1913_03_02" n="2" xml:id="OM_kamen_lb_1913_03_02"/>Такимъ единымъ и такимъ моимъ?</l>
+                    </app> что мнѣ дѣлать <rhyme label="a">съ нимъ</rhyme>,</l>
+                <l n="2"><lb facs="#OM_kamen_line_1913_03_02" n="2" xml:id="OM_kamen_lb_1913_03_02"/>Такимъ единымъ и такимъ <rhyme label="a">моимъ</rhyme>?</l>
                 <lb rend="empty"/>
                 <l n="3"><lb facs="#OM_kamen_line_1913_03_03" n="3" xml:id="OM_kamen_lb_1913_03_03"/>За
-                    радость тихую дышать и жить,</l>
+                    радость тихую дышать и <rhyme label="b">жить</rhyme>,</l>
                 <l n="4"><lb facs="#OM_kamen_line_1913_03_04" n="4" xml:id="OM_kamen_lb_1913_03_04"/>Кого,
-                    скажите, мнѣ благодарить?</l>
+                    скажите, мнѣ благода<rhyme label="b">рить</rhyme>?</l>
                 <lb rend="empty"/>
                 <l n="5"><lb facs="#OM_kamen_line_1913_03_05" n="5" xml:id="OM_kamen_lb_1913_03_05"/>Я и
-                    садовникъ, я же и цвѣтокъ,</l>
+                    садовникъ, я же и <rhyme label="c">цвѣтокъ</rhyme>,</l>
                 <l n="6"><lb facs="#OM_kamen_line_1913_03_06" n="6" xml:id="OM_kamen_lb_1913_03_06"/>Въ
-                    темницѣ міра я не одинокъ.</l>
+                    темницѣ міра я не <rhyme label="c">одинокъ</rhyme>.</l>
                 <lb rend="empty"/>
                 <l n="7"><lb facs="#OM_kamen_line_1913_03_07" n="7" xml:id="OM_kamen_lb_1913_03_07"/>На
-                    стекла вѣчности уже легло</l>
+                    стекла вѣчности уже <rhyme label="d">легло</rhyme></l>
                 <l n="8"><lb facs="#OM_kamen_line_1913_03_08" n="8" xml:id="OM_kamen_lb_1913_03_08"/>Мое
-                    дыханіе, мое тепло.</l>
+                    дыханіе, мое <rhyme label="d">тепло</rhyme>.</l>
                 <lb rend="empty"/>
                 <l n="9"><lb facs="#OM_kamen_line_1913_03_09" n="9" xml:id="OM_kamen_lb_1913_03_09"
-                    />Запечатлѣется на немъ узоръ,</l>
+                    />Запечатлѣется на немъ <rhyme label="e">узоръ</rhyme>,</l>
                 <l n="10"><lb facs="#OM_kamen_line_1913_03_10" n="10" xml:id="OM_kamen_lb_1913_03_10"
-                    />Неузнаваемый съ недавнихъ поръ.</l>
+                    />Неузнаваемый съ недавнихъ <rhyme label="e">поръ</rhyme>.</l>
                 <lb rend="empty"/>
                 <l n="11"><lb facs="#OM_kamen_line_1913_03_11" n="11" xml:id="OM_kamen_lb_1913_03_11"/><app>
-                        <lem wit="#G #M #N #P #R #V">Пускай</lem>
+                        <lem wit="#K1 #K2 #K3 #N #R">Пускай</lem>
                         <rdg type="subs" wit="#F" resp="#maria">Пока</rdg>
-                </app> мгновенія стекаетъ муть —</l>
+                </app> мгновенія стекаетъ <rhyme label="c">муть</rhyme> —</l>
                 <l n="12"><lb facs="#OM_kamen_line_1913_03_12" n="12" xml:id="OM_kamen_lb_1913_03_12"/>Узора
-                    милаго не зачеркнуть.<figure>
-                        <graphic url="../images/single/kamen_1913_03.jpg" xml:id="kamen_1913_03"/>
-                        <figure>
-                        <graphic url="../images/single/kamen_1913_03.jpg"/>
-                        </figure>
-                    </figure>
+                    милаго не зачерк<rhyme label="c">нуть</rhyme>.
                     <pb ed="#C" n="03"/>
                 </l>
             </div>
@@ -418,50 +437,45 @@
                 <!--Beginning of Head-->
                 <head>
                     <app resp="#silvia">
-                        <lem wit="#G #M #N #P #R #V">SILENTIUM</lem>
+                        <lem wit="#K1 #K2 #K3 #N #R">SILENTIUM</lem>
                         <rdg cause="om" wit="#F"></rdg>
                     </app> 
                 </head>
                 <l n="1"><lb facs="#OM_kamen_line_1913_04_01" n="1" xml:id="OM_kamen_lb_1913_04_01"/>Она
-                    еще не родилась,</l>
+                    еще не <rhyme label="a">родилась</rhyme>,</l>
                   <l n="2"><lb facs="#OM_kamen_line_1913_04_02" n="2" xml:id="OM_kamen_lb_1913_04_02"/>Она и
-                    музыка и слово,</l>
+                    музыка и <rhyme label="a">слово</rhyme>,</l>
                   <l n="3"><lb facs="#OM_kamen_line_1913_04_03" n="3" xml:id="OM_kamen_lb_1913_04_03"/>И
-                    потому всего живого</l>
+                    потому всего <rhyme label="a">живого</rhyme></l>
                   <l n="4"><lb facs="#OM_kamen_line_1913_04_04" n="4" xml:id="OM_kamen_lb_1913_04_04"
-                    />Ненарушаемая связь.</l>
+                    />Ненарушаемая <rhyme label="a">связь</rhyme>.</l>
                 <lb rend="empty"/>
                 <l n="5"><lb facs="#OM_kamen_line_1913_04_05" n="5" xml:id="OM_kamen_lb_1913_04_05"
-                  />Спокойно дышатъ моря груди,</l>
+                  />Спокойно дышатъ моря <rhyme label="a">груди</rhyme>,</l>
                 <l n="6"><lb facs="#OM_kamen_line_1913_04_06" n="6" xml:id="OM_kamen_lb_1913_04_06"/>Но,
-                  какъ безумный, свѣтелъ день</l>
+                  какъ безумный, свѣтелъ <rhyme label="a">день</rhyme></l>
                 <l n="7"><lb facs="#OM_kamen_line_1913_04_07" n="7" xml:id="OM_kamen_lb_1913_04_07"/>И пѣны
-                  блѣдная сирень</l>
+                  блѣдная <rhyme label="a">сирень</rhyme></l>
                 <l n="8"><lb facs="#OM_kamen_line_1913_04_08" n="8" xml:id="OM_kamen_lb_1913_04_08"/>Въ
-                  мутно-лазоревомъ сосудѣ.</l>
+                  мутно-лазоревомъ <rhyme label="a">сосудѣ</rhyme>.</l>
                 <lb rend="empty"/>
                 <l n="9"><lb facs="#OM_kamen_line_1913_04_09" n="9" xml:id="OM_kamen_lb_1913_04_09"/>Да
-                  обрѣтутъ мои уста</l>
+                  обрѣтутъ мои <rhyme label="a">уста</rhyme></l>
                 <l n="10"><lb facs="#OM_kamen_line_1913_04_10" n="10" xml:id="OM_kamen_lb_1913_04_10"
-                  />Первоначальную нѣмоту —</l>
+                  />Первоначальную <rhyme label="a">нѣмоту</rhyme> —</l>
                 <l n="11"><lb facs="#OM_kamen_line_1913_04_11" n="11" xml:id="OM_kamen_lb_1913_04_11"/>Какъ
-                  кристаллическую ноту,</l>
+                  кристаллическую <rhyme label="a">ноту</rhyme>,</l>
                 <l n="12"><lb facs="#OM_kamen_line_1913_04_12" n="12" xml:id="OM_kamen_lb_1913_04_12"/>Что
-                  отъ рожденія чиста.</l>
+                  отъ рожденія <rhyme label="a">чиста</rhyme>.</l>
                 <lb rend="empty"/>
                 <l n="13"><lb facs="#OM_kamen_line_1913_04_13" n="13" xml:id="OM_kamen_lb_1913_04_13"/>Останься пѣной, <persName ref="#Aphrodita" type="religion"
-                      >Афродита,</persName></l>
+                      ><rhyme label="a">Афродита</rhyme>,</persName></l>
                 <l n="14"><lb facs="#OM_kamen_line_1913_04_14" n="14" xml:id="OM_kamen_lb_1913_04_14"/>И
-                  слово въ музыку вернись,</l>
+                  слово въ музыку <rhyme label="a">вернись</rhyme>,</l>
                 <l n="15"><lb facs="#OM_kamen_line_1913_04_15" n="15" xml:id="OM_kamen_lb_1913_04_15"/>И
-                  сердце сердца устыдись,</l>
+                  сердце сердца <rhyme label="a">устыдись</rhyme>,</l>
                 <l n="16"><lb facs="#OM_kamen_line_1913_04_16" n="16" xml:id="OM_kamen_lb_1913_04_16"/>Съ
-                  первоосновой жизни слито. <figure>
-                    <graphic url="../images/single/kamen_1913_04.jpg" xml:id="kamen_1913_04"/>
-                    <figure>
-                      <graphic url="../images/single/kamen_1913_04.jpg"/>
-                    </figure>
-                  </figure></l>
+                  первоосновой жизни <rhyme label="a">слито</rhyme>.</l>
                   <pb ed="#C" n="04"/>
             </div>
             <!--End of first Div-->
@@ -471,6 +485,43 @@
         <!--END OF BODY-->
 
        
+    </text>
+    <text type="3">
+        <body>
+            <div type="3">
+                <l n="1"><lb facs="#OM_kamen_line_1913_05_01" n="1" xml:id="OM_kamen_lb_1913_05_01"/>Невыразимая <rhyme label="a">печаль</rhyme></l>
+  <l n="2"><lb facs="#OM_kamen_line_1913_05_02" n="2" xml:id="OM_kamen_lb_1913_05_02"/>Открыла два огромныхъ <rhyme label="b">глаза</rhyme>,<app><lem wit="#K1 #K2 #K2-Av"> —</lem><rdg type="punctuation" wit="#F #K3"></rdg></app></l>
+  <l n="3"><lb facs="#OM_kamen_line_1913_05_03" n="3" xml:id="OM_kamen_lb_1913_05_03"/>Цвѣточная проснулась <rhyme label="a">ваза</rhyme></l>
+  <l n="4"><lb facs="#OM_kamen_line_1913_05_04" n="4" xml:id="OM_kamen_lb_1913_05_04"/>И выплеснула свой <rhyme label="b">хрусталь</rhyme>.</l>
+  <lb rend="empty"/>
+  <l n="5"><lb facs="#OM_kamen_line_1913_05_05" n="5" xml:id="OM_kamen_lb_1913_05_05"/>Вся комната <rhyme label="c">напоена</rhyme></l>
+  <l n="6"><lb facs="#OM_kamen_line_1913_05_06" n="6" xml:id="OM_kamen_lb_1913_05_06"/>Истомой — сладкое <rhyme label="d">лекарство</rhyme><app><lem wit="#K1 #K2 #K3 #K2-Av">!</lem><rdg type="punctuation" wit="#F">,</rdg>
+    </app>
+  </l>
+  <l n="7"><lb facs="#OM_kamen_line_1913_05_07" n="7" xml:id="OM_kamen_lb_1913_05_07"/>Такое маленькое <rhyme label="d">царство</rhyme></l>
+  <l n="8"><lb facs="#OM_kamen_line_1913_05_08" n="8" xml:id="OM_kamen_lb_1913_05_08"/>Такъ много поглотило <rhyme label="c">сна</rhyme>.</l>
+  <lb rend="empty"/>
+  <l n="9"><lb facs="#OM_kamen_line_1913_05_09" n="9" xml:id="OM_kamen_lb_1913_05_09"/>Немного краснаго <rhyme label="c">вина</rhyme>,</l>
+  <l n="10"><lb facs="#OM_kamen_line_1913_05_10" n="10" xml:id="OM_kamen_lb_1913_05_10"/>Немного <app><lem wit="#K1 #K2 #K2-Av #K3"></lem>
+      <rdg type="punctuation" wit="#F"> — </rdg>
+    </app> солнечнаго <rhyme label="e">мая</rhyme> —
+  </l>
+  <l n="11"><lb facs="#OM_kamen_line_1913_05_11" n="11" xml:id="OM_kamen_lb_1913_05_11"/><app>
+      <lem wit="#K1">И потянулась, <rhyme label="e">оживая</rhyme>,</lem>
+      <rdg type="subs" wit="#F">И упоительно-живая</rdg>
+      <rdg type="subs" wit="#K2 #K3">И, тоненькій бисквитъ ломая,</rdg>
+      <rdg type="subs" wit="#K2-Av">И, тоненький бисквит ломая, / Полупрозрачная, живая,</rdg>
+    </app>
+  </l>
+  <l n="12"><lb facs="#OM_kamen_line_1913_05_12" n="12" xml:id="OM_kamen_lb_1913_05_12"/>Тончайшихъ пальцевъ <rhyme label="c">бѣлизна</rhyme>
+    <app>
+      <lem wit="#K1 #K2-Av #K3">.</lem>
+      <rdg type="punctuation" wit="#F #K2">...</rdg>
+    </app>
+  </l>
+                <pb ed="#C" n="05"/>
+            </div>
+        </body>
     </text>
     </group>
 </text>
