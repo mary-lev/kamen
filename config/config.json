@@ -144,18 +144,18 @@
             "witnesses": [
                 "K1",
                 "K2",
-                "N",
+                "AM",
                 "K2-Av",
                 "K3",
                 "C",
+                "G",
                 "R"
             ]
         },
         {
             "groupName": "Group 2",
             "witnesses": [
-                "F",
-                "D",
+                "A",
                 "O",
                 "W",
                 "M5mg",
@@ -239,7 +239,7 @@
         "maxZoomLevel": 3.0,
         "wrapVertical": false
     },
-    "imageNormalizationCoefficient": 1265,
+    "imageNormalizationCoefficient": 1100,
 
     "languages": [
         "en",

@@ -2,7 +2,7 @@
 	"ANALOGUES": {
 		"ANALOGUE": "Analogue",
 		"BIBLIOGRAPHIC_REFERENCE": "Bibliographic Reference",
-		"PARALLEL_PASSAGES_IN": "Parallel Passages in",
+		"PARALLEL_PASSAGES_IN": "Comments",
 		"TEXT": "Text",
 		"XML": "XML",
 		"XML_SOURCE_FOR": "XML Source for "
@@ -10,7 +10,7 @@
 	"APPARATUSES": {
 		"CRITICAL_APPARATUS": "Critical Apparatus",
 		"SOURCES": "Sources",
-		"ANALOGUES": "Analogues"
+		"ANALOGUES": "Comments"
 	},
 	"BIBLIOGRAPHY": {
 		"STYLE": "Style",
