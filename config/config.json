@@ -86,10 +86,10 @@
     ],
     
     "showDocumentSelector": false,
-    "enableNavBar": false,
-    "initNavBarOpened": false,
-    "thumbnailsButton": false,
-    "viscollButton": false,
+    "enableNavBar": true,
+    "initNavBarOpened": true,
+    "thumbnailsButton": true,
+    "viscollButton": true,
 
     "toolPinAppEntries": true,
     "toolImageTextLinking": true,
@@ -149,7 +149,7 @@
                 "K3",
                 "C",
                 "G",
-                "R"
+                "BP"
             ]
         },
         {
