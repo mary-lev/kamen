@@ -344,29 +344,29 @@
         </surface>
         <surface corresp="#OM_kamen_1913_05" xml:id="OM_kamen_1913_05_surf">
             <graphic url="../images/single/K1-05.jpg" width="529px" height="875px"/>
-            <zone xml:id="OM_kamen_line_1913_05_00" lry="245" lrx="262" uly="219" ulx="72"
+            <zone xml:id="OM_kamen_line_1913_05_00" lry="504" lrx="592" uly="452" ulx="169"
                 rendition="Line" corresp="#OM_kamen_lb_1913_05_00" rend="visible"/>
-            <zone xml:id="OM_kamen_line_1913_05_01" lry="267" lrx="380" uly="245" ulx="71"
+            <zone xml:id="OM_kamen_line_1913_05_01" lry="550" lrx="860" uly="504" ulx="168"
                 rendition="Line" corresp="#OM_kamen_lb_1913_05_01" rend="visible"/>
-            <zone xml:id="OM_kamen_line_1913_05_02" lry="292" lrx="328" uly="268" ulx="68"
+            <zone xml:id="OM_kamen_line_1913_05_02" lry="600" lrx="746" uly="551" ulx="167"
                 rendition="Line" corresp="#OM_kamen_lb_1913_05_02" rend="visible"/>
-            <zone xml:id="OM_kamen_line_1913_05_03" lry="318" lrx="345" uly="291" ulx="68"
+            <zone xml:id="OM_kamen_line_1913_05_03" lry="800" lrx="608" uly="759" ulx="167"
                 rendition="Line" corresp="#OM_kamen_lb_1913_05_03" rend="visible"/>
-            <zone xml:id="OM_kamen_line_1913_05_04" lry="386" lrx="273" uly="366" ulx="72"
+            <zone xml:id="OM_kamen_line_1913_05_04" lry="848" lrx="778" uly="801" ulx="172"
                 rendition="Line" corresp="#OM_kamen_lb_1913_05_04" rend="visible"/>
-            <zone xml:id="OM_kamen_line_1913_05_05" lry="411" lrx="344" uly="386" ulx="73"
+            <zone xml:id="OM_kamen_line_1913_05_05" lry="896" lrx="682" uly="846" ulx="167"
                 rendition="Line" corresp="#OM_kamen_lb_1913_05_05" rend="visible"/>
-            <zone xml:id="OM_kamen_line_1913_05_06" lry="436" lrx="306" uly="415" ulx="71"
+            <zone xml:id="OM_kamen_line_1913_05_06" lry="948" lrx="736" uly="900" ulx="163"
                 rendition="Line" corresp="#OM_kamen_lb_1913_05_06" rend="visible"/>
-            <zone xml:id="OM_kamen_line_1913_05_07" lry="461" lrx="329" uly="438" ulx="73"
+            <zone xml:id="OM_kamen_line_1913_05_07" lry="1094" lrx="672" uly="1045" ulx="166"
                 rendition="Line" corresp="#OM_kamen_lb_1913_05_07" rend="visible"/>
-            <zone xml:id="OM_kamen_line_1913_05_08" lry="535" lrx="297" uly="510" ulx="73"
+            <zone xml:id="OM_kamen_line_1913_05_08" lry="1140" lrx="730" uly="1099" ulx="168"
                 rendition="Line" corresp="#OM_kamen_lb_1913_05_08" rend="visible"/>
-            <zone xml:id="OM_kamen_line_1913_05_09" lry="557" lrx="320" uly="535" ulx="72"
+            <zone xml:id="OM_kamen_line_1913_05_09" lry="1192" lrx="644" uly="1150" ulx="162"
                 rendition="Line" corresp="#OM_kamen_lb_1913_05_09" rend="visible"/>
-            <zone xml:id="OM_kamen_line_1913_05_10" lry="579" lrx="290" uly="559" ulx="71"
+            <zone xml:id="OM_kamen_line_1913_05_10" lry="1250" lrx="842" uly="1200" ulx="166"
                 rendition="Line" corresp="#OM_kamen_lb_1913_05_10" rend="visible"/>
-            <zone xml:id="OM_kamen_line_1913_05_11" lry="608" lrx="372" uly="582" ulx="68"
+            <zone xml:id="OM_kamen_line_1913_05_11" lry="658" lrx="774" uly="600" ulx="166"
                 rendition="Line" corresp="#OM_kamen_lb_1913_05_11" rend="visible"/>
         </surface>
     </facsimile>
@@ -374,8 +374,183 @@
     <!--BEGINNING OF TEXT-->
     <text>
         <group>
-            <xi:include href="kamen_1.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-            
+            <text type="Дыхание">
+                <body>
+                    <!--First div-->
+                    <div type="1">
+                        <!--Beginning of Head-->
+                        <head>
+                            <app resp="#maria">
+                                <lem wit="#K1 #K2 #K3">ДЫХАНІЕ</lem>
+                                <rdg cause="om" wit="#A #C"/>
+                            </app>
+                        </head>
+                        <!--End of Head-->
+                        <!--Beginning of first Paragraph-->
+                        <l n="1"><lb facs="#OM_kamen_line_1913_03_01" n="1"
+                                xml:id="OM_kamen_lb_1913_03_01"/>
+                            <app resp="#maria">
+                                <lem wit="#K1 #K2 #K3 #C">Дано мнѣ тѣло —</lem>
+                                <rdg type="subs" wit="#A" resp="#maria">Имѣю тѣло: </rdg>
+                            </app> что мнѣ дѣлать <rhyme label="a">съ нимъ</rhyme>,</l>
+                        <l n="2"><lb facs="#OM_kamen_line_1913_03_02" n="2"
+                                xml:id="OM_kamen_lb_1913_03_02"/>Такимъ единымъ и такимъ <rhyme
+                                label="a">моимъ</rhyme>?</l>
+                        <lb rend="empty"/>
+                        <l n="3"><lb facs="#OM_kamen_line_1913_03_03" n="3"
+                                xml:id="OM_kamen_lb_1913_03_03"/>За радость тихую дышать и <rhyme
+                                label="b">жить</rhyme>,</l>
+                        <l n="4"><lb facs="#OM_kamen_line_1913_03_04" n="4"
+                                xml:id="OM_kamen_lb_1913_03_04"/>Кого, скажите, мнѣ благода<rhyme
+                                label="b">рить</rhyme>?</l>
+                        <lb rend="empty"/>
+                        <l n="5"><lb facs="#OM_kamen_line_1913_03_05" n="5"
+                                xml:id="OM_kamen_lb_1913_03_05"/>Я и садовникъ, я же и <rhyme
+                                label="c">цвѣтокъ</rhyme>,</l>
+                        <l n="6"><lb facs="#OM_kamen_line_1913_03_06" n="6"
+                                xml:id="OM_kamen_lb_1913_03_06"/>
+                            <seg source="#gasparov_2-9-178-17-19" resp="#chiara">Въ темницѣ міра я
+                                не <rhyme label="c">одинокъ</rhyme></seg>.</l>
+                        <lb rend="empty"/>
+                        <l n="7"><lb facs="#OM_kamen_line_1913_03_07" n="7"
+                                xml:id="OM_kamen_lb_1913_03_07"/>На стекла вѣчности уже <rhyme
+                                label="d">легло</rhyme></l>
+                        <l n="8"><lb facs="#OM_kamen_line_1913_03_08" n="8"
+                                xml:id="OM_kamen_lb_1913_03_08"/>Мое дыханіе, мое <rhyme label="d"
+                                >тепло</rhyme>.</l>
+                        <lb rend="empty"/>
+                        <l n="9"><lb facs="#OM_kamen_line_1913_03_09" n="9"
+                                xml:id="OM_kamen_lb_1913_03_09"/>Запечатлѣется на немъ <rhyme
+                                label="e">узоръ</rhyme>,</l>
+                        <l n="10"><lb facs="#OM_kamen_line_1913_03_10" n="10"
+                                xml:id="OM_kamen_lb_1913_03_10"/>Неузнаваемый съ недавнихъ <rhyme
+                                label="e">поръ</rhyme>.</l>
+                        <lb rend="empty"/>
+                        <l n="11"><lb facs="#OM_kamen_line_1913_03_11" n="11"
+                                xml:id="OM_kamen_lb_1913_03_11"/><app>
+                                <lem wit="#K1 #K2 #K3 #C">Пускай</lem>
+                                <rdg type="subs" wit="#A" resp="#maria">Пока</rdg>
+                            </app> мгновенія стекаетъ <rhyme label="c">муть</rhyme> —</l>
+                        <l n="12"><lb facs="#OM_kamen_line_1913_03_12" n="12"
+                                xml:id="OM_kamen_lb_1913_03_12"/>Узора милаго не зачерк<rhyme
+                                label="c">нуть</rhyme>. <pb ed="#K1" n="03"/>
+                        </l>
+                    </div>
+                    <!--End of first Div-->
+                    <!--PARALLEL PASSAGES DIV-->
+                </body>
+                <!--END OF BODY-->
+                <!--BEGINNING OF BACK-->
+                <back>
+                    <!--SOURCES DIV-->
+                    <div>
+                        <head>Sources</head>
+                        <cit xml:id="Ari_Meta_1-2-982b28-983a11">
+                            <bibl>
+                                <author ref="#p_Aristotle">Arist.</author>
+                                <title ref="#w_metaph">Metaph.</title>
+                                <citedRange corresp="#ar_met_perseus"
+                                    target="http://data.perseus.org/citations/urn:cts:greekLit:tlg0086.tlg025.perseus-grc1:1.982b"
+                                    >Α, 2, 982b28-983a11</citedRange>
+                            </bibl>
+                            <quote/>
+                        </cit>
+                        <!--**ASSIGNED**-->
+                        <cit xml:id="Ari_Meta_4-1-1003a31-32" source="#Ari_Meta_4-1-1003a31-32.xml">
+                            <bibl>
+                                <author ref="#p_Aristotle">Arist.</author>
+                                <title ref="#w_metaph">Metaph.</title>
+                                <citedRange corresp="#ar_met_perseus"
+                                    target="http://data.perseus.org/citations/urn:cts:greekLit:tlg0086.tlg025.perseus-grc1:4.1003a"
+                                    >Γ, 1, 1003a31-32</citedRange>
+                            </bibl>
+                            <quote/>
+                        </cit>
+                        <!--**UNASSIGNED**-->
+                        <cit xml:id="Ari_Meta_6-1-1025b1-2">
+                            <bibl>
+                                <author ref="#p_Aristotle">Arist.</author>
+                                <title ref="#w_metaph">Metaph.</title>
+                                <citedRange corresp="#ar_met_perseus"
+                                    target="http://data.perseus.org/citations/urn:cts:greekLit:tlg0086.tlg025.perseus-grc1:6.1025b"
+                                    >Ε, 1, 1025b1-2</citedRange>
+                            </bibl>
+                            <quote/>
+                        </cit>
+                        <cit xml:id="Ari_Meta_6-1-1026a16-21">
+                            <bibl>
+                                <author ref="#p_Aristotle">Arist.</author>
+                                <title ref="#w_metaph">Metaph.</title>
+                                <citedRange corresp="#ar_met_perseus"
+                                    target="http://data.perseus.org/citations/urn:cts:greekLit:tlg0086.tlg025.perseus-grc1:6.1026a"
+                                    >Ε, 1, 1026a16-21</citedRange>
+                            </bibl>
+                            <quote/>
+                        </cit>
+                        <cit xml:id="boe_inPorfIsag_I-80A-B">
+                            <bibl>
+                                <author ref="#p_Boethius">Boethius</author>
+                                <title ref="#w_inIsagogen">In Porph. Isag.</title>
+                                <citedRange corresp="#CPT_PLD64">I, coll. 80A-B</citedRange>
+                            </bibl>
+                            <quote>Rursus divisio est quoties vox plura significans aperitur, et
+                                quam multa sint quae ab ea voce signantur ostenditur, ut si quis
+                                dicat: nomen canis plura significat, et hunc latrabilem
+                                quadrupedemque, et coeleste sidus, et marinam bestiam, quae omnia a
+                                se diffinitione disjuncta sunt.</quote>
+                        </cit>
+                        <cit xml:id="boe_porpIsagTrans_II-91A" source="boe_porpIsagTrans_II-91A.xml">
+                            <bibl>
+                                <author ref="#p_Boethius">Boethius</author>
+                                <title ref="#w_boe-traslatio-isagoge">Porph. Isag.
+                                    translatio</title>
+                                <citedRange corresp="#CPT_PLD64">II, coll. 91A</citedRange>
+                            </bibl>
+                            <quote>Tripliciter igitur cum genus dicatur, de tertio apud philosophos
+                                est sermo, quod etiam describentes assignaverunt, dicentes genus
+                                esse quod de pluribus et differentibus specie in eo quod quid sit
+                                praedicatur, ut animal.</quote>
+                        </cit>
+                        <cit xml:id="boe_transAristTop_I-4-913B">
+                            <bibl>
+                                <author ref="#p_Boethius">Boethius</author>
+                                <title ref="#w_boe-traslatio-topicorum">Porph. Isag.
+                                    translatio</title>
+                                <citedRange corresp="#ATT_PLD64">I, 4, coll. 913B</citedRange>
+                            </bibl>
+                            <quote>Genus autem est, quod de pluribus et differentibus specie in eo
+                                quod quid est praedicatur.</quote>
+                        </cit>
+                    </div>
+                    <!--PARALLEL PASSAGES DIV-->
+                    <div>
+                        <head>Parallel passages</head>
+                        <cit xml:id="burhan_2-7-165-7-10">
+                            <bibl>
+                                <author ref="#p_Avicenna">Avicenna</author>
+                                <title ref="#w_burhan">Burhān</title>
+                                <citedRange corresp="#Afifi1956">II, 7, p. 165, 7-10</citedRange>
+                            </bibl>
+                            <quote/>
+                        </cit>
+                        <cit xml:id="gasparov_2-9-178-17-19">
+                            <bibl>
+                                <author ref="#p_Avicenna">Та же детская удивленная интонация — в
+                                    стих. «Дано мне тело — что мне делать с ним...» [с. 25] —
+                                    подчеркнута логиче­ской попыткой осмыслить свою хрупкую
+                                    мгновенность в огром­ной вечности: мир — теплица (слово, по
+                                    созвучию просвечива­ющее сквозь слово темница ), снаружи —
+                                    мороз, внутри — мое дыхание, оно ложится на стекла и застывает
+                                    на них неповтори­мым (неузнаваемым ) узором</author>
+                                <title ref="#w_burhan">Гаспаров.</title>
+                                <citedRange corresp="#Afifi1956">Источник</citedRange>
+                            </bibl>
+                            <quote/>
+                        </cit>
+                    </div>
+                </back>
+                <!--END OF BACK-->
+            </text>
             <text type="Silentium">
                 <body>
                     <!--First div-->
