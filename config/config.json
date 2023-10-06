@@ -239,7 +239,7 @@
         "maxZoomLevel": 3.0,
         "wrapVertical": false
     },
-    "imageNormalizationCoefficient": 1100,
+    "imageNormalizationCoefficient": 529,
 
     "languages": [
         "en",
