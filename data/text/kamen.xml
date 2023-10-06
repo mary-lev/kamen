@@ -75,18 +75,12 @@
                             </msDesc>
                         </witness>
                         <witness xml:id="AM">
-                            <msDesc>
-                                <msIdentifier>
-                                    <settlement>Oxford</settlement>
-                                    <repository>Merton Coll.</repository>
-                                    <idno>282</idno>
-                                </msIdentifier>
-                                <physDesc>
-                                    <handDesc>
-                                        <handNote xml:id="M2"/>
-                                    </handDesc>
-                                </physDesc>
-                            </msDesc>
+                        </witness>
+                        <witness xml:id="AMa">
+                        </witness>
+                        <witness xml:id="AMb">
+                        </witness>
+                        <witness xml:id="IRLI">
                         </witness>
                         <witness xml:id="G">Гиперборей</witness>
                     </listWit>
@@ -1369,6 +1363,339 @@
                           <l n="13"><lb facs="#OM_kamen_line_1913_17_13" n="13" xml:id="OM_kamen_lb_1913_17_13"/>Когда, какъ роза, въ хрусталѣ вино, —</l>
                           <l n="14"><lb facs="#OM_kamen_line_1913_17_14" n="14" xml:id="OM_kamen_lb_1913_17_14"/>Люблю слѣдить за чайкою крылатой!</l>
                           <pb ed="#K1" n="18"/>
+                    </div>
+                </body>
+            </text>
+            <text type="Царское_Село">
+                <body>
+                    <div>
+                        <head>ЦАРСКОЕ СЕЛО</head>
+                        <l n="0"><lb facs="#OM_kamen_line_1913_18_00" n="0" xml:id="OM_kamen_lb_1913_18_00"/>
+                            <app>
+                              <lem wit="#K1 #AMb #IRLI">Георгiю Иванову</lem>
+                              <rdg type="subs" wit="#K2">Георгю Иванову</rdg>
+                              <rdg type="subs" wit="#AMa"></rdg>
+                            </app>
+                          </l>
+                          <l n="1"><lb facs="#OM_kamen_line_1913_18_01" n="1" xml:id="OM_kamen_lb_1913_18_01"/>Поѣдемъ въ Царское Село!</l>
+                          <l n="2"><lb facs="#OM_kamen_line_1913_18_02" n="2" xml:id="OM_kamen_lb_1913_18_02"/>
+                            <app>
+                              <lem wit="#K2 #AMa">Свободны, вѣтрены и рьяны,</lem>
+                              <rdg type="subs" wit="#K1">Свободны, вѣтренны и пьяны,</rdg>
+                              <rdg type="subs" wit="#AMb">Свободны, вѣтрены и пьяны,</rdg>
+                              <rdg type="subs" wit="#IRLI">Там улыбаются мещанки</rdg>
+                            </app>
+                          </l>
+                          <l n="3"><lb facs="#OM_kamen_line_1913_18_03" n="3" xml:id="OM_kamen_lb_1913_18_03"/>
+                            <app>
+                              <lem wit="#K1 #K2 #AMa #AMb">Тамъ улыбаются уланы,</lem>
+                              <rdg type="subs" wit="#IRLI">Когда гусары после пьянки</rdg>
+                            </app>
+                          </l>
+                          <l n="4"><lb facs="#OM_kamen_line_1913_18_04" n="4" xml:id="OM_kamen_lb_1913_18_04"/>
+                            <app>
+                              <lem wit="#K1 #K2 #AMa #AMb">Вскочивъ на крѣпкое сѣдло...</lem>
+                              <rdg type="subs" wit="#IRLI">Садятся в крѣпкое сѣдло.</rdg>
+                            </app>
+                          </l>
+                          <l n="5"><lb facs="#OM_kamen_line_1913_18_05" n="5" xml:id="OM_kamen_lb_1913_18_05"/>Поѣдемъ въ Царское Село!</l>
+                          <lb rend="empty"/>
+                          <l n="6"><lb facs="#OM_kamen_line_1913_18_06" n="6" xml:id="OM_kamen_lb_1913_18_06"/>Казармы, парки и дворцы,</l>
+                          <l n="7"><lb facs="#OM_kamen_line_1913_18_07" n="7" xml:id="OM_kamen_lb_1913_18_07"/>А на деревьяхъ — клочья ваты,</l>
+                          <l n="8"><lb facs="#OM_kamen_line_1913_18_08" n="8" xml:id="OM_kamen_lb_1913_18_08"/>
+                            <app>
+                              <lem wit="#K1 #K2 #AMb">И грянутъ «здравія»</lem>
+                              <rdg type="subs" wit="#AMa">И звонкого «ура»</rdg>
+                              <rdg type="subs" wit="#IRLI">И рявкнут «здравія»</rdg>
+                            </app> раскаты
+                          </l>
+                          <l n="9"><lb facs="#OM_kamen_line_1913_18_09" n="9" xml:id="OM_kamen_lb_1913_18_09"/>На крикъ «здорово, молодцы
+                            <app>
+                              <lem wit="#K2 #AMa #AMb">!»</lem>
+                              <rdg type="subs" wit="#K1 #IRLI">»!</rdg>
+                            </app>
+                          </l>
+                          <l n="10"><lb facs="#OM_kamen_line_1913_18_10" n="10" xml:id="OM_kamen_lb_1913_18_10"/>Казармы, парки и дворцы...</l>
+                          <lb rend="empty"/>
+                          <l n="11"><lb facs="#OM_kamen_line_1913_18_11" n="11" xml:id="OM_kamen_lb_1913_18_11"/>
+                            <app>
+                              <lem wit="#K1 #K2 #AMa #IRLI">Одноэтажные дома,</lem>
+                              <rdg type="subs" wit="#AMb"></rdg>
+                            </app>
+                          </l>
+                          <l n="12"><lb facs="#OM_kamen_line_1913_18_12" n="12" xml:id="OM_kamen_lb_1913_18_12"/>
+                            <app>
+                              <lem wit="#K1 #K2 #AMa #IRLI">Гдѣ однодумы-генералы</lem>
+                              <rdg type="subs" wit="#AMb"></rdg>
+                            </app>
+                          </l>
+                          <l n="13"><lb facs="#OM_kamen_line_1913_18_13" n="13" xml:id="OM_kamen_lb_1913_18_13"/>
+                            <app>
+                              <lem wit="#K1 #K2 #IRLI"> коротаютъ вѣкъ усталый,</lem>
+                              <rdg type="subs" wit="#AMa">Свой доживаютъ вѣкъ усталый,</rdg>
+                              <rdg type="subs" wit="#AMb"></rdg>
+                            </app>
+                          </l>
+                          <l n="14"><lb facs="#OM_kamen_line_1913_18_14" n="14" xml:id="OM_kamen_lb_1913_18_14"/>
+                            <app>
+                              <lem wit="#K1 #IRLI">Читая Ниву и Дюма...</lem>
+                              <rdg type="subs" wit="#K2">Читая «Ниву» и Дюма...</rdg>
+                              <rdg type="subs" wit="#AMa">Читая Твэна и Дюма...</rdg>
+                              <rdg type="subs" wit="#AMb"/>
+                            </app>
+                          </l>
+                          <l n="15"><lb facs="#OM_kamen_line_1913_18_15" n="15" xml:id="OM_kamen_lb_1913_18_15"/>
+                            <app>
+                              <lem wit="#K1 #K2 #IRLI">Особняки — а не дома!</lem>
+                              <rdg type="subs" wit="#AMa">Одноэтажные дома...</rdg>
+                              <rdg type="subs" wit="#AMb"/>
+                            </app>
+                          </l>
+                          <lb rend="empty"/>
+                          <l n="16"><lb facs="#OM_kamen_line_1913_18_16" n="16" xml:id="OM_kamen_lb_1913_18_16"/>
+                            <app>
+                              <lem wit="#K1 #K2 #AMa #IRLI">Свистъ паровоза... Ѣдетъ князь.</lem>
+                              <rdg type="subs" wit="#AMb"/>
+                            </app>
+                          </l>
+                          <l n="17"><lb facs="#OM_kamen_line_1913_18_17" n="17" xml:id="OM_kamen_lb_1913_18_17"/>
+                            <app>
+                              <lem wit="#K1 #IRLI">Въ стеклянномъ павильонѣ свита!..</lem>
+                              <rdg type="subs" wit="#K2 #AMa">Въ стекляномъ павильонѣ свита!..</rdg>
+                              <rdg type="subs" wit="#AMb"/>
+                            </app>
+                          </l>
+                          <l n="18"><lb facs="#OM_kamen_line_1913_18_18" n="18" xml:id="OM_kamen_lb_1913_18_18"/>
+                            <app>
+                              <lem wit="#K1 #K2 #AMa #IRLI">И, саблю волоча сердито,</lem>
+                              <rdg type="subs" wit="#AMb"/>
+                            </app>
+                          </l>
+                          <l n="19"><lb facs="#OM_kamen_line_1913_18_19" n="19" xml:id="OM_kamen_lb_1913_18_19"/>
+                            <app>
+                              <lem wit="#K1 #K2 #AMa #IRLI">Выходитъ офицеръ, кичась —</lem>
+                              <rdg type="subs" wit="#AMb"/>
+                            </app>
+                          </l>
+                          <l n="20"><lb facs="#OM_kamen_line_1913_18_20" n="20" xml:id="OM_kamen_lb_1913_18_20"/>
+                            <app>
+                              <lem wit="#K1 #K2 #AMa #IRLI">Не сомнѣваюсь — это князь...</lem>
+                              <rdg type="subs" wit="#AMb"/>
+                            </app>
+                          </l>
+                          <lb rend="empty"/>
+                          <l n="21"><lb facs="#OM_kamen_line_1913_18_21" n="21" xml:id="OM_kamen_lb_1913_18_21"/>
+                            <app>
+                              <lem wit="#K1 #K2 #IRLI">И возвращается домой —</lem>
+                              <rdg type="subs" wit="#AMa"/>
+                              <rdg type="subs" wit="#AMb">А по торцовой мостовой,</rdg>
+                            </app>
+                          </l>
+                          <l n="22"><lb facs="#OM_kamen_line_1913_18_22" n="22" xml:id="OM_kamen_lb_1913_18_22"/>
+                            <app>
+                              <lem wit="#K1 #K2 #IRLI">Конечно, въ царство этикета,</lem>
+                              <rdg type="subs" wit="#AMa"/>
+                              <rdg type="subs" wit="#AMb">Бесшумно, в царство этикета,</rdg>
+                            </app>
+                          </l>
+                          <l n="23"><lb facs="#OM_kamen_line_1913_18_23" n="23" xml:id="OM_kamen_lb_1913_18_23"/>
+                            <app>
+                              <lem wit="#K1 #K2 #IRLI">Внушая тайный страхъ, карета</lem>
+                              <rdg type="subs" wit="#AMa"/>
+                              <rdg type="subs" wit="#AMb">Плывет дворцовая карета</rdg>
+                            </app>
+                          </l>
+                          <l n="24"><lb facs="#OM_kamen_line_1913_18_24" n="24" xml:id="OM_kamen_lb_1913_18_24"/>
+                            <app>
+                              <lem wit="#K1 #K2 #IRLI">Съ мощами фрейлины сѣдой —</lem>
+                              <rdg type="subs" wit="#AMa"/>
+                              <rdg type="subs" wit="#AMb">Съ мощами фрейлины сѣдой...</rdg>
+                            </app>
+                          </l>
+                          <l n="25"><lb facs="#OM_kamen_line_1913_18_25" n="25" xml:id="OM_kamen_lb_1913_18_25"/>
+                            <app>
+                              <lem wit="#K1 #K2 #IRLI">Что возвращается домой...</lem>
+                              <rdg type="subs" wit="#AMa"/>
+                              <rdg type="subs" wit="#AMb">Вдоль, по торцовой мостовой...</rdg>
+                            </app>
+                          </l>
+                          <pb ed="#K1" n="19"/>
+                          <pb ed="#K1" n="20"/>
+                    </div>
+                </body>
+            </text>
+            <text type="Золотой">
+                <body>
+                    <div>
+                        <head>ЗОЛОТОЙ</head>
+                        <l n="1"><lb facs="#OM_kamen_line_1913_21_01" n="1" xml:id="OM_kamen_lb_1913_21_01"/>Цѣлый день сырой осенній воздухъ</l>
+                        <l n="2"><lb facs="#OM_kamen_line_1913_21_02" n="2" xml:id="OM_kamen_lb_1913_21_02"/>Я вдыхалъ въ 
+                            <app>
+                            <lem wit="#K2 #K3 #C">смятеньи</lem>
+                            <rdg type="subs" wit="#K1">смятеньѣ</rdg>
+                            </app> и тоскѣ;
+                        </l>
+                        <l n="3"><lb facs="#OM_kamen_line_1913_21_03" n="3" xml:id="OM_kamen_lb_1913_21_03"/>Я хочу поужинать,
+                            <app>
+                            <lem wit="#K1 #K2"> — </lem>
+                            <rdg type="subs" wit="#K3 #C"></rdg>
+                            </app>  и звѣзды
+                        </l>
+                        <l n="4"><lb facs="#OM_kamen_line_1913_21_04" n="4" xml:id="OM_kamen_lb_1913_21_04"/>Золотыя въ темномъ кошелькѣ!</l>
+                        <lb rend="empty"/>
+                        <l n="5"><lb facs="#OM_kamen_line_1913_21_05" n="5" xml:id="OM_kamen_lb_1913_21_05"/>И, дрожа отъ желтаго тумана,</l>
+                        <l n="6"><lb facs="#OM_kamen_line_1913_21_06" n="6" xml:id="OM_kamen_lb_1913_21_06"/>Я спустился въ маленькій подвалъ;</l>
+                        <l n="7"><lb facs="#OM_kamen_line_1913_21_07" n="7" xml:id="OM_kamen_lb_1913_21_07"/>Я нигдѣ такого ресторана</l>
+                        <l n="8"><lb facs="#OM_kamen_line_1913_21_08" n="8" xml:id="OM_kamen_lb_1913_21_08"/>И такого сброда не видалъ!</l>
+                        <lb rend="empty"/>
+                        <l n="9"><lb facs="#OM_kamen_line_1913_21_09" n="9" xml:id="OM_kamen_lb_1913_21_09"/>Мелкіе чиновники, японцы,</l>
+                        <l n="10"><lb facs="#OM_kamen_line_1913_21_10" n="10" xml:id="OM_kamen_lb_1913_21_10"/>Теоретики чужой казны...</l>
+                        <l n="11"><lb facs="#OM_kamen_line_1913_21_11" n="11" xml:id="OM_kamen_lb_1913_21_11"/>За прилавкомъ щупаетъ червонцы</l>
+                        <l n="12"><lb facs="#OM_kamen_line_1913_21_12" n="12" xml:id="OM_kamen_lb_1913_21_12"/>Человѣкъ — и всѣ они пьяны.</l>
+                        <lb rend="empty"/>
+                        <l n="13"><lb facs="#OM_kamen_line_1913_21_13" n="13" xml:id="OM_kamen_lb_1913_21_13"/>Будьте такъ любезны, размѣняйте,
+                            <app>
+                            <lem wit="#K1 #K2 #K3"></lem>
+                            <rdg type="subs" wit="#C"> —</rdg>
+                            </app>
+                        </l>
+                        <l n="14"><lb facs="#OM_kamen_line_1913_21_14" n="14" xml:id="OM_kamen_lb_1913_21_14"/>Убѣдительно его прошу
+                            <app>
+                            <lem wit="#K1 #K2"> —</lem>
+                            <rdg type="subs" wit="#K3 #C">, —</rdg>
+                            </app>
+                        </l>
+                        <l n="15"><lb facs="#OM_kamen_line_1913_21_15" n="15" xml:id="OM_kamen_lb_1913_21_15"/>Только мнѣ бумажекъ не давайте
+                            <app>
+                            <lem wit="#K1 #K2">, —</lem>
+                            <rdg type="subs" wit="#K3 #C"> —</rdg>
+                            </app>
+                        </l>
+                        <l n="16"><lb facs="#OM_kamen_line_1913_21_16" n="16" xml:id="OM_kamen_lb_1913_21_16"/>Трехрублевокъ я не выношу!</l>
+                        <lb rend="empty"/>
+                        <l n="17"><lb facs="#OM_kamen_line_1913_21_17" n="17" xml:id="OM_kamen_lb_1913_21_17"/>Что мнѣ дѣлать съ пьяною оравой?</l>
+                        <l n="18"><lb facs="#OM_kamen_line_1913_21_18" n="18" xml:id="OM_kamen_lb_1913_21_18"/>Какъ попалъ сюда я, 
+                            <app>
+                            <lem wit="#K1 #K2 #C">Боже мой?</lem>
+                            <rdg type="subs" wit="#K3">боже мой?</rdg>
+                            </app>
+                        </l>
+                        <l n="19"><lb facs="#OM_kamen_line_1913_21_19" n="19" xml:id="OM_kamen_lb_1913_21_19"/>Если я на то имѣю право —</l>
+                        <l n="20"><lb facs="#OM_kamen_line_1913_21_20" n="20" xml:id="OM_kamen_lb_1913_21_20"/>Размѣняйте мнѣ мой золотой!</l>
+                        <pb ed="#K1" n="21"/>
+                        <pb ed="#K1" n="22"/>
+                    </div>
+                </body>
+            </text>
+            <text type="СТАРИК">
+                <body>
+                    <div>
+                        <l n="1"><lb facs="#OM_kamen_line_1913_23_01" n="1" xml:id="OM_kamen_lb_1913_23_01"/>Уже свѣтло, поетъ сирена</l>
+                        <l n="2"><lb facs="#OM_kamen_line_1913_23_02" n="2" xml:id="OM_kamen_lb_1913_23_02"/>Въ седьмомъ часу утра.</l>
+                        <l n="3"><lb facs="#OM_kamen_line_1913_23_03" n="3" xml:id="OM_kamen_lb_1913_23_03"/>Старикъ, похожій на Верлэна,</l>
+                        <l n="4"><lb facs="#OM_kamen_line_1913_23_04" n="4" xml:id="OM_kamen_lb_1913_23_04"/>Теперь твоя пора!</l>
+                        <lb rend="empty"/>
+                        <l n="5"><lb facs="#OM_kamen_line_1913_23_05" n="5" xml:id="OM_kamen_lb_1913_23_05"/>Въ глазахъ лукавый или дѣтскій</l>
+                        <l n="6"><lb facs="#OM_kamen_line_1913_23_06" n="6" xml:id="OM_kamen_lb_1913_23_06"/>Зеленый огонекъ;</l>
+                        <l n="7"><lb facs="#OM_kamen_line_1913_23_07" n="7" xml:id="OM_kamen_lb_1913_23_07"/>На шею нацѣпилъ турецкій</l>
+                        <l n="8"><lb facs="#OM_kamen_line_1913_23_08" n="8" xml:id="OM_kamen_lb_1913_23_08"/>Узорчатый платокъ.</l>
+                        <lb rend="empty"/>
+                        <l n="9"><lb facs="#OM_kamen_line_1913_23_09" n="9" xml:id="OM_kamen_lb_1913_23_09"/>Онъ богохульствуетъ, бормочетъ</l>
+                        <l n="10"><lb facs="#OM_kamen_line_1913_23_10" n="10" xml:id="OM_kamen_lb_1913_23_10"/>Несвязныя слова;</l>
+                        <l n="11"><lb facs="#OM_kamen_line_1913_23_11" n="11" xml:id="OM_kamen_lb_1913_23_11"/>Онъ 
+                            <app>
+                            <lem wit="#K1 #K2 #K3">исповѣдоваться</lem>
+                            <rdg type="subs" wit="#C">исповѣдываться</rdg>
+                            </app> хочетъ —
+                        </l>
+                        <l n="12"><lb facs="#OM_kamen_line_1913_23_12" n="12" xml:id="OM_kamen_lb_1913_23_12"/>Но согрѣшить сперва.</l>
+                        <lb rend="empty"/>
+                        <l n="13"><lb facs="#OM_kamen_line_1913_23_13" n="13" xml:id="OM_kamen_lb_1913_23_13"/>Разочарованный рабочій</l>
+                        <l n="14"><lb facs="#OM_kamen_line_1913_23_14" n="14" xml:id="OM_kamen_lb_1913_23_14"/>Иль огорченный мотъ —</l>
+                        <l n="15"><lb facs="#OM_kamen_line_1913_23_15" n="15" xml:id="OM_kamen_lb_1913_23_15"/>А глазъ, подбитый въ нѣдрахъ ночи,</l>
+                        <l n="16"><lb facs="#OM_kamen_line_1913_23_16" n="16" xml:id="OM_kamen_lb_1913_23_16"/>Какъ радуга цвѣтетъ.</l>
+                        <lb rend="empty"/>
+                        <l n="17"><lb facs="#OM_kamen_line_1913_23_17" n="17" xml:id="OM_kamen_lb_1913_23_17"/>
+                            <app>
+                            <lem wit="#K1 #K2 #K3">Такъ, соблюдая день субботній,</lem>
+                            <rdg type="subs" wit="#C">Такъ соблюдая день субботній,</rdg>
+                            <rdg type="om" wit="#BP"></rdg>
+                            </app> 
+                        </l>
+                        <l n="18"><lb facs="#OM_kamen_line_1913_23_18" n="18" xml:id="OM_kamen_lb_1913_23_18"/>
+                            <app>
+                                <lem wit="#K1 #K2 #K3 #C">Плетется онъ — когда</lem>
+                                <rdg type="om" wit="BP"></rdg>
+                                </app> </l>
+                        <l n="19"><lb facs="#OM_kamen_line_1913_23_19" n="19" xml:id="OM_kamen_lb_1913_23_19"/>
+                            <app>
+                                <lem wit="#K1 #K2 #K3 #C">Глядитъ изъ каждой подворотни</lem>
+                                <rdg type="om" wit="#BP"></rdg>
+                                </app>
+                            </l>
+                        <l n="20"><lb facs="#OM_kamen_line_1913_23_20" n="20" xml:id="OM_kamen_lb_1913_23_20"/> 
+                            <app>
+                            <lem wit="#K1 #K2 #K3">Веселая нужда;</lem>
+                            <rdg type="subs" wit="#C">Веселая беда;</rdg>
+                            <rdg type="om" wit="#BP"></rdg>
+                            </app>
+                        </l>
+                        <lb rend="empty"/>
+                        <l n="21"><lb facs="#OM_kamen_line_1913_23_21" n="21" xml:id="OM_kamen_lb_1913_23_21"/>А дома — руганью крылатой,</l>
+                        <l n="22"><lb facs="#OM_kamen_line_1913_23_22" n="22" xml:id="OM_kamen_lb_1913_23_22"/>Отъ ярости блѣдна, —</l>
+                        <l n="23"><lb facs="#OM_kamen_line_1913_23_23" n="23" xml:id="OM_kamen_lb_1913_23_23"/>Встрѣчаетъ пьянаго Сократа</l>
+                        <l n="24"><lb facs="#OM_kamen_line_1913_23_24" n="24" xml:id="OM_kamen_lb_1913_23_24"/>Суровая жена!</l>
+                        <pb ed="#K1" n="23"/>
+                        <pb ed="#K1" n="24"/>
+                    </div>
+                </body>
+            </text>
+            <text type="Петербургские_строфы">
+                <body>
+                    <div>
+                        <head>ПЕТЕРБУРГСКIЯ СТРОФЫ</head>
+                        <l n="0">Н. Гумилеву</l>
+                        <l n="1"><lb facs="#OM_kamen_line_1913_25_01" n="1" xml:id="OM_kamen_lb_1913_25_01"/>Надъ желтизной правительственныхъ зданій</l>
+                        <l n="2"><lb facs="#OM_kamen_line_1913_25_02" n="2" xml:id="OM_kamen_lb_1913_25_02"/>Кружилась долго мутная метель,</l>
+                        <l n="3"><lb facs="#OM_kamen_line_1913_25_03" n="3" xml:id="OM_kamen_lb_1913_25_03"/>И правовѣдъ опять садится въ сани,</l>
+                        <l n="4"><lb facs="#OM_kamen_line_1913_25_04" n="4" xml:id="OM_kamen_lb_1913_25_04"/>Широкимъ жестомъ запахнувъ шинель.</l>
+                        <lb rend="empty"/>
+                        <l n="5"><lb facs="#OM_kamen_line_1913_25_05" n="5" xml:id="OM_kamen_lb_1913_25_05"/>Зимуютъ пароходы. На припекѣ</l>
+                        <l n="6"><lb facs="#OM_kamen_line_1913_25_06" n="6" xml:id="OM_kamen_lb_1913_25_06"/>Зажглось каюты толстое стекло.</l>
+                        <l n="7"><lb facs="#OM_kamen_line_1913_25_07" n="7" xml:id="OM_kamen_lb_1913_25_07"/>
+                          <app>
+                            <lem wit="#K1 #K2">Чудовищна — какъ броненосецъ въ докѣ —</lem>
+                            <rdg type="subs" wit="#K3 #C">Чудовищна, — какъ броненосецъ въ докѣ, —</rdg>
+                          </app>
+                        </l>
+                        <l n="8"><lb facs="#OM_kamen_line_1913_25_08" n="8" xml:id="OM_kamen_lb_1913_25_08"/>Россія отдыхаетъ тяжело.</l>
+                        <lb rend="empty"/>
+                        <l n="9"><lb facs="#OM_kamen_line_1913_25_09" n="9" xml:id="OM_kamen_lb_1913_25_09"/>А надъ Невой — посольства полуміра,</l>
+                        <l n="10"><lb facs="#OM_kamen_line_1913_25_10" n="10" xml:id="OM_kamen_lb_1913_25_10"/>Адмиралтейство, солнце, тишина!</l>
+                        <l n="11"><lb facs="#OM_kamen_line_1913_25_11" n="11" xml:id="OM_kamen_lb_1913_25_11"/>И государства крѣпкая порфира,</l>
+                        <l n="12"><lb facs="#OM_kamen_line_1913_25_12" n="12" xml:id="OM_kamen_lb_1913_25_12"/>Какъ власяница грубая, бѣдна.</l>
+                        <lb rend="empty"/>
+                        <l n="13"><lb facs="#OM_kamen_line_1913_25_13" n="13" xml:id="OM_kamen_lb_1913_25_13"/>Тяжка обуза сѣвернаго сноба —</l>
+                        <l n="14"><lb facs="#OM_kamen_line_1913_25_14" n="14" xml:id="OM_kamen_lb_1913_25_14"/>Онѣгина старинная тоска;</l>
+                        <l n="15"><lb facs="#OM_kamen_line_1913_25_15" n="15" xml:id="OM_kamen_lb_1913_25_15"/>На площади сената — валъ сугроба,</l>
+                        <l n="16"><lb facs="#OM_kamen_line_1913_25_16" n="16" xml:id="OM_kamen_lb_1913_25_16"/>Дымокъ костра и холодокъ штыка...</l>
+                        <lb rend="empty"/>
+                        <l n="17"><lb facs="#OM_kamen_line_1913_25_17" n="17" xml:id="OM_kamen_lb_1913_25_17"/>Черпали воду ялики, и чайки</l>
+                        <l n="18"><lb facs="#OM_kamen_line_1913_25_18" n="18" xml:id="OM_kamen_lb_1913_25_18"/>Морскія посѣщали складъ пеньки,</l>
+                        <l n="19"><lb facs="#OM_kamen_line_1913_25_19" n="19" xml:id="OM_kamen_lb_1913_25_19"/>Гдѣ, продавая 
+                          <app>
+                            <lem wit="#K1 #K2">сбитень или сайки,</lem>
+                            <rdg type="subs" wit="#K3 #C">и сбитень или сайки,</rdg>
+                          </app>
+                        </l>
+                        <l n="20"><lb facs="#OM_kamen_line_1913_25_20" n="20" xml:id="OM_kamen_lb_1913_25_20"/>Лишь оперные бродятъ мужики.</l>
+                        <lb rend="empty"/>
+                        <l n="21"><lb facs="#OM_kamen_line_1913_25_21" n="21" xml:id="OM_kamen_lb_1913_25_21"/>Летитъ въ туманъ моторовъ вереница;</l>
+                        <l n="22"><lb facs="#OM_kamen_line_1913_25_22" n="22" xml:id="OM_kamen_lb_1913_25_22"/>Самолюбивый, скромный пѣшеходъ —</l>
+                        <l n="23"><lb facs="#OM_kamen_line_1913_25_23" n="23" xml:id="OM_kamen_lb_1913_25_23"/>Чудакъ Евгеній — бѣдности стыдится,</l>
+                        <l n="24"><lb facs="#OM_kamen_line_1913_25_24" n="24" xml:id="OM_kamen_lb_1913_25_24"/>Бензинъ вдыхаетъ и судьбу клянетъ!</l>
+                        <pb ed="#K1" n="25"/>
+                        <pb ed="#K1" n="26"/>
                     </div>
                 </body>
             </text>
