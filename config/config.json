@@ -140,30 +140,46 @@
 
     "witnessesGroups": [
         {
-            "groupName": "Group 1",
+            "groupName": "K1",
             "witnesses": [
-                "K1",
-                "K2",
-                "AM",
-                "K2-Av",
-                "K3",
-                "AMa",
-                "AMb",
-                "IRLI",
-                "C",
-                "G",
-                "BP"
+                "K1"               
+            ]
+        },
+        {
+            "groupName": "K2",
+            "witnesses": [
+                "K2"
+            ]
+        },
+        {
+            "groupName": "K3",
+            "witnesses": [
+                "K3"
+            ]
+        },       
+        {
+            "groupName": "C",
+            "witnesses": [
+                "C"
             ]
         },
         {
             "groupName": "Group 2",
             "witnesses": [
                 "A",
+                "IRLI",
+                "G",
                 "O",
                 "W",
                 "M5mg",
                 "B",
-                "U"
+                "U",
+                "AM",
+                "AMb",
+                "AMa",
+                "K2-Av",
+                "BP",
+                "P"
             ]
         }
     ],
