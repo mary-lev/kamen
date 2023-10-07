@@ -1,16 +1,16 @@
 # Digital Edition of "Kamen / The Stone"
 
 ## Project Overview
-This project, built upon the EVT (Edition Visualization Technology) framework, is designed to aggregate and compare all available versions of the poems from Osip Mandelstam's "Kamen / The Stone." The primary objective is to accurately visualize textual differences, down to the most granular changes, across multiple editions.
+This project [https://mary-lev.github.io/kamen/](https://mary-lev.github.io/kamen/), built upon the EVT (Edition Visualization Technology) framework, is designed to aggregate and compare all available versions of the poems from Osip Mandelstam's "Kamen / The Stone." The primary objective is to accurately visualize textual differences, down to the most granular changes, across multiple editions.
 
 ## Framework
 - **EVT (Edition Visualization Technology)**: A foundational choice for its adaptability and efficiency in visualizing scholarly digital editions. EVT ensures a smooth user experience, complemented by advanced textual comparison tools.
 
 ## Source Data
-- **Initial release**: 1913 edition (Old Russian orthography)
-- **Revised release**: 1916 edition (Old Russian orthography)
-- **Updated release**: 1923 edition (Modern Russian orthography)
-- **Latest version**: Included in "Poems" collection, 1928 (Modern Russian orthography)
+- **First edition**: Камень. Петербург: Акмэ, 1913 (36 pp., Old Russian orthography)
+- **Second edition**: Камень. Петроград: Гиперборей, 1916 (90 pp., Old Russian orthography)
+- **Updated release**: Камень. М. — Пг.: ГИЗ, 1923 (96 pp., Modern Russian orthography)
+- **Latest version**: Стихотворения. М.: Государственное издательство, 1928. (196 pp., Modern Russian orthography)
 - **Additional sources**: Press publications, archival manuscripts from Saint-Petersburg and Princeton libraries.
 
 ## Implementation
