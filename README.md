@@ -46,3 +46,5 @@ This is a multi-version diplomatic edition with a critical apparatus, designed t
 
 ## Images and Facsimiles
 Using the `<lb>` element with the facs attribute, lines of poetry are linked to their respective facsimiles or images. The combination of `<facsimile>`, `<surface>`, and `<zone>` elements creates interactive image maps for each manuscript. These maps allow readers to directly associate lines of poetry with their positions on the original manuscript, blending the digital experience with the tactile essence of the physical source, thereby enriching the user's engagement and understanding.
+
+![Screenshot](images/screenshot.jpg)
