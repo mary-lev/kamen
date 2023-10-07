@@ -124,7 +124,7 @@
                         <occupation>King of Lydia</occupation>
                     </person>
                     <person xml:id="p_lozinsky" sameAs="http://dbpedia.org/resource/Mikhail_Lozinsky">
-                        <persName xml:lang="en">Mikhail Leonidovich Lozinsky</persName>
+                        <persName xml:lang="en">Lozinsky Mikhail Leonidovich</persName>
                         <persName xml:lang="ru">Михаил Леонидович Лозинский</persName>
                         <birth when="1886-01-13">13 January 1886</birth>
                         <death when="1955-06-30">30 June 1955</death>
@@ -132,129 +132,87 @@
                         <nationality>Russian</nationality>
                     </person>
                     <person xml:id="p_batyushkov" sameAs="http://dbpedia.org/resource/Konstantin_Batyushkov">
-                        <persName xml:lang="en">Konstantin Batyushkov</persName>
+                        <persName xml:lang="en">Batyushkov Konstantin</persName>
                         <persName xml:lang="ru">Константин Николаевич Батюшков</persName>
                         <birth when="1787-05-29">29 May 1787</birth>
                         <death when="1855-07-07">7 July 1855</death>
                         <occupation>Poet, Essayist, Translator</occupation>
                     </person>
                     <person xml:id="p_socrates" sameAs="http://dbpedia.org/resource/Socrates" sortKey="Сократ">
-                        <persName xml:lang="ru">Сократ</persName>
                         <persName xml:lang="en">Socrates</persName>
+                        <persName xml:lang="ru">Сократ</persName>
                         <persName xml:lang="el">Σωκράτης</persName>
                         <birth when="-0469">469 BC</birth>
                         <death when="-0399">399 BC</death>
                         <occupation>Philosopher</occupation>
                     </person>
                     <person xml:id="p_paul_verlaine" sameAs="http://dbpedia.org/resource/Paul_Verlaine" sortKey="Верлен">
-                        <persName xml:lang="ru">Поль Верлен</persName>
                         <persName xml:lang="en">Paul Verlaine</persName>
+                        <persName xml:lang="ru">Поль Верлен</persName>
                         <persName xml:lang="fr">Paul-Marie Verlaine</persName>
                         <birth when="1844-03-30">30 March 1844</birth>
                         <death when="1896-01-08">8 January 1896</death>
                         <occupation>French poet</occupation>
                     </person>
-                    <person xml:id="p_eugene_onegin" sortKey="Онегин">
-                        <persName xml:lang="ru">Евгений Онегин</persName>
+                    <person xml:id="p_eugene_onegin" sortKey="Onegin">
                         <persName xml:lang="en">Eugene Onegin</persName>
+                        <persName xml:lang="ru">Евгений Онегин</persName>
                         <occupation>Protagonist in Alexander Pushkin's novel in verse "Eugene Onegin"</occupation>
                     </person>                
                     <person xml:id="p_evgeny_bronze_horseman" sortKey="Евгений">
-                        <persName xml:lang="ru">Евгений</persName>
                         <persName xml:lang="en">Evgeny</persName>
+                        <persName xml:lang="ru">Евгений</persName>
                         <occupation>Central character in Alexander Pushkin's narrative poem "The Bronze Horseman"</occupation>
                     </person>
                     <person xml:id="p_peter_great" sameAs="http://dbpedia.org/resource/Peter_the_Great">
-                        <persName xml:lang="ru">Пётр I</persName>
                         <persName xml:lang="en">Peter I</persName>
+                        <persName xml:lang="ru">Пётр I</persName>
                         <birth when="1672-06-09">9 June 1672</birth>
                         <death when="1725-02-08">8 February 1725</death>
                         <occupation>Tsar of Russia</occupation>
                     </person>
                     <person xml:id="p_justinian" sameAs="http://dbpedia.org/resource/Justinian_I">
-                        <persName xml:lang="ru">Юстиниан I</persName>
                         <persName xml:lang="en">Justinian I</persName>
+                        <persName xml:lang="ru">Юстиниан I</persName>
                         <persName xml:lang="la">Flavius Petrus Sabbatius Iustinianus</persName>
                         <birth>482</birth>
                         <death>14 November 565</death>
                         <occupation>Byzantine Emperor</occupation>
                     </person>
-                    <person xml:id="p_Aristotele" sortKey="Aristotele">
-                        <persName full="yes" xml:lang="it">Aristotele</persName>
-                        <persName full="yes" type="alternative" xml:lang="en">Aristotle</persName>
-                        <persName full="abb" xml:lang="it">Arist.</persName>
-                        <birth calendar="#gregorian" notBefore="-0384" notAfter="-0383">384/383
-                            a.C.</birth>
-                        <death calendar="#gregorian" when="-0322">322 a.C.</death>
-                    </person>
                     <person xml:id="p_Gumilev" sortKey="Gumilev_N"
                         sameAs="http://dbpedia.org/resource/Nikolay_Gumilev">
-                        <persName>
-                            <forename type="first">Nikolay</forename>
-                            <forename type="patronymic">Stepanovich</forename>
-                            <surname>Gumilev</surname>
-                        </persName>
+                        <persName xml:lang="en">Gumilev Nikolay Stepanovich</persName>
+                        <persName xml:lang="ru">Гумилев Николай Степанович</persName>
                         <birth calendar="#gregorian" when="1886-04-03">3 April 1886</birth>
                         <death calendar="#gregorian" when="1921-08-24">24 August 1921</death>
-                        <occupation>poet</occupation>
-                        <nationality>Russian</nationality>
+                        <occupation>Russinan poet</occupation>
                     </person>
                     <person xml:id="p_Ivanov" sortKey="Ivanov_G"
                         sameAs="http://dbpedia.org/resource/Georgy_Ivanov">
-                        <persName>
-                            <forename type="first">Georgiy</forename>
-                            <forename type="patronymic">Vladimirovich</forename>
-                            <surname>Ivanov</surname>
-                        </persName>
+                        <persName xml:lang="en">Ivanov Georgiy Vladimirovich</persName>
+                        <persName xml:lang="ru">Иванов Георгий Владимирович</persName>
                         <birth calendar="#gregorian" when="1894-02-28">28 February 1894</birth>
                         <death calendar="#gregorian" when="1958-08-26">26 August 1958</death>
-                        <occupation>poet</occupation>
-                        <nationality>Russian</nationality>
+                        <occupation>Russian poet</occupation>
                     </person>
-                    <person xml:id="p_Avicenna" sortKey="Avicenna">
-                        <persName full="yes" xml:lang="la">Avicenna</persName>
-                        <persName full="yes" type="alternative" xml:lang="ar-Latn">Abū ʿAlī
-                            al-Ḥusayn ibn ʿAbd Allāh ibn Al-Hasan ibn Ali ibn Sīnā</persName>
-                        <persName full="abb" type="alternative" xml:lang="ar-Latn">Ibn
-                            Sīnā</persName>
-                        <persName full="yes" type="alternative" xml:lang="ar-Latn">Sharaf
-                            al-Mulk</persName>
-                        <persName full="yes" type="alternative" xml:lang="ar-Latn">Hujjat
-                            al-Haq</persName>
-                        <birth calendar="#gregorian" when="0980-08-22">22 agosto 980 d.C.</birth>
-                        <death calendar="#gregorian" when="1037-06-21">21 giugno 1037 d.C.</death>
-                    </person>
-                    <person xml:id="p_Boezio" sortKey="Boezio_Anicio">
-                        <persName full="yes" xml:lang="la">Anicius Manlius Severinus
-                            Boethius</persName>
-                        <persName full="yes" type="alternative" xml:lang="it">Anicio Manlio Severino
-                            Boezio</persName>
-                        <persName full="abb" xml:lang="it">Boezio</persName>
-                        <persName full="abb" xml:lang="la">Boethius</persName>
-                        <persName full="yes" type="alternative" xml:lang="ar-Latn">Sharaf
-                            al-Mulk</persName>
-                        <persName full="yes" type="alternative" xml:lang="en">Boetius</persName>
-                        <birth calendar="#gregorian" when="0480">480 d.C.</birth>
-                        <death calendar="#gregorian" when="0524">524 d.C.</death>
-                    </person>
-                    <person xml:id="p_Afrodita" sortKey="Афродита">
+                    <person xml:id="p_Afrodita" sortKey="Афродита" sameAs="http://dbpedia.org/resource/Aphrodite">
+                        <persName xml:lang="en">Aphrodite</persName>
                         <persName xml:lang="ru">Афродита</persName>
                     </person>
-                    <person xml:id="p_Orpheus" sortKey="Orpheus">
+                    <person xml:id="p_Orpheus" sortKey="Orpheus" sameAs="http://dbpedia.org/resource/Orpheus">
+                        <persName xml:lang="en">Orpheus</persName>
                         <persName xml:lang="ru">Орфей</persName>
                     </person>
                     <person xml:id="p_Dumas" sameAs="http://dbpedia.org/resource/Alexandre_Dumas">
-                        <persName>
-                            <forename type="first">Alexandre</forename>
-                            <surname>Dumas</surname>
-                        </persName>
+                        <persName xml:lang="en">Dumas Alexandre</persName>
+                        <persName xml:lang="ru">Дюма Александр</persName>
                         <birth when="1802-07-24">24 July 1802</birth>
                         <death when="1870-12-05">5 December 1870</death>
-                        <occupation>writer</occupation>
-                        <nationality>French</nationality>
+                        <occupation>French writer</occupation>
                     </person>
                     <person xml:id="p_Twain" sameAs="http://dbpedia.org/resource/Mark_Twain">
-                        <persName type="pseudonym">Mark Twain</persName>
+                        <persName type="pseudonym" xml:lang="en">Mark Twain</persName>
+                        <persName type="pseudonym" xml:lang="ru">Марк Твен</persName>
                         <persName>
                             <forename type="first">Samuel</forename>
                             <forename type="middle">Langhorne</forename>
@@ -263,7 +221,6 @@
                         <birth when="1835-11-30">30 November 1835</birth>
                         <death when="1910-04-21">21 April 1910</death>
                         <occupation>American writer</occupation>
-                        <nationality>American</nationality>
                     </person>
                     <person xml:id="p_Adam" sameAs="http://dbpedia.org/resource/Adam">
                         <persName xml:lang="en">Adam</persName>
@@ -272,13 +229,13 @@
                 </listPerson>
                 <listPlace>
                     <place xml:id="p_russia" sameAs="http://dbpedia.org/resource/Russia">
-                        <placeName xml:lang="ru">Россия</placeName>
                         <placeName xml:lang="en">Russia</placeName>
+                        <placeName xml:lang="ru">Россия</placeName>
                         <desc>country</desc>
                     </place>
                     <place xml:id="p_senate_square_spb" sameAs="http://dbpedia.org/resource/Senate_Square_(Saint_Petersburg)">
-                        <placeName xml:lang="ru">Сенатская площадь</placeName>
                         <placeName xml:lang="en">Senate Square</placeName>
+                        <placeName xml:lang="ru">Сенатская площадь</placeName>
                         <location>
                             <geo>59.9361 30.3044</geo> <!-- latitude and longitude -->
                         </location>
@@ -286,8 +243,8 @@
                         <country>Russia</country>
                     </place>
                     <place xml:id="p_admiralteystvo" sameAs="http://dbpedia.org/resource/Admiralty_building,_Saint_Petersburg">
-                        <placeName xml:lang="ru">Адмиралтейство</placeName>
                         <placeName xml:lang="en">Admiralty building</placeName>
+                        <placeName xml:lang="ru">Адмиралтейство</placeName>
                         <location>
                             <geo>59.9372 30.3086</geo> <!-- latitude and longitude -->
                         </location>
@@ -295,8 +252,8 @@
                         <country>Russia</country>
                     </place>
                     <place xml:id="p_neva_river" sameAs="http://dbpedia.org/resource/Neva_River">
-                        <placeName xml:lang="ru">Река Нева</placeName>
                         <placeName xml:lang="en">Neva River</placeName>
+                        <placeName xml:lang="ru">Нева</placeName>
                         <location>
                             <geo>59.9208 30.3062</geo> <!-- approximate latitude and longitude for central Saint Petersburg -->
                         </location>
@@ -304,8 +261,8 @@
                         <country>Russia</country>
                     </place>
                     <place xml:id="p_medny_vsadnik" sameAs="http://dbpedia.org/resource/Bronze_Horseman">
-                        <placeName xml:lang="ru">Медный всадник</placeName>
                         <placeName xml:lang="en">The Bronze Horseman</placeName>
+                        <placeName xml:lang="ru">Медный всадник</placeName>
                         <location>
                             <geo>59.9365 30.3086</geo> <!-- latitude and longitude -->
                         </location>
@@ -313,8 +270,8 @@
                         <country>Russia</country>
                     </place>
                     <place xml:id="p_Tsar_Selo" sameAs="http://dbpedia.org/resource/Tsarskoye_Selo">
-                        <placeName xml:lang="ru">Царское Село</placeName>
                         <placeName xml:lang="en">Tsar Selo</placeName>
+                        <placeName xml:lang="ru">Царское Село</placeName>
                         <location>
                             <geo>59.7175 30.3958</geo>
                             <!-- latitude and longitude -->
@@ -326,8 +283,8 @@
                             Groups of Monuments.</desc>
                     </place>
                     <place xml:id="p_notre_dame" sameAs="http://dbpedia.org/resource/Notre-Dame_de_Paris">
-                        <placeName xml:lang="ru">Собор Парижской богоматери</placeName>
                         <placeName xml:lang="en">Notre-Dame</placeName>
+                        <placeName xml:lang="ru">Собор Парижской богоматери</placeName>
                         <placeName xml:lang="fr">Notre-Dame de Paris</placeName>
                         <location>
                             <geo>48.8530 2.3499</geo> <!-- latitude and longitude -->
@@ -336,8 +293,8 @@
                         <country>France</country>
                     </place>
                     <place xml:id="p_hagia_sophia" sameAs="http://dbpedia.org/resource/Hagia_Sophia">
-                        <placeName xml:lang="ru">Айя-София</placeName>
                         <placeName xml:lang="en">Hagia Sophia</placeName>
+                        <placeName xml:lang="ru">Айя-София</placeName>
                         <placeName xml:lang="tr">Ayasofya</placeName>
                         <location>
                             <geo>41.0086 28.9802</geo> <!-- latitude and longitude -->
@@ -346,10 +303,10 @@
                         <country>Turkey</country>
                     </place>
                     <place xml:id="p_temple_artemis" sameAs="http://dbpedia.org/resource/Temple_of_Artemis">
+                        <placeName xml:lang="la">Templum Dianae Ephesiae</placeName>
                         <placeName xml:lang="ru">Храм Дианы в Эфесе</placeName>
                         <placeName xml:lang="en">Temple of Artemis</placeName>
                         <placeName xml:lang="tr">Artemis Tapınağı</placeName>
-                        <placeName xml:lang="la">Templum Dianae Ephesiae</placeName>
                         <location>
                             <geo>37.9492 27.3615</geo> <!-- approximate latitude and longitude -->
                         </location>
@@ -564,7 +521,7 @@
     <!--BEGINNING OF TEXT-->
     <text>
         <group>
-            <text type="Дыхание">
+            <text type="ДЫХАНИЕ">
                 <body>
                     <!--First div-->
                     <div type="1">
@@ -742,7 +699,7 @@
                 </back>
                 <!--END OF BACK-->
             </text>
-            <text type="Silentium">
+            <text type="SILENTIUM">
                 <body>
                     <!--First div-->
                     <div type="2">
@@ -1397,7 +1354,7 @@
                     </div>
                 </body>
             </text>
-            <text type="Пешеходъ">
+            <text type="ПЕШЕХОД">
                 <front>
                     <div type="dedication">
                         <app resp="#maria">
@@ -1562,7 +1519,7 @@
                     </div>
                 </body>
             </text>
-            <text type="Казино">
+            <text type="КАЗИНО">
                 <body>
                     <div>
                         <head>КАЗИНО</head>
@@ -1666,7 +1623,7 @@
                     </div>
                 </back>
             </text>
-            <text type="Царское_Село">
+            <text type="ЦАРСКОЕ_СЕЛО">
                 <body>
                     <div>
                         <head>ЦАРСКОЕ СЕЛО</head>
@@ -1910,7 +1867,7 @@
                     </div>
                 </back>
             </text>
-            <text type="Золотой">
+            <text type="ЗОЛОТОЙ">
                 <body>
                     <div>
                         <head>ЗОЛОТОЙ</head>
@@ -2075,7 +2032,7 @@
                     </div>
                 </body>
             </text>
-            <text type="Петербургские_строфы">
+            <text type="ПЕТЕРБУРГСКИЕ_СТРОФЫ">
                 <body>
                     <div>
                         <head>ПЕТЕРБУРГСКIЯ СТРОФЫ</head>
@@ -2243,7 +2200,7 @@
                     </div>
                 </body>
             </text>
-            <text type="Лютеранин">
+            <text type="ЛЮТЕРАНИН">
                 <body>
                     <div>
                         <head>ЛЮТЕРАНИН</head>
@@ -2329,7 +2286,7 @@
                     </div>
                 </body>
             </text>
-            <text type="Айя-Софiя">
+            <text type="АЙЯ-СОФИЯ">
                 <body>
                     <div>
                         <head>АЙЯ-СОФIЯ</head>
