@@ -1,4 +1,4 @@
-# Digital Edition of "Kamen / The Stone"
+# The Digital Stone
 
 ## Project Overview
 This project [The Digital Stone](https://mary-lev.github.io/kamen/), built upon the EVT (Edition Visualization Technology) framework, is designed to aggregate and compare all available versions of the poems from Osip Mandelstam's "Камень / The Stone." The primary objective is to accurately visualize textual differences, down to the most granular changes, across multiple editions.
