@@ -1,20 +1,20 @@
 # The Digital Stone
 
 ## Project Overview
-This project [The Digital Stone](https://mary-lev.github.io/kamen/), built upon the EVT (Edition Visualization Technology) framework, is designed to aggregate and compare all available versions of the poems from Osip Mandelstam's book "Камень / The Stone." The primary objective is to accurately visualize textual differences, down to the most granular changes, across multiple editions.
+This project [The Digital Stone](https://mary-lev.github.io/kamen/), built upon the EVT (Edition Visualization Technology) framework, is designed to aggregate and compare all available versions of the poems from Osip Mandelstam's book "Камень / The Stone." The primary objective is to accurately visualize textual differences across multiple editions, down to the most granular changes.
 
 
 ![Screenshot](images/screenshot.jpg)
 
 ## Framework
-- **EVT (Edition Visualization Technology)**: A foundational choice for its adaptability and efficiency in visualizing scholarly digital editions. EVT ensures a smooth user experience, complemented by advanced textual comparison tools.
+- **EVT (Edition Visualization Technology)**: A foundational choice for its adaptability and efficiency in visualizing scholarly digital editions. EVT ensures a smooth user experience complemented by advanced textual comparison tools.
 
 ## Source Data
 - **First edition**: Камень. Петербург: Акмэ, 1913 (36 pp., Old Russian orthography)
 - **Second edition**: Камень. Петроград: Гиперборей, 1916 (90 pp., Old Russian orthography)
 - **Updated release**: Камень. М. — Пг.: ГИЗ, 1923 (96 pp., Modern Russian orthography)
 - **Latest version**: Стихотворения. М.: Государственное издательство, 1928. (196 pp., Modern Russian orthography)
-- **Additional sources**: Press publications, archival manuscripts from Saint-Petersburg and Princeton libraries.
+- **Additional sources**: Press publications and archival manuscripts from Saint-Petersburg and Princeton libraries.
 
 ## Implementation
 - **Data Aggregation**: Collated raw textual data from all known versions of "The Stone" poems.
@@ -27,10 +27,10 @@ This project [The Digital Stone](https://mary-lev.github.io/kamen/), built upon 
 - **Granular comparison**: Enables detection of subtle changes often overlooked in traditional analysis.
 - **Comprehensive source inclusion**: Incorporates both primary editions and secondary sources.
 - **Intuitive visualization**: Presents data in a clear and accessible manner, optimized by EVT's features, facilitating scholarly research.
-- **Structured Indexes**: EVT excels in displaying clear and navigable indexes for persons, places, witnesses, and bibliographic entries, streamlining user access and exploration.
+- **Structured Indexes**: EVT displays clear and navigable indexes for persons, places, witnesses, and bibliographic entries, streamlining user access and exploration.
 
 ## Edition Characteristics
-This is a multi-version diplomatic edition with a critical apparatus, designed to offer an immersive reading experience and inspire new literary insights. 
+This is a multi-version diplomatic edition with a critical apparatus designed to offer an immersive reading experience and inspire new literary insights.
 
 ### Diplomatic
 - All text versions are faithfully represented.

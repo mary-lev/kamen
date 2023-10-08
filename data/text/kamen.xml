@@ -105,7 +105,6 @@
                                 <biblScope>№ 9. С. 6.</biblScope>
                             </bibl>
                         </witness>
-                        <witness xml:id="O">Oxford, Bodl. Libr. Digby 217</witness>
                     </listWit>
                 </listWit>
                 <listPerson>
@@ -123,7 +122,8 @@
                         <death>Approximately 546 BC</death>
                         <occupation>King of Lydia</occupation>
                     </person>
-                    <person xml:id="p_lozinsky" sameAs="http://dbpedia.org/resource/Mikhail_Lozinsky">
+                    <person xml:id="p_lozinsky"
+                        sameAs="http://dbpedia.org/resource/Mikhail_Lozinsky">
                         <persName xml:lang="en">Lozinsky Mikhail Leonidovich</persName>
                         <persName xml:lang="ru">Михаил Леонидович Лозинский</persName>
                         <birth when="1886-01-13">13 January 1886</birth>
@@ -131,14 +131,16 @@
                         <occupation>Poet, Translator, Essayist</occupation>
                         <nationality>Russian</nationality>
                     </person>
-                    <person xml:id="p_batyushkov" sameAs="http://dbpedia.org/resource/Konstantin_Batyushkov">
+                    <person xml:id="p_batyushkov"
+                        sameAs="http://dbpedia.org/resource/Konstantin_Batyushkov">
                         <persName xml:lang="en">Batyushkov Konstantin</persName>
                         <persName xml:lang="ru">Константин Николаевич Батюшков</persName>
                         <birth when="1787-05-29">29 May 1787</birth>
                         <death when="1855-07-07">7 July 1855</death>
                         <occupation>Poet, Essayist, Translator</occupation>
                     </person>
-                    <person xml:id="p_socrates" sameAs="http://dbpedia.org/resource/Socrates" sortKey="Сократ">
+                    <person xml:id="p_socrates" sameAs="http://dbpedia.org/resource/Socrates"
+                        sortKey="Сократ">
                         <persName xml:lang="en">Socrates</persName>
                         <persName xml:lang="ru">Сократ</persName>
                         <persName xml:lang="el">Σωκράτης</persName>
@@ -146,7 +148,8 @@
                         <death when="-0399">399 BC</death>
                         <occupation>Philosopher</occupation>
                     </person>
-                    <person xml:id="p_paul_verlaine" sameAs="http://dbpedia.org/resource/Paul_Verlaine" sortKey="Верлен">
+                    <person xml:id="p_paul_verlaine"
+                        sameAs="http://dbpedia.org/resource/Paul_Verlaine" sortKey="Верлен">
                         <persName xml:lang="en">Paul Verlaine</persName>
                         <persName xml:lang="ru">Поль Верлен</persName>
                         <persName xml:lang="fr">Paul-Marie Verlaine</persName>
@@ -157,14 +160,17 @@
                     <person xml:id="p_eugene_onegin" sortKey="Onegin">
                         <persName xml:lang="en">Eugene Onegin</persName>
                         <persName xml:lang="ru">Евгений Онегин</persName>
-                        <occupation>Protagonist in Alexander Pushkin's novel in verse "Eugene Onegin"</occupation>
-                    </person>                
+                        <occupation>Protagonist in Alexander Pushkin's novel in verse "Eugene
+                            Onegin"</occupation>
+                    </person>
                     <person xml:id="p_evgeny_bronze_horseman" sortKey="Евгений">
                         <persName xml:lang="en">Evgeny</persName>
                         <persName xml:lang="ru">Евгений</persName>
-                        <occupation>Central character in Alexander Pushkin's narrative poem "The Bronze Horseman"</occupation>
+                        <occupation>Central character in Alexander Pushkin's narrative poem "The
+                            Bronze Horseman"</occupation>
                     </person>
-                    <person xml:id="p_peter_great" sameAs="http://dbpedia.org/resource/Peter_the_Great">
+                    <person xml:id="p_peter_great"
+                        sameAs="http://dbpedia.org/resource/Peter_the_Great">
                         <persName xml:lang="en">Peter I</persName>
                         <persName xml:lang="ru">Пётр I</persName>
                         <birth when="1672-06-09">9 June 1672</birth>
@@ -195,11 +201,13 @@
                         <death calendar="#gregorian" when="1958-08-26">26 August 1958</death>
                         <occupation>Russian poet</occupation>
                     </person>
-                    <person xml:id="p_Afrodita" sortKey="Афродита" sameAs="http://dbpedia.org/resource/Aphrodite">
+                    <person xml:id="p_Afrodita" sortKey="Афродита"
+                        sameAs="http://dbpedia.org/resource/Aphrodite">
                         <persName xml:lang="en">Aphrodite</persName>
                         <persName xml:lang="ru">Афродита</persName>
                     </person>
-                    <person xml:id="p_Orpheus" sortKey="Orpheus" sameAs="http://dbpedia.org/resource/Orpheus">
+                    <person xml:id="p_Orpheus" sortKey="Orpheus"
+                        sameAs="http://dbpedia.org/resource/Orpheus">
                         <persName xml:lang="en">Orpheus</persName>
                         <persName xml:lang="ru">Орфей</persName>
                     </person>
@@ -233,40 +241,62 @@
                         <placeName xml:lang="ru">Россия</placeName>
                         <desc>country</desc>
                     </place>
-                    <place xml:id="p_senate_square_spb" sameAs="http://dbpedia.org/resource/Senate_Square_(Saint_Petersburg)">
+                    <place xml:id="p_senate_square_spb"
+                        sameAs="http://dbpedia.org/resource/Senate_Square_(Saint_Petersburg)">
                         <placeName xml:lang="en">Senate Square</placeName>
                         <placeName xml:lang="ru">Сенатская площадь</placeName>
                         <location>
-                            <geo>59.9361 30.3044</geo> <!-- latitude and longitude -->
+                            <geo>59.9361 30.3044</geo>
+                            <!-- latitude and longitude -->
                         </location>
-                        <desc>Senate Square, known as "Senatskaya Ploshchad" in Russian, is a historic square in Saint Petersburg, Russia. It's best known for the Bronze Horseman, an equestrian statue of Peter the Great. The square has been a significant site for various historical events and is surrounded by monumental architecture.</desc>
+                        <desc>Senate Square, known as "Senatskaya Ploshchad" in Russian, is a
+                            historic square in Saint Petersburg, Russia. It's best known for the
+                            Bronze Horseman, an equestrian statue of Peter the Great. The square has
+                            been a significant site for various historical events and is surrounded
+                            by monumental architecture.</desc>
                         <country>Russia</country>
                     </place>
-                    <place xml:id="p_admiralteystvo" sameAs="http://dbpedia.org/resource/Admiralty_building,_Saint_Petersburg">
+                    <place xml:id="p_admiralteystvo"
+                        sameAs="http://dbpedia.org/resource/Admiralty_building,_Saint_Petersburg">
                         <placeName xml:lang="en">Admiralty building</placeName>
                         <placeName xml:lang="ru">Адмиралтейство</placeName>
                         <location>
-                            <geo>59.9372 30.3086</geo> <!-- latitude and longitude -->
+                            <geo>59.9372 30.3086</geo>
+                            <!-- latitude and longitude -->
                         </location>
-                        <desc>The Admiralty building is an iconic structure in Saint Petersburg, Russia, initially designed as a shipyard. Over the centuries, it has served various naval and administrative functions and currently is the headquarters of the Russian Navy. Its golden spire, topped with a golden weather vane in the shape of a ship, is one of the city's most recognizable landmarks.</desc>
+                        <desc>The Admiralty building is an iconic structure in Saint Petersburg,
+                            Russia, initially designed as a shipyard. Over the centuries, it has
+                            served various naval and administrative functions and currently is the
+                            headquarters of the Russian Navy. Its golden spire, topped with a golden
+                            weather vane in the shape of a ship, is one of the city's most
+                            recognizable landmarks.</desc>
                         <country>Russia</country>
                     </place>
                     <place xml:id="p_neva_river" sameAs="http://dbpedia.org/resource/Neva_River">
                         <placeName xml:lang="en">Neva River</placeName>
                         <placeName xml:lang="ru">Нева</placeName>
                         <location>
-                            <geo>59.9208 30.3062</geo> <!-- approximate latitude and longitude for central Saint Petersburg -->
+                            <geo>59.9208 30.3062</geo>
+                            <!-- approximate latitude and longitude for central Saint Petersburg -->
                         </location>
-                        <desc>The Neva River is a river in northwestern Russia that originates from Lake Ladoga, flows through the city of Saint Petersburg, and drains into the Gulf of Finland. It has been historically significant for trade, transportation, and the development of Saint Petersburg.</desc>
+                        <desc>The Neva River is a river in northwestern Russia that originates from
+                            Lake Ladoga, flows through the city of Saint Petersburg, and drains into
+                            the Gulf of Finland. It has been historically significant for trade,
+                            transportation, and the development of Saint Petersburg.</desc>
                         <country>Russia</country>
                     </place>
-                    <place xml:id="p_medny_vsadnik" sameAs="http://dbpedia.org/resource/Bronze_Horseman">
+                    <place xml:id="p_medny_vsadnik"
+                        sameAs="http://dbpedia.org/resource/Bronze_Horseman">
                         <placeName xml:lang="en">The Bronze Horseman</placeName>
                         <placeName xml:lang="ru">Медный всадник</placeName>
                         <location>
-                            <geo>59.9365 30.3086</geo> <!-- latitude and longitude -->
+                            <geo>59.9365 30.3086</geo>
+                            <!-- latitude and longitude -->
                         </location>
-                        <desc>The Bronze Horseman is an equestrian statue of Peter the Great in the Senate Square of Saint Petersburg, Russia. Commissioned by Catherine the Great, it was created by the French sculptor Étienne Maurice Falconet and is considered one of the city's most significant monuments.</desc>
+                        <desc>The Bronze Horseman is an equestrian statue of Peter the Great in the
+                            Senate Square of Saint Petersburg, Russia. Commissioned by Catherine the
+                            Great, it was created by the French sculptor Étienne Maurice Falconet
+                            and is considered one of the city's most significant monuments.</desc>
                         <country>Russia</country>
                     </place>
                     <place xml:id="p_Tsar_Selo" sameAs="http://dbpedia.org/resource/Tsarskoye_Selo">
@@ -282,12 +312,14 @@
                             Pushkin and of the World Heritage Site Saint Petersburg and Related
                             Groups of Monuments.</desc>
                     </place>
-                    <place xml:id="p_notre_dame" sameAs="http://dbpedia.org/resource/Notre-Dame_de_Paris">
+                    <place xml:id="p_notre_dame"
+                        sameAs="http://dbpedia.org/resource/Notre-Dame_de_Paris">
                         <placeName xml:lang="en">Notre-Dame</placeName>
                         <placeName xml:lang="ru">Собор Парижской богоматери</placeName>
                         <placeName xml:lang="fr">Notre-Dame de Paris</placeName>
                         <location>
-                            <geo>48.8530 2.3499</geo> <!-- latitude and longitude -->
+                            <geo>48.8530 2.3499</geo>
+                            <!-- latitude and longitude -->
                         </location>
                         <desc>cathedral</desc>
                         <country>France</country>
@@ -297,20 +329,30 @@
                         <placeName xml:lang="ru">Айя-София</placeName>
                         <placeName xml:lang="tr">Ayasofya</placeName>
                         <location>
-                            <geo>41.0086 28.9802</geo> <!-- latitude and longitude -->
+                            <geo>41.0086 28.9802</geo>
+                            <!-- latitude and longitude -->
                         </location>
-                        <desc>Hagia Sophia is a former Greek Orthodox Christian basilica, later an imperial mosque, and now a museum in Istanbul, Turkey. Built in AD 537, it was the world's largest building and an engineering marvel of its time. It is considered the epitome of Byzantine architecture and is said to have "changed the history of architecture."</desc>
+                        <desc>Hagia Sophia is a former Greek Orthodox Christian basilica, later an
+                            imperial mosque, and now a museum in Istanbul, Turkey. Built in AD 537,
+                            it was the world's largest building and an engineering marvel of its
+                            time. It is considered the epitome of Byzantine architecture and is said
+                            to have "changed the history of architecture."</desc>
                         <country>Turkey</country>
                     </place>
-                    <place xml:id="p_temple_artemis" sameAs="http://dbpedia.org/resource/Temple_of_Artemis">
+                    <place xml:id="p_temple_artemis"
+                        sameAs="http://dbpedia.org/resource/Temple_of_Artemis">
                         <placeName xml:lang="la">Templum Dianae Ephesiae</placeName>
                         <placeName xml:lang="ru">Храм Дианы в Эфесе</placeName>
                         <placeName xml:lang="en">Temple of Artemis</placeName>
                         <placeName xml:lang="tr">Artemis Tapınağı</placeName>
                         <location>
-                            <geo>37.9492 27.3615</geo> <!-- approximate latitude and longitude -->
+                            <geo>37.9492 27.3615</geo>
+                            <!-- approximate latitude and longitude -->
                         </location>
-                        <desc>The Temple of Artemis was a Greek temple dedicated to the goddess Artemis located in Ephesus. It was one of the Seven Wonders of the Ancient World. Its grandeur and architectural marvel made it one of the most famous structures of the ancient world.</desc>
+                        <desc>The Temple of Artemis was a Greek temple dedicated to the goddess
+                            Artemis located in Ephesus. It was one of the Seven Wonders of the
+                            Ancient World. Its grandeur and architectural marvel made it one of the
+                            most famous structures of the ancient world.</desc>
                         <country>Turkey</country>
                     </place>
                 </listPlace>
@@ -469,25 +511,171 @@
             <zone xml:id="zone_ddy_nlh_1zb" lry="791" lrx="471" uly="765" ulx="416"/>
             <zone xml:id="zone_uv3_4lh_1zb" lry="825" lrx="478" uly="801" ulx="464"/>
         </surface>
+        <surface corresp="#P_Silentium" xml:id="P_Silentium_surf">
+            <graphic url="../images/single/P-Silentium.jpg" width="529px" height="942px"/>
+            <zone xml:id="P_Silentium_line_01" lry="99" lrx="311" uly="71" ulx="44" rendition="Line"
+                corresp="#P_Silentium_lb_01" rend="visible"/>
+            <zone xml:id="P_Silentium_line_02" lry="133" lrx="326" uly="107" ulx="46"
+                rendition="Line" corresp="#P_Silentium_lb_02" rend="visible"/>
+            <zone xml:id="P_Silentium_line_03" lry="168" lrx="365" uly="140" ulx="42"
+                rendition="Line" corresp="#P_Silentium_line_lb_03" rend="visible"/>
+            <zone xml:id="P_Silentium_line_04" lry="205" lrx="313" uly="177" ulx="41"
+                rendition="Line" corresp="#P_Silentium_lb_04" rend="visible"/>
+            <zone xml:id="P_Silentium_line_05" lry="272" lrx="409" uly="244" ulx="43"
+                rendition="Line" corresp="#P_Silentium_lb_05" rend="visible"/>
+            <zone xml:id="P_Silentium_line_06" lry="309" lrx="468" uly="280" ulx="43"
+                rendition="Line" corresp="#P_Silentium_lb_06" rend="visible"/>
+            <zone xml:id="P_Silentium_line_07" lry="341" lrx="336" uly="315" ulx="41"
+                rendition="Line" corresp="#P_Silentium_lb_07" rend="visible"/>
+            <zone xml:id="P_Silentium_line_08" lry="379" lrx="417" uly="351" ulx="42"
+                rendition="Line" corresp="#P_Silentium_lb_08" rend="visible"/>
+            <zone xml:id="P_Silentium_line_09" lry="447" lrx="330" uly="423" ulx="41"
+                rendition="Line" corresp="#P_Silentium_lb_09" rend="visible"/>
+            <zone xml:id="P_Silentium_line_10" lry="484" lrx="363" uly="456" ulx="40"
+                rendition="Line" corresp="#P_Silentium_lb_10" rend="visible"/>
+            <zone xml:id="P_Silentium_line_11" lry="519" lrx="402" uly="491" ulx="40"
+                rendition="Line" corresp="#P_Silentium_lb_11" rend="visible"/>
+            <zone xml:id="P_Silentium_line_12" lry="554" lrx="357" uly="523" ulx="41"
+                rendition="Line" corresp="#P_Silentium_lb_12" rend="visible"/>
+            <zone xml:id="P_Silentium_line_13" lry="625" lrx="382" uly="598" ulx="37"
+                rendition="Line" corresp="#P_Silentium_lb_13" rend="visible"/>
+            <zone xml:id="P_Silentium_line_14" lry="659" lrx="396" uly="631" ulx="39"
+                rendition="Line" corresp="#P_Silentium_lb_14" rend="visible"/>
+            <zone xml:id="P_Silentium_line_15" lry="696" lrx="408" uly="670" ulx="39"
+                rendition="Line" corresp="#P_Silentium_lb_15" rend="visible"/>
+            <zone xml:id="P_Silentium_line_16" lry="731" lrx="426" uly="702" ulx="39"
+                rendition="Line" corresp="#P_Silentium_lb_16" rend="visible"/>
+            <zone xml:id="P_Silentium_line_17" lry="778" lrx="458" uly="739" ulx="383"
+                rendition="Line" corresp="#P_Silentium_lb_17" rend="visible"/>
+        </surface>
+        <surface corresp="#P_Medlitelnee" xml:id="P_medlitelnee_surf">
+            <graphic url="../images/single/P_Medlitelnee_snezhnyj_uley.jpg" width="529px"
+                height="663px"/>
+            <zone xml:id="P_Medlitelnee_line_01" lry="132" lrx="352" uly="100" ulx="31"
+                rendition="Line" corresp="#P_Medlitelnee_lb_01" rend="visible"/>
+            <zone xml:id="P_Medlitelnee_line_02" lry="178" lrx="342" uly="141" ulx="32"
+                rendition="Line" corresp="#P_Medlitelnee_lb_02" rend="visible"/>
+            <zone xml:id="P_Medlitelnee_line_03" lry="221" lrx="256" uly="188" ulx="33"
+                rendition="Line" corresp="#P_Medlitelnee_lb_03" rend="visible"/>
+            <zone xml:id="P_Medlitelnee_line_04" lry="264" lrx="363" uly="230" ulx="34"
+                rendition="Line" corresp="#P_Medlitelnee_lb_04" rend="visible"/>
+            <zone xml:id="P_Medlitelnee_line_05" lry="349" lrx="326" uly="314" ulx="34"
+                rendition="Line" corresp="#P_Medlitelnee_lb_05" rend="visible"/>
+            <zone xml:id="P_Medlitelnee_line_06" lry="393" lrx="340" uly="358" ulx="35"
+                rendition="Line" corresp="#P_Medlitelnee_lb_06" rend="visible"/>
+            <zone xml:id="P_Medlitelnee_line_07" lry="439" lrx="302" uly="408" ulx="37"
+                rendition="Line" corresp="#P_Medlitelnee_lb_07" rend="visible"/>
+            <zone xml:id="P_Medlitelnee_line_08" lry="481" lrx="333" uly="450" ulx="36"
+                rendition="Line" corresp="#P_Medlitelnee_lb_08" rend="visible"/>
+            <zone xml:id="P_Medlitelnee_line_09" lry="568" lrx="376" uly="536" ulx="32"
+                rendition="Line" corresp="#P_Medlitelnee_lb_09" rend="visible"/>
+            <zone xml:id="P_Medlitelnee_line_10" lry="609" lrx="351" uly="578" ulx="34"
+                rendition="Line" corresp="#P_Medlitelnee_lb_10" rend="visible"/>
+            <zone xml:id="P_Medlitelnee_line_11" lry="656" lrx="359" uly="620" ulx="34"
+                rendition="Line" corresp="#P_Medlitelnee_lb_11" rend="visible"/>
+            <zone xml:id="P_Medlitelnee_line_12" lry="697" lrx="399" uly="668" ulx="32"
+                rendition="Line" corresp="#P_Medlitelnee_lb_12" rend="visible"/>
+            <zone xml:id="P_Medlitelnee_line_13" lry="740" lrx="495" uly="702" ulx="418"
+                rendition="Line" corresp="#P_Medlitelnee_lb_13" rend="visible"/>
+        </surface>
+        <surface corresp="#P_Obraz_tvoy" xml:id="P_obraz_tvoy_surf">
+            <graphic url="../images/single/P_Obraz_tvoy.jpg" width="529px" height="588px"/>
+            <zone xml:id="P_Obraz_tvoy_line_01" lry="122" lrx="243" uly="60" ulx="162"
+                rendition="Line" corresp="#P_Obraz_tvoy_lb_01" rend="visible"/>
+            <zone xml:id="P_Obraz_tvoy_line_02" lry="233" lrx="365" uly="158" ulx="55"
+                rendition="Line" corresp="#P_Obraz_tvoy_lb_02" rend="visible"/>
+            <zone xml:id="P_Obraz_tvoy_line_03" lry="272" lrx="395" uly="235" ulx="77"
+                rendition="Line" corresp="#P_Obraz_tvoy_lb_03" rend="visible"/>
+            <zone xml:id="P_Obraz_tvoy_line_04" lry="331" lrx="380" uly="281" ulx="75"
+                rendition="Line" corresp="#P_Obraz_tvoy_lb_04" rend="visible"/>
+            <zone xml:id="P_Obraz_tvoy_line_05" lry="384" lrx="380" uly="341" ulx="85"
+                rendition="Line" corresp="#P_Obraz_tvoy_lb_05" rend="visible"/>
+            <zone xml:id="P_Obraz_tvoy_line_06" lry="495" lrx="391" uly="441" ulx="86"
+                rendition="Line" corresp="#P_Obraz_tvoy_lb_06" rend="visible"/>
+            <zone xml:id="P_Obraz_tvoy_line_07" lry="553" lrx="350" uly="505" ulx="95"
+                rendition="Line" corresp="#P_Obraz_tvoy_lb_07" rend="visible"/>
+            <zone xml:id="P_Obraz_tvoy_line_08" lry="610" lrx="404" uly="566" ulx="109"
+                rendition="Line" corresp="#P_Obraz_tvoy_lb_08" rend="visible"/>
+            <zone xml:id="P_Obraz_tvoy_line_09" lry="666" lrx="380" uly="621" ulx="99"
+                rendition="Line" corresp="#P_Obraz_tvoy_lb_09" rend="visible"/>
+            <zone xml:id="P_Obraz_tvoy_line_10" lry="774" lrx="483" uly="716" ulx="336"
+                rendition="Line" corresp="#P_Obraz_tvoy_lb_10" rend="visible"/>
+        </surface>
+        <surface corresp="#P_Tsarskoe_selo" xml:id="P_Tsarskoe_selo_surf">
+            <graphic url="../images/single/P_Tsarskoe_selo.jpg" width="529px" height="809px"/>
+            <zone xml:id="P_Tsarskoe_selo_line_01" lry="74" lrx="516" uly="5" ulx="329"
+                rendition="Line" corresp="#P_Tsarskoe_selo_lb_01" rend="visible"/>
+            <zone xml:id="P_Tsarskoe_selo_line_02" lry="123" lrx="327" uly="66" ulx="48"
+                rendition="Line" corresp="#P_Tsarskoe_selo_lb_02" rend="visible"/>
+            <zone xml:id="P_Tsarskoe_selo_line_03" lry="160" lrx="354" uly="117" ulx="54"
+                rendition="Line" corresp="#P_Tsarskoe_selo_lb_03" rend="visible"/>
+            <zone xml:id="P_Tsarskoe_selo_line_04" lry="206" lrx="330" uly="160" ulx="58"
+                rendition="Line" corresp="#P_Tsarskoe_selo_lb_04" rend="visible"/>
+            <zone xml:id="P_Tsarskoe_selo_line_05" lry="241" lrx="364" uly="198" ulx="66"
+                rendition="Line" corresp="#P_Tsarskoe_selo_lb_05" rend="visible"/>
+            <zone xml:id="P_Tsarskoe_selo_line_06" lry="279" lrx="355" uly="238" ulx="57"
+                rendition="Line" corresp="#P_Tsarskoe_selo_lb_06" rend="visible"/>
+            <zone xml:id="P_Tsarskoe_selo_line_07" lry="362" lrx="362" uly="317" ulx="32"
+                rendition="Line" corresp="#P_Tsarskoe_selo_lb_07" rend="visible"/>
+            <zone xml:id="P_Tsarskoe_selo_line_08" lry="395" lrx="374" uly="352" ulx="38"
+                rendition="Line" corresp="#P_Tsarskoe_selo_lb_08" rend="visible"/>
+            <zone xml:id="P_Tsarskoe_selo_line_09" lry="442" lrx="361" uly="399" ulx="36"
+                rendition="Line" corresp="#P_Tsarskoe_selo_lb_09" rend="visible"/>
+            <zone xml:id="P_Tsarskoe_selo_line_10" lry="473" lrx="416" uly="441" ulx="37"
+                rendition="Line" corresp="#P_Tsarskoe_selo_lb_10" rend="visible"/>
+            <zone xml:id="P_Tsarskoe_selo_line_11" lry="519" lrx="393" uly="477" ulx="38"
+                rendition="Line" corresp="#P_Tsarskoe_selo_lb_11" rend="visible"/>
+            <zone xml:id="P_Tsarskoe_selo_line_12" lry="602" lrx="361" uly="566" ulx="37"
+                rendition="Line" corresp="#P_Tsarskoe_selo_lb_12" rend="visible"/>
+            <zone xml:id="P_Tsarskoe_selo_line_13" lry="640" lrx="409" uly="606" ulx="43"
+                rendition="Line" corresp="#P_Tsarskoe_selo_lb_13" rend="visible"/>
+            <zone xml:id="P_Tsarskoe_selo_line_14" lry="671" lrx="335" uly="641" ulx="43"
+                rendition="Line" corresp="#P_Tsarskoe_selo_lb_14" rend="visible"/>
+            <zone xml:id="P_Tsarskoe_selo_line_15" lry="717" lrx="398" uly="676" ulx="30"
+                rendition="Line" corresp="#P_Tsarskoe_selo_lb_15" rend="visible"/>
+            <zone xml:id="P_Tsarskoe_selo_line_16" lry="753" lrx="401" uly="721" ulx="38"
+                rendition="Line" corresp="#P_Tsarskoe_selo_lb_16" rend="visible"/>
+            <zone xml:id="P_Tsarskoe_selo_line_17" lry="556" lrx="243" uly="522" ulx="198"
+                rendition="Line" corresp="#P_Tsarskoe_selo_lb_17" rend="visible"/>
+            <zone xml:id="zone_an3_fkt_1zb" lry="314" lrx="225" uly="281" ulx="183"/>
+            <zone xml:id="zone_qfl_gkt_1zb" lry="76" lrx="250" uly="41" ulx="221"/>
+        </surface>
         <surface corresp="#P_notre_dame" xml:id="P_notre_dame_surf">
             <graphic url="../images/single/P-notre-dame.jpg" width="529px" height="795px"/>
-            <zone xml:id="P-notre-dame_line_01" lry="84" lrx="351" uly="51" ulx="40" rendition="Line" corresp="#P-notre-dame_lb_01" rend="visible"/>
-            <zone xml:id="P-notre-dame_line_02" lry="124" lrx="391" uly="89" ulx="45" rendition="Line" corresp="#P-notre-dame_lb_02" rend="visible"/>
-            <zone xml:id="P-notre-dame_line_03" lry="153" lrx="394" uly="124" ulx="39" rendition="Line" corresp="#P-notre-dame_lb_03" rend="visible"/>
-            <zone xml:id="P-notre-dame_line_04" lry="193" lrx="384" uly="159" ulx="38" rendition="Line" corresp="#P-notre-dame_lb_04" rend="visible"/>
-            <zone xml:id="P-notre-dame_line_05" lry="258" lrx="406" uly="223" ulx="37" rendition="Line" corresp="#P-notre-dame_lb_05" rend="visible"/>
-            <zone xml:id="P-notre-dame_line_06" lry="296" lrx="430" uly="259" ulx="36" rendition="Line" corresp="#P-notre-dame_lb_06" rend="visible"/>
-            <zone xml:id="P-notre-dame_line_07" lry="327" lrx="415" uly="296" ulx="37" rendition="Line" corresp="#P-notre-dame_lb_07" rend="visible"/>
-            <zone xml:id="P-notre-dame_line_08" lry="368" lrx="368" uly="331" ulx="36" rendition="Line" corresp="#P-notre-dame_lb_08" rend="visible"/>
-            <zone xml:id="P-notre-dame_line_09" lry="432" lrx="400" uly="399" ulx="36" rendition="Line" corresp="#P-notre-dame_lb_09" rend="visible"/>
-            <zone xml:id="P-notre-dame_line_10" lry="464" lrx="353" uly="433" ulx="36" rendition="Line" corresp="#P-notre-dame_lb_10" rend="visible"/>
-            <zone xml:id="P-notre-dame_line_11" lry="500" lrx="404" uly="466" ulx="38" rendition="Line" corresp="#P-notre-dame_lb_11" rend="visible"/>
-            <zone xml:id="P-notre-dame_line_12" lry="529" lrx="505" uly="501" ulx="35" rendition="Line" corresp="#P-notre-dame_lb_12" rend="visible"/>
-            <zone xml:id="P-notre-dame_line_13" lry="600" lrx="477" uly="567" ulx="37" rendition="Line" corresp="#P-notre-dame_lb_13" rend="visible"/>
-            <zone xml:id="P-notre-dame_line_14" lry="634" lrx="367" uly="603" ulx="37" rendition="Line" corresp="#P-notre-dame_lb_14" rend="visible"/>
-            <zone xml:id="P-notre-dame_line_15" lry="670" lrx="467" uly="637" ulx="52" rendition="Line" corresp="#P-notre-dame_lb_15" rend="visible"/>
-            <zone xml:id="P-notre-dame_line_16" lry="706" lrx="399" uly="674" ulx="36" rendition="Line" corresp="#P-notre-dame_lb_16" rend="visible"/>
-            <zone xml:id="P-notre-dame_line_17" lry="778" lrx="386" uly="728" ulx="336" rendition="Line" corresp="#P-notre-dame_lb_17" rend="visible"/>
+            <zone xml:id="P-notre-dame_line_01" lry="84" lrx="351" uly="51" ulx="40"
+                rendition="Line" corresp="#P-notre-dame_lb_01" rend="visible"/>
+            <zone xml:id="P-notre-dame_line_02" lry="124" lrx="391" uly="89" ulx="45"
+                rendition="Line" corresp="#P-notre-dame_lb_02" rend="visible"/>
+            <zone xml:id="P-notre-dame_line_03" lry="153" lrx="394" uly="124" ulx="39"
+                rendition="Line" corresp="#P-notre-dame_lb_03" rend="visible"/>
+            <zone xml:id="P-notre-dame_line_04" lry="193" lrx="384" uly="159" ulx="38"
+                rendition="Line" corresp="#P-notre-dame_lb_04" rend="visible"/>
+            <zone xml:id="P-notre-dame_line_05" lry="258" lrx="406" uly="223" ulx="37"
+                rendition="Line" corresp="#P-notre-dame_lb_05" rend="visible"/>
+            <zone xml:id="P-notre-dame_line_06" lry="296" lrx="430" uly="259" ulx="36"
+                rendition="Line" corresp="#P-notre-dame_lb_06" rend="visible"/>
+            <zone xml:id="P-notre-dame_line_07" lry="327" lrx="415" uly="296" ulx="37"
+                rendition="Line" corresp="#P-notre-dame_lb_07" rend="visible"/>
+            <zone xml:id="P-notre-dame_line_08" lry="368" lrx="368" uly="331" ulx="36"
+                rendition="Line" corresp="#P-notre-dame_lb_08" rend="visible"/>
+            <zone xml:id="P-notre-dame_line_09" lry="432" lrx="400" uly="399" ulx="36"
+                rendition="Line" corresp="#P-notre-dame_lb_09" rend="visible"/>
+            <zone xml:id="P-notre-dame_line_10" lry="464" lrx="353" uly="433" ulx="36"
+                rendition="Line" corresp="#P-notre-dame_lb_10" rend="visible"/>
+            <zone xml:id="P-notre-dame_line_11" lry="500" lrx="404" uly="466" ulx="38"
+                rendition="Line" corresp="#P-notre-dame_lb_11" rend="visible"/>
+            <zone xml:id="P-notre-dame_line_12" lry="529" lrx="505" uly="501" ulx="35"
+                rendition="Line" corresp="#P-notre-dame_lb_12" rend="visible"/>
+            <zone xml:id="P-notre-dame_line_13" lry="600" lrx="477" uly="567" ulx="37"
+                rendition="Line" corresp="#P-notre-dame_lb_13" rend="visible"/>
+            <zone xml:id="P-notre-dame_line_14" lry="634" lrx="367" uly="603" ulx="37"
+                rendition="Line" corresp="#P-notre-dame_lb_14" rend="visible"/>
+            <zone xml:id="P-notre-dame_line_15" lry="670" lrx="467" uly="637" ulx="52"
+                rendition="Line" corresp="#P-notre-dame_lb_15" rend="visible"/>
+            <zone xml:id="P-notre-dame_line_16" lry="706" lrx="399" uly="674" ulx="36"
+                rendition="Line" corresp="#P-notre-dame_lb_16" rend="visible"/>
+            <zone xml:id="P-notre-dame_line_17" lry="778" lrx="386" uly="728" ulx="336"
+                rendition="Line" corresp="#P-notre-dame_lb_17" rend="visible"/>
         </surface>
         <surface corresp="#OM_kamen_1913_05" xml:id="OM_kamen_1913_05_surf">
             <graphic url="../images/single/K1-05.jpg" width="529px" height="875px"/>
@@ -582,6 +770,7 @@
                                 xml:id="OM_kamen_lb_1913_03_12"/>Узора милаго не зачерк<rhyme
                                 label="c">нуть</rhyme>. <pb ed="#K1" n="03"/>
                             <pb ed="#K2" n="015"/>
+                            <pb ed="#C" n="011"/>
                         </l>
                     </div>
                     <!--End of first Div-->
@@ -710,92 +899,93 @@
                                 <rdg cause="om" wit="#A"/>
                             </app>
                         </head>
-                        <l n="1"><lb facs="#OM_kamen_line_1913_04_01" n="1"
-                                xml:id="OM_kamen_lb_1913_04_01"/>Она еще не <rhyme label="a"
+                        <l n="1"><lb facs="#P_Silentium_line_01" n="1"
+                                xml:id="P_Silentium_lb_01"/>Она еще не <rhyme label="a"
                                 >родилась</rhyme><app>
                                 <lem wit="#K1 #K2 #K3 #C">,</lem>
                                 <rdg type="subs" wit="#A">—</rdg>
                             </app></l>
-                        <l n="2"><lb facs="#OM_kamen_line_1913_04_02" n="2"
-                                xml:id="OM_kamen_lb_1913_04_02"/>Она <app>
+                        <l n="2"><lb facs="#P_Silentium_line_02" n="2"
+                                xml:id="P_Silentium_lb_02"/>Она <app>
                                 <lem wit="#K1 #K2 #K3 #C"/>
                                 <rdg type="subs" wit="#A"> — </rdg>
                             </app> и музыка и <rhyme label="a">слово</rhyme>,</l>
-                        <l n="3"><lb facs="#OM_kamen_line_1913_04_03" n="3"
-                                xml:id="OM_kamen_lb_1913_04_03"/><app>
+                        <l n="3"><lb facs="#P_Silentium_line_03" n="3"
+                                xml:id="P_Silentium_lb_03"/><app>
                                 <lem wit="#K1 #K2 #K3 #C">И потому </lem>
                                 <rdg type="subs" wit="#A">И, потому, </rdg>
                             </app> всего <rhyme label="a">живого</rhyme></l>
-                        <l n="4"><lb facs="#OM_kamen_line_1913_04_04" n="4"
-                                xml:id="OM_kamen_lb_1913_04_04"/>Ненарушаемая <rhyme label="a"
+                        <l n="4"><lb facs="#P_Silentium_line_04" n="4"
+                                xml:id="P_Silentium_lb_04"/>Ненарушаемая <rhyme label="a"
                                 >связь</rhyme>.</l>
                         <lb rend="empty"/>
-                        <l n="5"><lb facs="#OM_kamen_line_1913_04_05" n="5"
-                                xml:id="OM_kamen_lb_1913_04_05"/>Спокойно дышатъ моря <rhyme
+                        <l n="5"><lb facs="#P_Silentium_line_05" n="5"
+                                xml:id="P_Silentium_lb_05"/>Спокойно дышатъ моря <rhyme
                                 label="a">груди</rhyme><app>
                                 <lem wit="#K1 #K2 #K3 #C">,</lem>
                                 <rdg type="subs" wit="#A"> —</rdg>
                             </app></l>
-                        <l n="6"><lb facs="#OM_kamen_line_1913_04_06" n="6"
-                                xml:id="OM_kamen_lb_1913_04_06"/>Но, какъ безумный, свѣтелъ <rhyme
+                        <l n="6"><lb facs="#P_Silentium_line_06" n="6"
+                                xml:id="P_Silentium_lb_06"/>Но, какъ безумный, свѣтелъ <rhyme
                                 label="a">день</rhyme><app>
                                 <lem wit="#K1 #K2 #K3 #C"/>
                                 <rdg type="subs" wit="#A">,</rdg>
                             </app></l>
-                        <l n="7"><lb facs="#OM_kamen_line_1913_04_07" n="7"
-                                xml:id="OM_kamen_lb_1913_04_07"/>И пѣны блѣдная <rhyme label="a"
+                        <l n="7"><lb facs="#P_Silentium_line_07" n="7"
+                                xml:id="P_Silentium_lb_07"/>И пѣны блѣдная <rhyme label="a"
                                 >сирень</rhyme><app>
                                 <lem wit="#K1 #K2 #K3 #C"/>
                                 <rdg type="subs" wit="#A"> —</rdg>
                             </app></l>
-                        <l n="8"><lb facs="#OM_kamen_line_1913_04_08" n="8"
-                                xml:id="OM_kamen_lb_1913_04_08"/>Въ <app>
+                        <l n="8"><lb facs="#P_Silentium_line_08" n="8"
+                                xml:id="P_Silentium_lb_08"/>Въ <app>
                                 <lem wit="#K1 #K2 #K3 #C #A">мутно-лазоревомъ</lem>
                                 <rdg wit="#BP">черно-лазуревом</rdg>
                             </app>
                             <rhyme label="a">сосудѣ</rhyme>.</l>
                         <lb rend="empty"/>
-                        <l n="9"><lb facs="#OM_kamen_line_1913_04_09" n="9"
-                                xml:id="OM_kamen_lb_1913_04_09"/>Да обрѣтутъ мои <rhyme label="a"
+                        <l n="9"><lb facs="#P_Silentium_line_09" n="9"
+                                xml:id="P_Silentium_lb_09"/>Да обрѣтутъ мои <rhyme label="a"
                                 >уста</rhyme></l>
-                        <l n="10"><lb facs="#OM_kamen_line_1913_04_10" n="10"
-                                xml:id="OM_kamen_lb_1913_04_10"/>Первоначальную <rhyme label="a"
+                        <l n="10"><lb facs="#P_Silentium_line_10" n="10"
+                                xml:id="P_Silentium_lb_10"/>Первоначальную <rhyme label="a"
                                 >нѣмоту</rhyme><app>
                                 <lem wit="#A #K3 #C">,</lem>
                                 <rdg type="subs" wit="#K1 #K2"> —</rdg>
                             </app></l>
-                        <l n="11"><lb facs="#OM_kamen_line_1913_04_11" n="11"
-                                xml:id="OM_kamen_lb_1913_04_11"/>Какъ кристаллическую <rhyme
+                        <l n="11"><lb facs="#P_Silentium_line_11" n="11"
+                                xml:id="P_Silentium_lb_11"/>Какъ кристаллическую <rhyme
                                 label="a">ноту</rhyme>,</l>
-                        <l n="12"><lb facs="#OM_kamen_line_1913_04_12" n="12"
-                                xml:id="OM_kamen_lb_1913_04_12"/>Что отъ рожденія <rhyme label="a"
+                        <l n="12"><lb facs="#P_Silentium_line_12" n="12"
+                                xml:id="P_Silentium_lb_12"/>Что отъ рожденія <rhyme label="a"
                                 >чиста</rhyme>.</l>
                         <lb rend="empty"/>
-                        <l n="13"><lb facs="#OM_kamen_line_1913_04_13" n="13"
-                                xml:id="OM_kamen_lb_1913_04_13"/>Останься пѣной, <persName
+                        <l n="13"><lb facs="#P_Silentium_line_13" n="13"
+                                xml:id="P_Silentium_lb_13"/>Останься пѣной, <persName
                                 ref="#p_Afrodita" type="greek"><rhyme label="a"
                                 >Афродита</rhyme>,</persName><note>По одному из греческих мифов,
                                 Афродита — богиня, олицетворявшая красоту, родилась из морской
                                 пены.</note></l>
-                        <l n="14"><lb facs="#OM_kamen_line_1913_04_14" n="14"
-                                xml:id="OM_kamen_lb_1913_04_14"/><app>
+                        <l n="14"><lb facs="#P_Silentium_line_14" n="14"
+                                xml:id="P_Silentium_lb_14"/><app>
                                 <lem wit="#K1 #K2">И слово въ музыку <rhyme label="a"
                                         >вернись</rhyme>,</lem>
                                 <rdg type="subs" wit="#A">И слово въ музыку вернись!</rdg>
                                 <rdg type="subs" wit="#K3 #C">И, слово, въ музыку вернись,</rdg>
                             </app>,</l>
-                        <l n="15"><lb facs="#OM_kamen_line_1913_04_15" n="15"
-                                xml:id="OM_kamen_lb_1913_04_15"/><app>
+                        <l n="15"><lb facs="#P_Silentium_line_15" n="15"
+                                xml:id="P_Silentium_lb_15"/><app>
                                 <lem wit="#K1 #A #K2">И сердце</lem>
                                 <rdg type="subs" wit="#K3 #C">И, сердце,</rdg>
                             </app> сердца <rhyme label="a">устыдись</rhyme>,</l>
-                        <l n="16"><lb facs="#OM_kamen_line_1913_04_16" n="16"
-                                xml:id="OM_kamen_lb_1913_04_16"/>Съ первоосновой жизни <rhyme
+                        <l n="16"><lb facs="#P_Silentium_line_16" n="16"
+                                xml:id="P_Silentium_lb_16"/>Съ первоосновой жизни <rhyme
                                 label="a">слито</rhyme>
                             <app>
                                 <lem wit="#K1 #A #K2">.</lem>
                                 <rdg type="subs" wit="#K3 #C">!</rdg>
                             </app></l>
+                        <pb ed="#P" n="Silentium"/>
                         <pb ed="#K1" n="04"/>
                     </div>
                     <!--End of first Div-->
@@ -1014,7 +1204,8 @@
                                 xml:id="OM_kamen_lb_1913_08_03"/>И мгновенный ритмъ — только
                             случай,</l>
                         <l n="4"><lb facs="#OM_kamen_line_1913_08_04" n="4"
-                                xml:id="OM_kamen_lb_1913_08_04"/>Неожиданный <persName ref="#p_aquilon">Аквилонъ</persName>?</l>
+                                xml:id="OM_kamen_lb_1913_08_04"/>Неожиданный <persName
+                                ref="#p_aquilon">Аквилонъ</persName>?</l>
                         <lb rend="empty"/>
                         <l n="5"><lb facs="#OM_kamen_line_1913_08_05" n="5"
                                 xml:id="OM_kamen_lb_1913_08_05"/>Онъ подыметъ облако пыли,</l>
@@ -1130,7 +1321,6 @@
                         <l n="16"><lb facs="#OM_kamen_line_1913_09_16" n="1"
                                 xml:id="OM_kamen_lb_1913_09_16"/>Туманомъ, вѣтромъ и дождемъ...</l>
                         <pb ed="#K1" n="09"/>
-                        <pb ed="#C" n="011"/>
                     </div>
                 </body>
             </text>
@@ -1236,7 +1426,7 @@
                             плоть;</l>
                         <l n="3"><lb facs="#OM_kamen_line_1913_12_03" n="3"
                                 xml:id="OM_kamen_lb_1913_12_03"/>Что весь соблазнъ и всѣ богатства
-                            <persName ref="p_croesus">Креза</persName></l>
+                                <persName ref="p_croesus">Креза</persName></l>
                         <l n="4"><lb facs="#OM_kamen_line_1913_12_04" n="4"
                                 xml:id="OM_kamen_lb_1913_12_04"/>Предъ лезвіемъ твоей тоски,
                             Господь!</l>
@@ -1358,7 +1548,8 @@
                 <front>
                     <div type="dedication">
                         <app resp="#maria">
-                            <lem wit="#K2"><persName ref="#p_lozinsky">М. Л. Лозинскому</persName></lem>
+                            <lem wit="#K2"><persName ref="#p_lozinsky">М. Л.
+                                Лозинскому</persName></lem>
                             <rdg wit="#K1 #K3 #C"/>
                         </app>
                     </div>
@@ -1447,7 +1638,8 @@
                             млечность?</l>
                         <lb rend="empty"/>
                         <l n="4"><lb facs="#OM_kamen_line_1913_15_04" n="4"
-                                xml:id="OM_kamen_lb_1913_15_04"/>И <persName ref="#p_batyushkov">Батюшкова</persName> мнѣ противна спесь;</l>
+                                xml:id="OM_kamen_lb_1913_15_04"/>И <persName ref="#p_batyushkov"
+                                >Батюшкова</persName> мнѣ противна спесь;</l>
                         <l n="5"><lb facs="#OM_kamen_line_1913_15_05" n="5"
                                 xml:id="OM_kamen_lb_1913_15_05"/>
                             <app>
@@ -1953,7 +2145,8 @@
                         <l n="2"><lb facs="#OM_kamen_line_1913_23_02" n="2"
                                 xml:id="OM_kamen_lb_1913_23_02"/>Въ седьмомъ часу утра.</l>
                         <l n="3"><lb facs="#OM_kamen_line_1913_23_03" n="3"
-                                xml:id="OM_kamen_lb_1913_23_03"/>Старикъ, похожій на <persName ref="#p_paul_verlaine">Верлэна</persName>,</l>
+                                xml:id="OM_kamen_lb_1913_23_03"/>Старикъ, похожій на <persName
+                                ref="#p_paul_verlaine">Верлэна</persName>,</l>
                         <l n="4"><lb facs="#OM_kamen_line_1913_23_04" n="4"
                                 xml:id="OM_kamen_lb_1913_23_04"/>Теперь твоя пора!</l>
                         <lb rend="empty"/>
@@ -2024,7 +2217,8 @@
                         <l n="22"><lb facs="#OM_kamen_line_1913_23_22" n="22"
                                 xml:id="OM_kamen_lb_1913_23_22"/>Отъ ярости блѣдна, —</l>
                         <l n="23"><lb facs="#OM_kamen_line_1913_23_23" n="23"
-                                xml:id="OM_kamen_lb_1913_23_23"/>Встрѣчаетъ пьянаго <persName ref="#p_socrates">Сократа</persName></l>
+                                xml:id="OM_kamen_lb_1913_23_23"/>Встрѣчаетъ пьянаго <persName
+                                ref="#p_socrates">Сократа</persName></l>
                         <l n="24"><lb facs="#OM_kamen_line_1913_23_24" n="24"
                                 xml:id="OM_kamen_lb_1913_23_24"/>Суровая жена!</l>
                         <pb ed="#K1" n="23"/>
@@ -2062,13 +2256,15 @@
                             </app>
                         </l>
                         <l n="8"><lb facs="#OM_kamen_line_1913_25_08" n="8"
-                                xml:id="OM_kamen_lb_1913_25_08"/><placeName ref="#p_russia">Россія</placeName> отдыхаетъ тяжело.</l>
+                                xml:id="OM_kamen_lb_1913_25_08"/><placeName ref="#p_russia"
+                                >Россія</placeName> отдыхаетъ тяжело.</l>
                         <lb rend="empty"/>
                         <l n="9"><lb facs="#OM_kamen_line_1913_25_09" n="9"
-                                xml:id="OM_kamen_lb_1913_25_09"/>А надъ <placeName ref="#p_neva_river">Невой</placeName> — посольства
-                            полуміра,</l>
+                                xml:id="OM_kamen_lb_1913_25_09"/>А надъ <placeName
+                                ref="#p_neva_river">Невой</placeName> — посольства полуміра,</l>
                         <l n="10"><lb facs="#OM_kamen_line_1913_25_10" n="10"
-                                xml:id="OM_kamen_lb_1913_25_10"/><placeName ref="#p_admiralteystvo">Адмиралтейство</placeName>, солнце, тишина!</l>
+                                xml:id="OM_kamen_lb_1913_25_10"/><placeName ref="#p_admiralteystvo"
+                                >Адмиралтейство</placeName>, солнце, тишина!</l>
                         <l n="11"><lb facs="#OM_kamen_line_1913_25_11" n="11"
                                 xml:id="OM_kamen_lb_1913_25_11"/>И государства крѣпкая порфира,</l>
                         <l n="12"><lb facs="#OM_kamen_line_1913_25_12" n="12"
@@ -2077,9 +2273,11 @@
                         <l n="13"><lb facs="#OM_kamen_line_1913_25_13" n="13"
                                 xml:id="OM_kamen_lb_1913_25_13"/>Тяжка обуза сѣвернаго сноба —</l>
                         <l n="14"><lb facs="#OM_kamen_line_1913_25_14" n="14"
-                                xml:id="OM_kamen_lb_1913_25_14"/><persName ref="#p_eugene_onegin">Онѣгина</persName> старинная тоска;</l>
+                                xml:id="OM_kamen_lb_1913_25_14"/><persName ref="#p_eugene_onegin"
+                                >Онѣгина</persName> старинная тоска;</l>
                         <l n="15"><lb facs="#OM_kamen_line_1913_25_15" n="15"
-                                xml:id="OM_kamen_lb_1913_25_15"/>На <placeName ref="#p_senate_square_spb">площади сената</placeName> — валъ
+                                xml:id="OM_kamen_lb_1913_25_15"/>На <placeName
+                                ref="#p_senate_square_spb">площади сената</placeName> — валъ
                             сугроба,</l>
                         <l n="16"><lb facs="#OM_kamen_line_1913_25_16" n="16"
                                 xml:id="OM_kamen_lb_1913_25_16"/>Дымокъ костра и холодокъ
@@ -2105,7 +2303,8 @@
                                 xml:id="OM_kamen_lb_1913_25_22"/>Самолюбивый, скромный пѣшеходъ
                             —</l>
                         <l n="23"><lb facs="#OM_kamen_line_1913_25_23" n="23"
-                                xml:id="OM_kamen_lb_1913_25_23"/>Чудакъ <persName ref="#p_evgeny_bronze_horseman">Евгеній</persName> — бѣдности
+                                xml:id="OM_kamen_lb_1913_25_23"/>Чудакъ <persName
+                                ref="#p_evgeny_bronze_horseman">Евгеній</persName> — бѣдности
                             стыдится,</l>
                         <l n="24"><lb facs="#OM_kamen_line_1913_25_24" n="24"
                                 xml:id="OM_kamen_lb_1913_25_24"/>Бензинъ вдыхаетъ и судьбу
@@ -2170,9 +2369,11 @@
                         <l n="10"><lb facs="#OM_kamen_line_1913_27_10" n="10"
                                 xml:id="OM_kamen_lb_1913_27_10"/>Виноградомъ замутитъ,</l>
                         <l n="11"><lb facs="#OM_kamen_line_1913_27_11" n="11"
-                                xml:id="OM_kamen_lb_1913_27_11"/>Если явь — <persName ref="#p_peter_great">Петра</persName> созданье,</l>
+                                xml:id="OM_kamen_lb_1913_27_11"/>Если явь — <persName
+                                ref="#p_peter_great">Петра</persName> созданье,</l>
                         <l n="12"><lb facs="#OM_kamen_line_1913_27_12" n="12"
-                                xml:id="OM_kamen_lb_1913_27_12"/><placeName ref="#p_medny_vsadnik">Мѣдный всадникъ</placeName> и гранитъ?</l>
+                                xml:id="OM_kamen_lb_1913_27_12"/><placeName ref="#p_medny_vsadnik"
+                                >Мѣдный всадникъ</placeName> и гранитъ?</l>
                         <lb rend="empty"/>
                         <l n="13"><lb facs="#OM_kamen_line_1913_27_13" n="13"
                                 xml:id="OM_kamen_lb_1913_27_13"/>Слышу съ крѣпости сигналы,</l>
@@ -2194,7 +2395,8 @@
                         <l n="19"><lb facs="#OM_kamen_line_1913_27_19" n="19"
                                 xml:id="OM_kamen_lb_1913_27_19"/>Звѣзды, трезвая бесѣда,</l>
                         <l n="20"><lb facs="#OM_kamen_line_1913_27_20" n="20"
-                                xml:id="OM_kamen_lb_1913_27_20"/>Вѣтеръ западный съ <placeName ref="#p_neva_river">Невы</placeName>...</l>
+                                xml:id="OM_kamen_lb_1913_27_20"/>Вѣтеръ западный съ <placeName
+                                ref="#p_neva_river">Невы</placeName>...</l>
                         <pb ed="#K1" n="27"/>
                         <pb ed="#K1" n="28"/>
                     </div>
@@ -2291,7 +2493,8 @@
                     <div>
                         <head>АЙЯ-СОФIЯ</head>
                         <l n="1"><lb facs="#OM_kamen_line_1913_31_01" n="1"
-                                xml:id="OM_kamen_lb_1913_31_01"/><placeName ref="#p_hagia_sophia">Айя-Софія</placeName> — здѣсь остановиться</l>
+                                xml:id="OM_kamen_lb_1913_31_01"/><placeName ref="#p_hagia_sophia"
+                                >Айя-Софія</placeName> — здѣсь остановиться</l>
                         <l n="2"><lb facs="#OM_kamen_line_1913_31_02" n="2"
                                 xml:id="OM_kamen_lb_1913_31_02"/>Судилъ <app>
                                 <lem wit="#K1 #K2">Господь</lem>
@@ -2315,7 +2518,8 @@
                                 xml:id="OM_kamen_lb_1913_31_06"/>Когда похитить для чужихъ
                             боговъ</l>
                         <l n="7"><lb facs="#OM_kamen_line_1913_31_07" n="7"
-                                xml:id="OM_kamen_lb_1913_31_07"/>Позволила <placeName ref="#p_temple_artemis">эфесская Діана</placeName></l>
+                                xml:id="OM_kamen_lb_1913_31_07"/>Позволила <placeName
+                                ref="#p_temple_artemis">эфесская Діана</placeName></l>
                         <l n="8"><lb facs="#OM_kamen_line_1913_31_08" n="8"
                                 xml:id="OM_kamen_lb_1913_31_08"/>Сто семь зеленыхъ мраморныхъ
                             столбовъ.</l>
@@ -2382,8 +2586,7 @@
                                 <rdg wit="#AM">Ажурных галлерей заманчивый пролет —</rdg>
                             </app>
                         </l>
-                        <l n="2"><lb facs="#P-notre-dame_line_02" n="2"
-                                xml:id="P-notre-dame_lb_02"/>
+                        <l n="2"><lb facs="#P-notre-dame_line_02" n="2" xml:id="P-notre-dame_lb_02"/>
                             <app>
                                 <lem wit="#K2 #K3 #C">Стоитъ базилика — и, радостный и первый,</lem>
                                 <rdg type="subs" wit="#K1">Стоитъ базилика, — и, радостный и
@@ -2391,39 +2594,30 @@
                                 <rdg wit="#AM">И, жилы вытянув и напрягая нервы,</rdg>
                             </app>
                         </l>
-                        <l n="3"><lb facs="#P-notre-dame_line_03" n="3"
-                                xml:id="P-notre-dame_lb_03"/>Какъ нѣкогда <persName ref="p_Adam">Адамъ</persName>,
-                            <app>
-                                <lem wit="#K1 #K2 #K3 #C">распластывая
-                                    нервы,</lem>
-                                <rdg type="subs" wit="#AM">таинственный и
-                                    первый,</rdg>
+                        <l n="3"><lb facs="#P-notre-dame_line_03" n="3" xml:id="P-notre-dame_lb_03"
+                            />Какъ нѣкогда <persName ref="p_Adam">Адамъ</persName>, <app>
+                                <lem wit="#K1 #K2 #K3 #C">распластывая нервы,</lem>
+                                <rdg type="subs" wit="#AM">таинственный и первый,</rdg>
                             </app>
                         </l>
-                        <l n="4"><lb facs="#P-notre-dame_line_04" n="4"
-                                xml:id="P-notre-dame_lb_04"/>Играетъ мышцами крестовый легкій
-                            сводъ.</l>
+                        <l n="4"><lb facs="#P-notre-dame_line_04" n="4" xml:id="P-notre-dame_lb_04"
+                            />Играетъ мышцами крестовый легкій сводъ.</l>
                         <lb rend="empty"/>
-                        <l n="5"><lb facs="#P-notre-dame_line_05" n="5"
-                                xml:id="P-notre-dame_lb_05"/>Но выдаетъ себя снаружи тайный
-                            планъ <app>
+                        <l n="5"><lb facs="#P-notre-dame_line_05" n="5" xml:id="P-notre-dame_lb_05"
+                            />Но выдаетъ себя снаружи тайный планъ <app>
                                 <lem wit="#K1 #K2">!</lem>
                                 <rdg type="subs" wit="#K3 #C">,</rdg>
                             </app>
                         </l>
-                        <l n="6"><lb facs="#P-notre-dame_line_06" n="6"
-                                xml:id="P-notre-dame_lb_06"/>Здѣсь позаботилась подпружныхъ
-                            арокъ сила,</l>
-                        <l n="7"><lb facs="#P-notre-dame_line_07" n="7"
-                                xml:id="P-notre-dame_lb_07"/>Чтобъ масса грузная стѣны не
-                            сокрушила,</l>
-                        <l n="8"><lb facs="#P-notre-dame_line_08" n="8"
-                                xml:id="P-notre-dame_lb_08"/>И свода дерзкаго бездѣйствуетъ
-                            таранъ.</l>
+                        <l n="6"><lb facs="#P-notre-dame_line_06" n="6" xml:id="P-notre-dame_lb_06"
+                            />Здѣсь позаботилась подпружныхъ арокъ сила,</l>
+                        <l n="7"><lb facs="#P-notre-dame_line_07" n="7" xml:id="P-notre-dame_lb_07"
+                            />Чтобъ масса грузная стѣны не сокрушила,</l>
+                        <l n="8"><lb facs="#P-notre-dame_line_08" n="8" xml:id="P-notre-dame_lb_08"
+                            />И свода дерзкаго бездѣйствуетъ таранъ.</l>
                         <lb rend="empty"/>
-                        <l n="9"><lb facs="#P-notre-dame_line_09" n="9"
-                                xml:id="P-notre-dame_lb_09"/>Стихійный лабиринтъ, непостижимый
-                            лѣсъ,</l>
+                        <l n="9"><lb facs="#P-notre-dame_line_09" n="9" xml:id="P-notre-dame_lb_09"
+                            />Стихійный лабиринтъ, непостижимый лѣсъ,</l>
                         <l n="10"><lb facs="#P-notre-dame_line_10" n="10"
                                 xml:id="P-notre-dame_lb_10"/>Души готической разсудочная
                             пропасть,</l>
@@ -2436,17 +2630,16 @@
                         <lb rend="empty"/>
                         <l n="13"><lb facs="#P-notre-dame_line_13" n="13"
                                 xml:id="P-notre-dame_lb_13"/>Но чѣмъ внимательнѣй, твердыня
-                            <placeName ref="#p_notre_dame">Notre Dame</placeName>,</l>
+                                <placeName ref="#p_notre_dame">Notre Dame</placeName>,</l>
                         <l n="14"><lb facs="#P-notre-dame_line_14" n="14"
-                                xml:id="P-notre-dame_lb_14"/>Я изучалъ твои чудовищныя ребра,
-                            —</l>
+                                xml:id="P-notre-dame_lb_14"/>Я изучалъ твои чудовищныя ребра, —</l>
                         <l n="15"><lb facs="#P-notre-dame_line_15" n="15"
                                 xml:id="P-notre-dame_lb_15"/>Тѣмъ чаще думалъ я: изъ тяжести
                             недоброй</l>
                         <l n="16"><lb facs="#P-notre-dame_line_16" n="16"
                                 xml:id="P-notre-dame_lb_16"/>И я когда нибудь прекрасное
                             создамъ.</l>
-                        <pb ed="#P" n="notre-dame" />
+                        <pb ed="#P" n="notre-dame"/>
                         <pb ed="#K1" n="33"/>
                     </div>
                 </body>
