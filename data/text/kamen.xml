@@ -13,13 +13,17 @@
                 </respStmt>
             </titleStmt>
             <editionStmt>
-                <edition><interpGrp>
+                <edition>Multi-version diplomatic edition with a critical apparatus
+                <note>This project The Digital Stone, built upon the EVT (Edition Visualization Technology) framework, is designed to aggregate and compare all available versions of the poems from Osip Mandelstam's book "Камень / The Stone." The primary objective is to accurately visualize textual differences across multiple editions, down to the most granular changes.</note>
+                <date when="2023-10">Published in 2023</date>
+                    <interpGrp>
                         <interp xml:id="k1">K1</interp>
                         <interp xml:id="k2">K2</interp>
                         <interp xml:id="k3">K3</interp>
                         <interp xml:id="c">C</interp>
                         <interp xml:id="rec1">Other</interp>
-                    </interpGrp></edition>
+                    </interpGrp>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <p/>
@@ -367,36 +371,10 @@
                     <bibl type="work" xml:id="w_Kamen_1990_komm" sortKey="Kamen_1990_komm">
                         <title xml:lang="ru">Мец А. Г. Комментарий // Камень. Литературные
                             памятники. Л.: Наука, 1990. С. 286-309.</title>
-                        <title type="short">Мец А. Г. Комментарий // Камень. Литературные памятники.
+                        <title type="short">Комментарий // Камень. Литературные памятники.
                             Л.: Наука, 1990. С. 286-309.</title>
                         <author ref="#p_Mets" xml:lang="ru">А. Г. Мец</author>
-                    </bibl>
-                    <bibl type="work" xml:id="w_nafs" sortKey="Kitāb_al-Nafs">
-                        <title xml:lang="ar-Latn">Kitāb al-Nafs</title>
-                        <title type="short">Nafs</title>
-                        <author ref="#p_Avicenna" xml:lang="ar-Latn">Ibn Sīnā</author>
-                        <relatedItem type="isPartOf" target="#w_sifa"/>
-                        <ref type="manifestation" target="#Rahman1959"/>
-                    </bibl>
-                    <bibl type="work" xml:id="w_burhan" sortKey="Kitāb_al-Burhān">
-                        <title xml:lang="ar-Latn">Kitāb al-Burhān</title>
-                        <title type="short">Burhān</title>
-                        <author ref="#p_Avicenna" xml:lang="ar-Latn">Ibn Sīnā</author>
-                        <relatedItem type="isPartOf" target="#w_sifa"/>
-                        <ref type="manifestation" target="#Afifi1956"/>
-                    </bibl>
-                    <bibl type="work" xml:id="w_boe-in-isagoge" sortKey="In_Porphyrii_Isagogen">
-                        <title xml:lang="la">In Porphyrii Isagogen</title>
-                        <title type="short" xml:lang="it">In Porph. Isag.</title>
-                        <author ref="#p_Boezio" xml:lang="la">Boethius</author>
-                        <ref type="manifestation" target="#CPT_PLD64"/>
-                    </bibl>
-                    <bibl type="work" xml:id="w_boe-traslatio-isagoge"
-                        sortKey="Porphyrii_Isagoge_Translatio">
-                        <title xml:lang="la">Porphyrii Isagoge translatio</title>
-                        <title type="short" xml:lang="it">Porph. Isag. translatio.</title>
-                        <author ref="#p_Boezio" xml:lang="la">Boethius</author>
-                        <ref type="manifestation" target="#CPT_PLD64"/>
+                        <relatedItem type="isPartOf" target="#w_Kamen_1990"/>
                     </bibl>
                     <bibl type="work" xml:id="w_boe-traslatio-topicorum"
                         sortKey="Aristotelis_Topicorum_Translatio">
@@ -415,13 +393,31 @@
                 </listBibl>
                 <listBibl>
                     <head>Editions and Manuscripts</head>
-                    <bibl xml:id="ar_met_perseus">Aristotle, Metaphysics (greek), in <title>Perseus
-                            Digital Library</title>, ed. <editor>Gregory R. Crane</editor>, Tufts
-                        University, <ref target="http://www.perseus.tufts.edu"
-                            >http://www.perseus.tufts.edu</ref></bibl>
-                    <bibl xml:id="Rahman1959"><title>Avicenna's De Anima (Arabic Text), being the
-                            psychological part of the Kitab_al-Šifāʾ</title>, ed. by <editor>F.
-                            Rahman</editor>, London 1959</bibl>
+                    <bibl type="work" xml:id="w_Kamen_1913" sortKey="Kamen_1913">
+                        <title xml:lang="ru">Камень</title>
+                        <title type="short">Камень. Петербург: Акмэ, 1913.</title>
+                        <author ref="#p_Mandelstam" xml:lang="ru">Осип Мандельштам</author>
+                    </bibl>
+                    <bibl type="work" xml:id="w_Kamen_1916" sortKey="Kamen_1916">
+                        <title xml:lang="ru">Камень</title>
+                        <title type="short">Камень. Петроград: Гиперборей, 1916.</title>
+                        <author ref="#p_Mandelstam" xml:lang="ru">Осип Мандельштам</author>
+                    </bibl>
+                    <bibl type="work" xml:id="w_Kamen_1923" sortKey="Kamen_1923">
+                        <title xml:lang="ru">Камень</title>
+                        <title type="short" xml:lang="ru">Камень. Петроград: ГИЗ, 1923.</title>
+                        <author ref="#p_Mandelstam" xml:lang="ru">Осип Мандельштам</author>
+                    </bibl>
+                    <bibl type="work" xml:id="w_Stihi"
+                        sortKey="Stihi_1928">
+                        <title xml:lang="ru">Стихотворения</title>
+                        <title type="short" xml:lang="ru">Стихотворения. М.: Государственное издательство, 1928.</title>
+                        <author ref="#p_Mandelstam" xml:lang="ru">Осип Мандельштам</author>
+                    </bibl>
+                    <bibl xml:id="apollon">Мандельштам О. "Медлительнее снежный улей...". "Имею тело: что мне делать с ним...". "Истончается тонкий плен...". "Она еще не родилась...". "Невыразимая печаль..."
+                    <title>
+                            Аполлон</title>, 1910, № 9. С. </bibl>
+                    <bibl xml:id="hyperborey">Мандельштам О. "Отчего душа так певуча...". "Образ твой, мучительный и зыбкий...". "Сегодня дурной день...". "Я вздрагиваю от холода..."<title>Гиперборей. 1912. № 1 (октябрь).</title></bibl>
                     <bibl xml:id="Afifi1956"><title>Al-Šifāʾ, al-Manṭiq, al-Burhān</title>, ed. by
                             <editor>A. F. ʿAfīfī, Al-Maṭbaʿa al-amīriyya</editor>, Cairo 1956</bibl>
                     <bibl xml:id="msAr">Manoscritto arabo</bibl>
