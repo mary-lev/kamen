@@ -6,32 +6,180 @@
         <fileDesc>
             <titleStmt>
                 <title>The Digital Stone</title>
-                <author>Осип Мандельштам / Osip Mandelstam</author>
+                <author xml:lang="ru">Осип Мандельштам</author>
+                <author xml:lang="en"> Osip Mandelstam</author>
                 <respStmt>
                     <resp>Edited and encoded by</resp>
                     <name xml:id="maria">Maria Levchenko</name>
-                </respStmt>
+                </respStmt>                
             </titleStmt>
             <editionStmt>
                 <edition>Multi-version diplomatic edition with a critical apparatus
                 <note>This project The Digital Stone, built upon the EVT (Edition Visualization Technology) framework, is designed to aggregate and compare all available versions of the poems from Osip Mandelstam's book "Камень / The Stone." The primary objective is to accurately visualize textual differences across multiple editions, down to the most granular changes.</note>
                 <date when="2023-10">Published in 2023</date>
                     <interpGrp>
-                        <interp xml:id="k1">K1</interp>
-                        <interp xml:id="k2">K2</interp>
-                        <interp xml:id="k3">K3</interp>
-                        <interp xml:id="c">C</interp>
-                        <interp xml:id="rec1">Other</interp>
+                        <interp xml:id="k1">K1: Камень. Петербург: Акмэ, 1913</interp>
+                        <interp xml:id="k2">K2: Камень. Петроград: Гиперборей, 1916</interp>
+                        <interp xml:id="k3">K3: Камень. Петроград: ГИЗ, 1923</interp>
+                        <interp xml:id="c">C: Стихотворения. М.: Государственное издательство, 1928</interp>
+                        <interp xml:id="a">A: Аполлон. 1910. № 9. С. 6.</interp>
+                        <interp xml:id="bp">BP: Мандельштам О. Стихотворения / Сост. и примеч. Н. И. Харджиева. Ленинград, 1973 (Б-ка поэта. Больш. сер.).</interp>
+                        <interp xml:id="g">G: Гиперборей. 1912. № 1 (октябрь).</interp>
+                        <interp xml:id="p">P: Принстонский архив Мандельштама https://findingaids.princeton.edu/catalog/C0539_c185</interp>
+                        <interp>K2-Av: Список Аверьянова с автографом. ИРЛИ, ф. 428</interp>
                     </interpGrp>
                 </edition>
             </editionStmt>
+            <extent>189 kilobytes</extent>
             <publicationStmt>
-                <p/>
+                <authority>The Digital Stone project</authority>
+                <date>2023</date>
+                <availability status="unknown">
+                  <p>This work is licensed under a <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>. It is free to use, modify, and distribute.</p>
+                </availability>
             </publicationStmt>
             <notesStmt>
                 <note> </note>
             </notesStmt>
             <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <settlement>Moscow</settlement>
+                            <repository>Russian State Library</repository>
+                            <idno>OMF Ф 10-76/940</idno>
+                        </msIdentifier>
+                        <msContents>
+                            <summary>
+                                "Камень" (Stone) is the first book of poems by Osip Mandelstam, initially published in 1913 in St. Petersburg, Russia. The book underwent several revisions and re-publications, with additional poems included in the 1916 and 1923 editions. The 1923 edition also transitioned to modern Russian orthography. Almost all the poems from "Камень" were later reproduced in Mandelstam's book "Poems" (Стихотворения) in 1928, showcasing a significant phase in Mandelstam's literary career.
+                            </summary>
+                            <textLang mainLang="rus">
+                                The primary language in this book is Russian, with the initial editions utilizing old Russian orthography, transitioning to modern Russian orthography in the 1923 edition.
+                            </textLang>
+                            <msItem>
+                                <locus from="1" to="1">1</locus>
+                                <title type="work" subtype="poem">ДЫХАНІЕ</title>
+                            </msItem>
+                            <msItem>
+                                <locus from="2" to="2">2</locus>
+                                <title type="work" subtype="poem">SILENTIUM</title>
+                            </msItem>
+                            <msItem>
+                                <locus from="3" to="3">3</locus>
+                                <title type="work" subtype="poem">"Невыразимая печаль..."</title>
+                            </msItem>
+                            <msItem>
+                                <locus from="4" to="4">4</locus>
+                                <title type="work" subtype="poem">"Медлительнѣе снѣжный улей..."</title>
+                            </msItem>
+                            <msItem>
+                                <locus from="5" to="5">5</locus>
+                                <title type="work" subtype="poem">"Смутно-дышащими листьями..."</title>
+                            </msItem>
+                            <msItem>
+                                <locus from="6" to="6">6</locus>
+                                <title type="work" subtype="poem">"Отчего душа — такъ пѣвуча..."</title>
+                            </msItem>
+                            <msItem>
+                                <locus from="7" to="7">7</locus>
+                                <title type="work" subtype="poem">"Быть можетъ я тебѣ не нуженъ..."</title>
+                            </msItem>
+                            <msItem>
+                                <locus from="8" to="8">8</locus>
+                                <title type="work" subtype="poem">Скудный лучъ, холодной мѣрою</title>
+                                <incipit></incipit>
+                            </msItem>
+                            <msItem>
+                                <locus from="9" to="9">9</locus>
+                                <title type="work" subtype="poem">"Образъ твой, мучительный и зыбкій..."</title>
+                            </msItem>
+                            <msItem>
+                                <locus from="10" to="11">10-11</locus>
+                                <title type="work" subtype="poem">3МѣЙ</title>
+                            </msItem>
+                            <msItem>
+                                <locus from="12" to="12">12</locus>
+                                <title type="work" subtype="poem">"Сегодня дурной день..."</title>
+                            </msItem>
+                            <msItem>
+                                <locus from="13" to="13">13</locus>
+                                <title type="work" subtype="poem">ПѢШЕХОДЪ</title>
+                            </msItem>
+                            <msItem>
+                                <locus from="14" to="14">14</locus>
+                                <title type="work" subtype="poem">"Нѣтъ, не луна, а свѣтлый циферблатъ..."</title>
+                            </msItem>
+                            <msItem>
+                                <locus from="15" to="15">15</locus>
+                                <title type="work" subtype="poem">"Я ненавижу cвѣтъ..."</title>
+                            </msItem>
+                            <msItem>
+                                <locus from="16" to="16">16</locus>
+                                <title type="work" subtype="poem">КАЗИНО</title>
+                            </msItem>
+                            <msItem>
+                                <locus from="17" to="18">17-18</locus>
+                                <title type="work" subtype="poem">ЦАРСКОЕ СЕЛО</title>
+                            </msItem>
+                            <msItem>
+                                <locus from="19" to="20">19-20</locus>
+                                <title type="work" subtype="poem">ЗОЛОТОЙ</title>
+                            </msItem>
+                            <msItem>
+                                <locus from="21" to="22">21-22</locus>
+                                <title type="work" subtype="poem">СТАРИКЪ</title>
+                            </msItem>
+                            <msItem>
+                                <locus from="23" to="24">23-24</locus>
+                                <title type="work" subtype="poem">ПЕТЕРБУРГСКIЯ СТРОФЫ</title>
+                            </msItem>
+                            <msItem>
+                                <locus from="25" to="26">25-26</locus>
+                                <title type="work" subtype="poem">"Въ душномъ барѣ иностранецъ..."</title>
+                            </msItem>
+                            <msItem>
+                                <locus from="27" to="28">27-28</locus>
+                                <title type="work" subtype="poem">ЛЮТЕРАНИНЪ</title>
+                            </msItem>
+                            <msItem>
+                                <locus from="29" to="30">29-30</locus>
+                                <title type="work" subtype="poem">АЙЯ-СОФІЯ</title>
+                            </msItem>                           
+                            <msItem>
+                                <locus from="31" to="31">31</locus>
+                                <title type="work" subtype="poem">NOTRE DAME</title>
+                            </msItem>
+                        </msContents>   
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper">
+                                <support>
+                                    <p>
+                                        <material>Paper</material>
+                                        <objectType>codex</objectType> with <material>carton cover</material> binding.
+                                    </p>
+                                </support>
+                                <extent>34 leaves <dimensions scope="all" type="leaf" unit="cm">
+                                    <height>21</height>
+                                    <width>14</width>
+                                </dimensions>
+                                </extent>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1">
+                                    <p>Text is printed in a single column per page.</p>
+                                </layout>
+                            </layoutDesc>                            
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            "Камень" (Stone) is the first book of poems by Osip Mandelstam, initially published in 1913 in St. Petersburg, Russia, by Acme Publishers. This edition was printed at the author's expense and featured a selection of poems composed between 1908 and 1913.
+                        </origin>
+                        <provenance>
+                            Following its initial publication, "Камень" underwent several revisions and re-publications. In 1916, it was re-published with additional poems, retaining the old Russian orthography. Then, in 1923, it was published again, this time with many additional texts and in modern Russian orthography. Almost all the poems from "Камень" were later reproduced in Mandelstam's book "Poems" (Стихотворения) in 1928. These editions marked significant phases in Mandelstam's literary career and reflected the orthographic transition in Russian literary culture during this period.
+                        </provenance>
+                    </history>
+                </msDesc>
                 <listWit>
                     <listWit xml:id="k1_wit" ana="#k1" resp="#maria">
                         <head>Witnesses of version K1</head>
@@ -84,7 +232,7 @@
                     </listWit>
                     <listWit xml:id="rec1_wits" ana="#rec1" resp="#maria">
                         <head>Witnesses of version A</head>
-                        <witness xml:id="P">
+                        <witness xml:id="P">Принстонский архив Мандельштама
                             <settlement>https://findingaids.princeton.edu/catalog/C0539_c185</settlement>
                         </witness>
                         <witness xml:id="K2-Av">
@@ -92,7 +240,7 @@
                                 <msIdentifier>
                                     <settlement>?</settlement>
                                     <repository>Список Аверьянова с автографом</repository>
-                                    <idno>VIII.E.33</idno>
+                                    <idno>ИРЛИ, ф. 428</idno>
                                 </msIdentifier>
                             </msDesc>
                         </witness>
@@ -376,19 +524,20 @@
                         <author ref="#p_Mets" xml:lang="ru">А. Г. Мец</author>
                         <relatedItem type="isPartOf" target="#w_Kamen_1990"/>
                     </bibl>
-                    <bibl type="work" xml:id="w_boe-traslatio-topicorum"
-                        sortKey="Aristotelis_Topicorum_Translatio">
-                        <title xml:lang="la">Aristotelis Topicorum translatio</title>
-                        <title type="short" xml:lang="it">Arist. Top. translatio.</title>
-                        <author ref="#p_Boezio" xml:lang="la">Boethius</author>
-                        <ref type="manifestation" target="#ATT_PLD64"/>
+                    <bibl type="work" xml:id="w_lekmanov"
+                        sortKey="Sobranie_soch">
+                        <title xml:lang="ru">Собрание стихотворений</title>
+                        <title type="short" xml:lang="it">Собрание стихотворений 1906—1937 / Осип Мандельштам; сост.
+                            О. А. Лекманова, М. А. Амелина, предисл. О. А. Лекманова, коммент.
+                            и библиогр. О. А. Лекманова, Е. А. Глуховской, А. А. Чабан. — М.: Ру-
+                            тения, <date>2017</date>. — 560 с., ил.</title>
+                        <author ref="#p_Mandelstam" xml:lang="ru">Осип Мандельштам</author>
                     </bibl>
                     <!-- non avendo i riferimenti precisi la segno così a utilità degli esempi -->
-                    <bibl type="work" xml:id="w_logica" sortKey="Logica">
-                        <title xml:lang="it">Logica</title>
-                        <title type="short" xml:lang="it">Logica</title>
-                        <author ref="#p_Avicenna" xml:lang="ar-Latn">Ibn Sīnā</author>
-                        <ref type="manifestation" target="#msAr #trLa"/>
+                    <bibl type="work" xml:id="w_gasparov" sortKey="Stihotvoreniya">
+                        <title xml:lang="ru"></title>
+                        <title type="short" xml:lang="ru">Стихотворения. Проза. Сост., вступ. ст. и коммент. М. Л. Гаспарова. М.: АСТ, Харьков: Фолио, 2001</title>
+                        <author ref="#p_Mandelstam" xml:lang="ru">Осип Мандельштам</author>
                     </bibl>
                 </listBibl>
                 <listBibl>
@@ -415,63 +564,40 @@
                         <author ref="#p_Mandelstam" xml:lang="ru">Осип Мандельштам</author>
                     </bibl>
                     <bibl xml:id="apollon">Мандельштам О. "Медлительнее снежный улей...". "Имею тело: что мне делать с ним...". "Истончается тонкий плен...". "Она еще не родилась...". "Невыразимая печаль..."
-                    <title>
-                            Аполлон</title>, 1910, № 9. С. </bibl>
+                        <title>Аполлон</title>, 1910, № 9. С. </bibl>
                     <bibl xml:id="hyperborey">Мандельштам О. "Отчего душа так певуча...". "Образ твой, мучительный и зыбкий...". "Сегодня дурной день...". "Я вздрагиваю от холода..."<title>Гиперборей. 1912. № 1 (октябрь).</title></bibl>
-                    <bibl xml:id="Afifi1956"><title>Al-Šifāʾ, al-Manṭiq, al-Burhān</title>, ed. by
-                            <editor>A. F. ʿAfīfī, Al-Maṭbaʿa al-amīriyya</editor>, Cairo 1956</bibl>
-                    <bibl xml:id="msAr">Manoscritto arabo</bibl>
-                    <bibl xml:id="trLa">Manoscritto arabo del traduttore latino</bibl>
-                    <bibl xml:id="CPT_PLD64"><author>An. Manl. Sev. Boetii</author>
-                        <title>Commentaria in Porphyrium a se translatum</title>, in
-                            <title>Patrologia latina. The full text database</title>, versione
-                        elettronica di <title>Patrologiae cursus completus. Series Latina</title>, a
-                        cura di <editor>Jacques-Paul Migne, ProQuest-CSA, 1996-2017, <ref
-                                target="http://pld.chadwyck.co.uk/">http://pld.chadwyck.co.uk/</ref>
-                        </editor>.</bibl>
-                    <bibl xml:id="ATT_PLD64"><title>Topicorum Aristoteli libri octo</title>,
-                            <author>An. Manl. Sev. Boetii</author> interprete, in <title>Patrologia
-                            latina. The full text database</title>, versione elettronica di
-                            <title>Patrologiae cursus completus. Series Latina</title>, a cura di
-                            <editor>Jacques-Paul Migne, ProQuest-CSA, 1996-2017, <ref
-                                target="http://pld.chadwyck.co.uk/">http://pld.chadwyck.co.uk/</ref>
-                        </editor>.</bibl>
-                    <!--Bibl entries added for testing purposes-->
-                    <bibl>
-                        <editor>ed. G. Roper</editor>
-                        <title>World Survey of Islamic Manuscripts</title>
-                        <pubPlace>London</pubPlace>
-                        <publisher>Al-Furqan Islamic Heritage Foundation</publisher>
-                        <date>1992-1994</date>
-                    </bibl>
-                    <bibl>
-                        <author>A. Q. Ahmed</author>
-                        <title level="j">“The Shifāʾ in India I: Reflections on the Evidence of the
-                            Manuscripts”</title>
-                        <title level="j">Oriens, 40</title>
-                        <date>2012</date>
-                    </bibl>
-                    <bibl>
-                        <author>J. J. Witkam</author>
-                        <title level="j"> “Avicenna’s Copyists at Work: Codicological Features of
-                            the Two Leiden Manuscripts of the Kitāb al-Shifāʾ”</title>
-                        <title level="j">Oriens, 40</title>
-                        <date>2012</date>
-                    </bibl>
-                    <bibl>
-                        <author>S. H. Rizvi,</author>
-                        <title level="a"> “Mīr Dāmād in India: Islamic Philosophical Traditions and
-                            the Problem of Creation”</title>
-                        <title level="j">Journal of the American Oriental Society</title>
-                        <date>2011</date>
-                    </bibl>
+                    <bibl xml:id="BibPoeta"><title>Мандельштам О. Стихотворения</title> / Сост. и примеч. <editor>Н. И. Харджиева</editor>.
+                        <pubPlace>Ленинград</pubPlace>, 1973 (Б-ка поэта. Больш. сер.).</bibl>
+                    <bibl xml:id="msAr">Архив Мандельштама</bibl>
                 </listBibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
+            <editorialDecl>
+                <correction>
+                    <p>No corrections have been made to the text; all typos and inconsistencies present in the original paper edition have been preserved.</p>
+                </correction>
+                <normalization>
+                    <p>The text has been transcribed without normalization; old Russian orthography from the original paper edition has been strictly followed.</p>
+                </normalization>
+                <segmentation>
+                    <p>The text's segmentation reflects the original paper edition, without additional divisions or restructuring.</p>
+                </segmentation>
+                <hyphenation>
+                    <p>The poetry in the original paper edition does not contain hyphens due to line breaks, and this convention has been maintained in the digital transcription.</p>
+                </hyphenation>
+            </editorialDecl>
             <variantEncoding method="parallel-segmentation" location="internal"/>
             <tagsDecl/>
         </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ru">Russian. The text uses old Russian orthography.</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-10" who="ML">Significant markup revisions and updates to align with latest TEI guidelines.</change>
+        </revisionDesc>        
     </teiHeader>
     <facsimile xml:id="VB_fac_DOTR">
         <surface corresp="#OM_kamen_1913_03" xml:id="OM_kamen_1913_03_surf">
