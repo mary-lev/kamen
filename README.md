@@ -12,7 +12,7 @@ This project [The Digital Stone](https://mary-lev.github.io/kamen/), built upon 
 ## Source Data
 - **First edition**: Камень. Петербург: Акмэ, 1913 (36 pp., Old Russian orthography)
 - **Second edition**: Камень. Петроград: Гиперборей, 1916 (90 pp., Old Russian orthography)
-- **Updated release**: Камень. М. — Пг.: ГИЗ, 1923 (96 pp., Modern Russian orthography)
+- **Third edition**: Камень. М. — Пг.: ГИЗ, 1923 (96 pp., Modern Russian orthography)
 - **Latest version**: Стихотворения. М.: Государственное издательство, 1928. (196 pp., Modern Russian orthography)
 - **Additional sources**: Press publications and archival manuscripts from Saint-Petersburg and Princeton libraries.
 
