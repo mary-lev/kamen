@@ -187,9 +187,10 @@
     "toolHeatMap": true,
 
     "versions": [
-        "rec2",
-        "rec1",
-        "rec3"
+        "K1",
+        "K2",
+        "K3",
+        "C"
     ],
 
     "listDef": "<listWit>, <listChange>",
@@ -246,7 +247,7 @@
         "showRotationControl": true,
         "showNavigator": true,
         "visibilityRatio": 1,
-        "defaultZoomLevel": 0.7,
+        "defaultZoomLevel": 0.5,
         "panHorizontal": true,
         "constrainDuringPan": true,
         "minZoomLevel": 0.7,
