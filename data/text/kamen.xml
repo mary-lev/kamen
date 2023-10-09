@@ -259,23 +259,41 @@
                     <listWit xml:id="rec1_wits" ana="#rec1" resp="#maria">
                         <head>Witnesses of version A</head>
                         <witness xml:id="P">Принстонский архив Мандельштама
-                                <settlement>https://findingaids.princeton.edu/catalog/C0539_c185</settlement>
-                        </witness>
-                        <witness xml:id="K2-Av">
                             <msDesc>
                                 <msIdentifier>
-                                    <settlement>?</settlement>
-                                    <repository>Список Аверьянова с автографом</repository>
-                                    <idno>ИРЛИ, ф. 428</idno>
+                                    <settlement>Princeton University Library</settlement>
+                                    <repository>Firestone Library (hsvm): Box 1</repository>
+                                    <collection>Osip Mandelʹshtam Papers, 1900s-1970s (mostly 1914-1937)</collection>
+                                    <idno>C0539</idno>
+                                    <altIdentifier>
+                                        <idno>https://findingaids.princeton.edu/catalog/C0539_c185</idno>
+                                    </altIdentifier>
+                                    
                                 </msIdentifier>
                             </msDesc>
                         </witness>
-                        <witness xml:id="AM"> </witness>
-                        <witness xml:id="AMa"> </witness>
-                        <witness xml:id="AMb"> </witness>
-                        <witness xml:id="IRLI"> </witness>
-                        <witness xml:id="G">Гиперборей</witness>
-                        <witness xml:id="BP">Библиотека поэта</witness>
+                        <witness xml:id="K2-Av">Список Аверьянова с автографом
+                            <msDesc>
+                                <msIdentifier>
+                                    <settlement>ИРЛИ</settlement>
+                                    <repository>Ф. 428</repository>
+                                </msIdentifier>
+                            </msDesc>
+                        </witness>
+                        <witness xml:id="AM">Архив Мандельштама</witness>
+                        <witness xml:id="AMa">Архив Мандельштама. Беловой автограф (по Камень-1990)</witness>
+                        <witness xml:id="AMb">Архив Мандельштама. Беловой автограф 2 (по Камень-1990)</witness>
+                        <witness xml:id="IRLI">Автограф</witness>
+                        <witness xml:id="G"><bibl>
+                            <title>Гиперборей</title>
+                            <date>1912</date>
+                            <biblScope>№ 10 (октябрь).</biblScope>
+                        </bibl></witness>
+                        <witness xml:id="BP">
+                            <bibl><title>Мандельштам О. Стихотворения</title> / Сост. и
+                                примеч. <editor>Н. И. Харджиева</editor>. <pubPlace>Ленинград</pubPlace>,
+                                1973 (Б-ка поэта. Больш. сер.).</bibl>
+                        </witness>
                         <witness xml:id="A">
                             <bibl>
                                 <title>Аполлон</title>
@@ -915,11 +933,7 @@
     </facsimile>
     <!--END OF TEIHEADER-->
     <!--BEGINNING OF TEXT-->
-    <text>
-        <front>
-
-            
-            </front>
+    <text type="Stone">
         <group>
             <text type="Cover">
                 <body>
