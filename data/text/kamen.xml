@@ -1082,6 +1082,7 @@
                                 label="c">нуть</rhyme>. 
                             <pb ed="#K1" n="K1_Dyhanie"/>
                             <pb ed="#K2" n="K2_Dano_mne_telo"/>
+                            <pb ed="#K3" n="K3_009"/>
                             <pb ed="#C" n="C_011"/>
                         </l>
                     </div>
@@ -1299,7 +1300,8 @@
                         <pb ed="#P" n="Princeton_Silentium"/>
                         <pb ed="#K1" n="K1_Silentium"/>
                         <pb ed="#K2" n="K2_Silentium"/>
-                        <pb ed="#C" n="C_0017"/>
+                        <pb ed="#K3" n="K3_015"/>
+                        <pb ed="#C" n="C_017"/>
                     </div>
                     <!--End of first Div-->
                 </body>
@@ -1368,6 +1370,7 @@
                         </l>
                         <pb ed="#K1" n="K1_Nevyrazimaya_pechal"/>
                         <pb ed="#K2" n="K2_Nevyrazimaya_pechal"/>
+                        <pb ed="#K3" n="K3_010"/>
                         <pb ed="#C" n="C_012"/>
                     </div>
                 </body>
@@ -1460,6 +1463,7 @@
                         <pb ed="#P" n="Princeton-Medlitelnee_snezhnyj_uley"/>
                         <pb ed="#K1" n="K1_Medlitelnee"/>
                         <pb ed="#K2" n="K2_Medlitelnee"/>
+                        <pb ed="#K3" n="K3_014"/>
                         <pb ed="#C" n="C_016"/>
                         
                     </div>
@@ -1525,6 +1529,7 @@
                                 label="a">тишина</rhyme>?</l>
                         <pb ed="#K1" n="K1_Smutno-dyshaschimi"/>
                         <pb ed="#K2" n="K2_Smutno-dyshaschimi"/>
+                        <pb ed="#K3" n="K3_022"/>
                         <pb ed="#C" n="C_026"/>
                     </div>
                 </body>
@@ -1598,6 +1603,7 @@
                                 xml:id="OM_kamen_lb_1913_08_16"/>И дѣйствительно смерть <rhyme label="a">придетъ</rhyme>?</l>
                         <pb ed="#K1" n="K1_Otchego_dusha"/>
                         <pb ed="#K2" n="K2_Otchego_dusha"/>
+                        <pb ed="#K3" n="K3_023"/>
                         <pb ed="#C" n="C_027"/>
                     </div>
                 </body>
@@ -1660,6 +1666,7 @@
                                 xml:id="OM_kamen_lb_1913_09_16"/>Туманомъ, вѣтромъ и <rhyme label="a">дождемъ</rhyme>...</l>
                         <pb ed="#K1" n="K1_Rakovina"/>
                         <pb ed="#K2" n="K2_030"/>
+                        <pb ed="#K3" n="K3_024"/>
                         <pb ed="#C" n="C_028"/>
                     </div>
                 </body>
@@ -1733,6 +1740,7 @@
                                 label="a">перезвонъ</rhyme>...</l>
                         <pb ed="#K1" n="K1_10"/>
                         <pb ed="#K2" n="K2_025"/>
+                        <pb ed="#K3" n="K3_019"/>
                         <pb ed="#C" n="C_023"/>
                     </div>
                 </body>
@@ -1774,6 +1782,7 @@
                                 label="a">позади</rhyme>...</l>
                         <pb ed="#K1" n="K1_11"/>
                         <pb ed="#K2" n="K2_034"/>
+                        <pb ed="#K3" n="K3_028"/>
                         <pb ed="#C" n="C_032"/>
                     </div>
                 </body>
@@ -1946,6 +1955,7 @@
                             label="a">къ намъ</rhyme>... </l>
                         <pb ed="#K1" n="K1_14"/>
                         <pb ed="#K2" n="K2_027"/>
+                        <pb ed="#K3" n="K3_021"/>
                         <pb ed="#C" n="C_025"/>
                     </div>
                 </body>
@@ -2082,6 +2092,7 @@
                         </l>
                         <pb ed="#K1" n="K1_16"/>
                         <pb ed="#K2" n="K2_031"/>
+                        <pb ed="#K3" n="K3_029"/>
                         <pb ed="#C" n="C_033"/>
                     </div>
                 </body>
@@ -2155,6 +2166,7 @@
                                 label="a">боюсь</rhyme>...</l>
                         <pb ed="#K1" n="K1_17"/>
                         <pb ed="#K2" n="K2_029"/>
+                        <pb ed="#K3" n="K3_027"/>
                         <pb ed="#C" n="C_031"/>
                     </div>
                 </body>
@@ -2229,6 +2241,7 @@
                                 label="a">крылатой</rhyme>!</l>
                         <pb ed="#K1" n="K1_18"/>
                         <pb ed="#K2" n="K2_033"/>
+                        <pb ed="#K3" n="K3_031"/>
                         <pb ed="#C" n="C_035"/>
                     </div>
                 </body>
@@ -2653,6 +2666,7 @@
                         <pb ed="#K1" n="K1_22"/>
                         <pb ed="#K2" n="K2_037"/>
                         <pb ed="#K2" n="K2_038"/>
+                        <pb ed="#K3" n="K3_032"/>
                         <pb ed="#C" n="C_036"/>
                         <pb ed="#C" n="C_037"/>
                     </div>
@@ -2770,6 +2784,8 @@
                         <pb ed="#K1" n="K1_24"/>
                         <pb ed="#K2" n="K2_044"/>
                         <pb ed="#K2" n="K2_045"/>
+                        <pb ed="#K3" n="K3_037"/>
+                        <pb ed="#K3" n="K3_038"/>
                         <pb ed="#C" n="C_043"/>
                         <pb ed="#C" n="C_044"/>
                     </div>
@@ -2889,6 +2905,8 @@
                         <pb ed="#K1" n="K1_26"/>
                         <pb ed="#K2" n="K2_046"/>
                         <pb ed="#K2" n="K2_047"/>
+                        <pb ed="#K3" n="K3_039"/>
+                        <pb ed="#K3" n="K3_040"/>
                         <pb ed="#C" n="C_045"/>
                         <pb ed="#C" n="C_046"/>
                     </div>
@@ -3000,6 +3018,7 @@
                         <pb ed="#K1" n="K1_27"/>
                         <pb ed="#K1" n="K1_28"/>
                         <pb ed="#K2" n="K2_048"/>
+                        <pb ed="#K3" n="K3_041"/>
                         <pb ed="#C" n="C_048"/>
                     </div>
                 </body>
@@ -3114,6 +3133,8 @@
                         <pb ed="#K1" n="K1_30"/>
                         <pb ed="#K2" n="K2_039"/>
                         <pb ed="#K2" n="K2_040"/>
+                        <pb ed="#K3" n="K3_033"/>
+                        <pb ed="#K3" n="K3_034"/>
                         <pb ed="#C" n="C_038"/>
                         <pb ed="#C" n="C_039"/>
                     </div>
@@ -3219,6 +3240,7 @@
                         <pb ed="#K1" n="K1_32"/>
                         <pb ed="#K2" n="K2_041"/>
                         <pb ed="#K2" n="K2_042"/>
+                        <pb ed="#K3" n="K3_035"/>
                         <pb ed="#C" n="C_040"/>
                         <pb ed="#C" n="C_041"/>
                     </div>
@@ -3315,6 +3337,7 @@
                         <pb ed="#P" n="Princeton_Notre_Dame"/>
                         <pb ed="#K1" n="K1_33"/>
                         <pb ed="#K2" n="K2_043"/>
+                        <pb ed="#K3" n="K3_036"/>
                         <pb ed="#C" n="C_042"/>
                     </div>
                 </body>
