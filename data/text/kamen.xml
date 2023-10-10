@@ -304,6 +304,50 @@
                     </listWit>
                 </listWit>
                 <listPerson>
+                    <person xml:id="p_Mandelstam" sameAs="http://dbpedia.org/resource/Osip_Mandelstam">
+                        <persName xml:lang="en">Osip Emilyevich Mandelstam</persName>
+                        <persName xml:lang="ru">Осип Эмильевич Мандельштам</persName>
+                        <persName xml:lang="it">Osip Ėmil'evič Mandel'štam</persName>
+                        <idno type="VIAF">https://viaf.org/viaf/102337271/</idno>
+                        <birth when="1891-01-02">
+                            <placeName>Warsaw, Congress Poland, Russian Empire</placeName>
+                        </birth>
+                        <death when="1938-12-27">
+                            <placeName>Vtoraya Rechka transit camp, near Vladivostok, Russia, USSR</placeName>
+                        </death>
+                        <affiliation>
+                            <listRef>
+                                <ref>
+                                    <orgName>Tenishev School</orgName>
+                                    <address>
+                                        <addrLine>St. Petersburg, Russia</addrLine>
+                                    </address>
+                                    <date>1900-1907</date>
+                                </ref>
+                                <ref>
+                                    <orgName>Sorbonne</orgName>
+                                    <address>
+                                        <addrLine>Paris, France</addrLine>
+                                    </address>
+                                    <date>1908-1909</date>
+                                </ref>
+                                <ref>
+                                    <orgName>University of Heidelberg</orgName>
+                                    <address>
+                                        <addrLine>Heidelberg, Germany</addrLine>
+                                    </address>
+                                    <date>1909-1911</date>
+                                </ref>
+                                <ref>
+                                    <orgName>University of Saint Petersburg</orgName>
+                                    <address>
+                                        <addrLine>Saint Petersburg, Russia</addrLine>
+                                    </address>
+                                    <date>1911-1917</date>
+                                </ref>
+                            </listRef>
+                        </affiliation>
+                    </person>
                     <person xml:id="p_aquilon" sameAs="http://dbpedia.org/resource/Aquilon">
                         <persName xml:lang="en">Aquilon</persName>
                         <persName xml:lang="ru">Аквилон</persName>
