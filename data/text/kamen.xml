@@ -620,7 +620,6 @@
                             Чабан. — М.: Ру- тения, <date>2017</date>. — 560 с., ил.</title>
                         <author ref="#p_Mandelstam" xml:lang="ru">Осип Мандельштам</author>
                     </bibl>
-                    <!-- non avendo i riferimenti precisi la segno così a utilità degli esempi -->
                     <bibl type="work" xml:id="w_gasparov" sortKey="Stihotvoreniya">
                         <title xml:lang="ru"/>
                         <title type="short" xml:lang="ru">Стихотворения. Проза. Сост., вступ. ст. и
