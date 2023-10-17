@@ -63,7 +63,7 @@
     ],
 
     "defaultEdition": "critical",
-    "showEditionLevelSelector": true,
+    "showEditionLevelSelector": false,
     "availableEditionLevel": [
         {
             "value": "critical",
@@ -89,7 +89,7 @@
     "enableNavBar": true,
     "initNavBarOpened": true,
     "thumbnailsButton": true,
-    "viscollButton": true,
+    "viscollButton": false,
 
     "toolPinAppEntries": true,
     "toolImageTextLinking": true,
@@ -115,18 +115,6 @@
     ],
     "otherEntitiesToHandle": [
         {
-            "tagName": "rolename",
-            "label": "Role Name",
-            "available": false,
-            "color": "#cfc"
-        },
-        {
-            "tagName": "measure",
-            "label": "Measure",
-            "available": false,
-            "color": "#ffecb3"
-        },
-        {
             "tagName": "rhyme",
             "label": "Rhymes",
             "available": true,
@@ -134,7 +122,7 @@
         }
     ],
 
-    "preferredWitness": "",
+    "preferredWitness": "K1",
     "skipWitnesses": "",
     "maxWitsLoadTogether": 5,
 
