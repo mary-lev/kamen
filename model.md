@@ -1,4 +1,4 @@
-# Table of Contents
+# TEI Model
 0. [Sources](#0-sources)
 1. [Content](#1-content)
 2. [Structure Overview](#2-structure-overview)
