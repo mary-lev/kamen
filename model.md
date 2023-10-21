@@ -7,7 +7,7 @@
 5. [Metadata](#5-metadata-section)
 6. [Semantic markup](#6-semantic-markup)
 
-# 0. Sources
+# 0 Sources
 
     - Мандельштам О. Камень. Санкт-Петербург: Акме, 1913.
     - Мандельштам О. Камень. Петроград: Гиперборей, 1916.
@@ -20,7 +20,7 @@
     - ИРЛИ. Ф. 428.
 
 
-# 1. Content
+# 1 Content
     - ДЫХАНІЕ ("Дано мнѣ тѣло — что мнѣ дѣлать съ нимъ...")
     - SILENTIUM ("Она еще не родилась...")
     - "Невыразимая печаль..."
@@ -46,7 +46,7 @@
     - NOTRE DAME (" Гдѣ римскій судія судилъ чужой народъ...")
 
 
-# 2. Structure Overview
+# 2 Structure Overview
 
 ## 2.1 Basic Structure of a Book
 
@@ -128,11 +128,13 @@ Example:
 
 In this example, the n attribute indicates that the image file for this page is named "K1_12" (without extension), and the ed attribute indicates that this page belongs to the edition identified by "#K1".
 
-# 3. Structural features
+# 3 Structural features
 
-## 3.1. Verses
+## 3.1 Verses
 
-Here is a verse `</l>`
+```xml
+<l>Here is a verse</l>
+```
 
 ## 2.2 Stanzas and other grouping of verses
 
@@ -184,13 +186,13 @@ Example:
 <l n="1">
   <lb/>Она еще не <rhyme label="a">родилась</rhyme>
   <app>
-    <lem wit="#K1 #K2 #K3 #C">,</lem>
+    <lem wit="#K1 #K2 #K3 #C #BP">,</lem>
     <rdg type="subs" wit="#A">—</rdg>
   </app>
 </l>
 ```
 
-In this example, the lemma "SILENTIUM" is supported by witnesses #K1, #K2, #K3, #C, and #BP. A different reading "XIII" is supported by witness P. There is also a reading that is omitted (om) in witness #A.
+In this example, the lemma "SILENTIUM" is supported by witnesses `#K1`, `#K2`, `#K3`, `#C`, and `#BP`. A different reading "XIII" is supported by witness `P`. There is also a reading that is omitted (`om`) in witness `#A`.
 
 ## 4.2 Facsimile Markup for Text-Image Alignment
 
@@ -210,7 +212,7 @@ This section is crucial for linking the digital text to its corresponding physic
     - `xml:id`: Unique identifier for each zone.
     - `lry`, `lrx`, `uly`, `ulx`: These attributes define the coordinates of the bottom right and upper left corners of each line or "zone" in the image.
     - `rendition`, `rend`: Specifies the visual characteristics, like visibility.
-    - `corresp`: Links the zone to a specific line in the text.
+    - `corresp`: Links the `zone` to a specific `line` in the text.
 
 In the text, the attribute `facs` is used to reference a specific zone in the image, thereby aligning the digital text with its visual representation. The `app` and `lem` elements further enrich this alignment by capturing textual variations.
 
