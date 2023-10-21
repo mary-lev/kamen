@@ -1,4 +1,5 @@
-# The Digital Stone ![version](https://img.shields.io/badge/version-0.0.1-blue.svg)
+# The Digital Stone ![version](https://img.shields.io/badge/version-0.0.1-blue.svg) ![Static Badge](https://img.shields.io/badge/tei-validated-green)
+
 
 ## Project Overview
 This project [The Digital Stone](https://mary-lev.github.io/kamen/), built upon the [EVT (Edition Visualization Technology)](http://evt.labcd.unipi.it/) framework, is designed to aggregate and compare all available versions of the poems from Osip Mandelstam's book "Камень / The Stone." The primary objective is to accurately visualize textual differences across multiple editions, down to the most granular changes.
