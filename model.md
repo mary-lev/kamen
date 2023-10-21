@@ -1,7 +1,7 @@
 # Table of Contents
 0. [Sources](#0-sources)
 1. [Content](#1-content)
-2. [Structure overview](#2-structure-overview)
+2. [Structure Overview](#2-structure-overview)
 3. [Structual features](#3-structural-features)
 4. [Inline markup and transcriptional features](#4-inline-markup-and-transcriptional-features)
 5. [Metadata](#5-metadata-section)
@@ -46,11 +46,11 @@
     - NOTRE DAME (" Гдѣ римскій судія судилъ чужой народъ...")
 
 
-# 2. Structure overview
+# 2. Structure Overview
 
 ## 2.1 Basic Structure of a Book
 
-This TEI model based on http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng is designed for encoding books and includes different versions of the text within a single XML file. 
+This TEI model based on http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng is designed for encoding books and includes different text versions within a single XML file. 
 
 ```xml
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="book_identifier">
@@ -77,18 +77,18 @@ This TEI model based on http://www.tei-c.org/release/xml/tei/custom/schema/relax
 
 ## 2.2 Texts Within a Book
 
-The `<group>` element wraps around multiple `<text>` elements, each having a type attribute to indicate the name of the text. Each `<text>` element contains a `<body>` that holds the actual content.
+The `<group>` element wraps around multiple `<text>` elements, each having a type attribute to indicate the name of the text. Each `<text>` element includes a `<body>` that contains the actual content.
 
 ## 2.3 Book Physical Boundaries
 ### 2.4.1 Line Breaks
-In the context of this digital edition of a book of poems, the `<lb/>` element is used to indicate line breaks in the original source text.
-- General Rule: Each poetic line in the original source is followed by an `<lb/>` element.
+In the context of this digital edition of a book of poems, the `<lb/>` element is used to indicate line breaks in the source text.
+- General Rule: Each poetic line in the source is followed by an `<lb/>` element.
 ```xml
     <l n="1"><lb xml:id="line_break_1"/>The first line of the poem.</l>
     <l n="2"><lb xml:id="line_break_2"/>The second line of the poem.<l>
 ```
 
-- End of Page: At the end of a page, the `<lb/>` element is not used.
+- End of Page: The `<lb/>` element is not used at the end of a page.
 - No Hyphens: Hyphenation marks are not applicable in this context.
 
 ### 2.4.2 Page Divisions
@@ -119,7 +119,7 @@ For example:
 Page breaks are encoded using the `<pb/>` tag.
 Attributes:
 
-- `n`: This mandatory attribute contains the file name of the image that represents the page, excluding the file extension.
+- `n`: This mandatory attribute contains the image's file name that represents the page, excluding the file extension.
 - `ed`: This optional attribute specifies the edition to which the represented page belongs.
 
 Example:
@@ -157,7 +157,7 @@ Example:
     <l n="2"><lb xml:id="OM_kamen_lb_1913_03_02"/>Такимъ единымъ и такимъ <rhyme label="a">моимъ</rhyme>?</l>
 ```
 
-In this example, the words "съ нимъ" and "моимъ" are marked as rhyming words and are both labeled with "a" to indicate that they form a rhyme pair.
+In this example, the words "съ нимъ" and "моимъ" are marked as rhyming words and are both labeled with "a" to indicate that they form a rhyming pair.
 
 # 4. Inline markup and transcriptional features
 ## 4.1 Encoding of Witnesses
@@ -212,7 +212,7 @@ This section is crucial for linking the digital text to its corresponding physic
     - `rendition`, `rend`: Specifies the visual characteristics, like visibility.
     - `corresp`: Links the zone to a specific line in the text.
 
-In the text, the attribute facs is used to reference a specific zone in the image, thereby aligning the digital text with its visual representation. The app and lem elements further enrich this alignment by capturing textual variations.
+In the text, the attribute `facs` is used to reference a specific zone in the image, thereby aligning the digital text with its visual representation. The `app` and `lem` elements further enrich this alignment by capturing textual variations.
 
 Example facsimile markup:
 ```xml
@@ -228,7 +228,7 @@ Example text markup:
 
 The metadata section is enclosed within the `<teiHeader>` element and consists of several sub-elements that describe the document and its creation details.
 
-## 5.1 Publication statement
+## 5.1 Publication Statement
 - `fileDesc`: This is the file description container.
 
 - `titleStmt`: Statement of responsibility for the digital edition.
@@ -236,13 +236,13 @@ The metadata section is enclosed within the `<teiHeader>` element and consists o
     - `author`: The author of the original work, represented in different languages (`xml:lang` attribute).
     - `respStmt`: Statement of editorial responsibility.
     - `resp`: Specifies the type of responsibility.
-    - `name`: The name of the person responsible, with an xml:id attribute.
+    - `name`: The name of the person responsible, with an `xml:id` attribute.
 
 - `editionStmt`: Edition statement.
     - `edition`: Description of the edition and its goals.
     - `note`: Additional notes about the project.
     - `date`: Publication date of the digital edition.
-    - `interpGrp`: Group of interpretative notes. Each interp element has an `xml:id` attribute for identification and contains textual content explaining the source.
+    - `interpGrp`: Group of interpretative notes. Each `interp` element has an `xml:id` attribute for identification and contains textual content explaining the source.
   - `extent`: Describes the size of the digital file (in kilobytes).
 
 - `publicationStmt`: This is the publication statement.
@@ -250,8 +250,6 @@ The metadata section is enclosed within the `<teiHeader>` element and consists o
     - `date`: The year of publication.
     - `availability`: Availability status of the digital edition. Text specifying the license and usage permissions.
     - `ref`: Link to the license (Creative Commons Attribution 4.0 International License in this example).
-
-Each element may have additional attributes to further specify the information.
 
 ## 5.2 Source Description Section
 
@@ -266,7 +264,7 @@ The `sourceDesc` element contains a detailed description of the sources being re
         - `idno`: The specific identification number for the book.
 
     - `msContents`: Information about the contents.
-        - `summary`: A brief summary of the book's significance and its various editions.
+        - `summary`: A summary of the book's significance and various editions.
         - `textLang`: Information about the language of the text.
         - `msItem`: Detailed list of individual poems.
         - `locus`: Specifies the location (usually page numbers).
@@ -278,7 +276,7 @@ The `sourceDesc` element contains a detailed description of the sources being re
         - `support`: Description of the material and binding.
         - `extent`: Number of leaves and dimensions.
     - `layoutDesc`: Layout description.
-        - `layout`: Specifies the layout, like the number of columns.
+        - `layout`: Specifies the design, like the number of columns.
 
     - `history`: Historical context.
         - `origin`: Initial publication information.
@@ -286,10 +284,10 @@ The `sourceDesc` element contains a detailed description of the sources being re
 
 ### 5.2.2 Witnesses description
 The `listWit` element contains a list of witnesses for a particular version of the text. It is identified by `xml:id` and `ana` attributes, and the responsible party is indicated by the `resp` attribute.
-- `head`: The head element provides a title for the list, specifying that these are "Witnesses of version A."
+- `head`: The head element provides a title for the list.
 - `witness`: The witness element describes individual witnesses.
     - `xml:id`: Identifier for this witness.
-    - Text Content: A textual description or name of the witness, in this case, "Принстонский архив Мандельштама" (Princeton Archive of Mandelstam).
+    - Text Content: A textual description or name of the witness.
 - `msDesc`: Similar to the earlier msDesc, but nested within witness. Provides additional details specific to this witness:
     - `msIdentifier`
         - `settlement`: Specifies where the book or manuscript is located, here it's "Princeton University Library."
@@ -298,29 +296,48 @@ The `listWit` element contains a list of witnesses for a particular version of t
         - `idno`: Identification number, "C0539."
         - `altIdentifier`: Alternate identification, such as a URL.
 
-This section is useful for tracing the provenance and location of specific versions or witnesses of the text.
+Example:
+```xml
+<listWit xml:id="rec1_wits" ana="#rec1">
+    <head>Witnesses of version A</head>
+    <witness xml:id="P">Принстонский архив Мандельштама
+        <msDesc>
+            <msIdentifier>
+                <settlement>Princeton University Library</settlement>
+                <repository>Firestone Library (hsvm): Box 1</repository>
+                <collection>Osip Mandelʹshtam Papers, 1900s-1970s (mostly 1914-1937)</collection>
+                <idno>C0539</idno>
+                <altIdentifier>
+                    <idno>https://findingaids.princeton.edu/catalog/C0539_c185</idno>
+                </altIdentifier>
+            </msIdentifier>
+        </msDesc>
+    </witness>
+</listWit>
+```
+This section helps trace the provenance and location of specific versions or witnesses of the text.
 
 ### 5.2.3 Encoding information
 - `encodingDesc`: This section defines the guidelines and principles followed in the digital encoding of the text.
   - `editorialDecl`: Specifies editorial practices applied to the text:
-      - `correction`: Indicates that no corrections have been made to typos or inconsistencies in the original paper edition.
+      - `correction`: Indicates that no modifications have been made to typos or inconsistencies in the original paper edition.
       - `normalization`: States that the text is transcribed without normalization, preserving the old Russian orthography.
       - `segmentation`: Describes how the text is segmented, stating it follows the original paper layout without additional divisions.
       - `hyphenation`: Specifies that the original paper edition's poetry did not contain hyphens due to line breaks, and this convention is maintained in the digital version.
 
-  Each of these elements contains a `<p>` tag with a detailed description of the editorial practice.
+  Each element contains a `<p>` tag with a detailed description of the editorial practice.
   - `variantEncoding`
       - `method`: Describes the encoding method used for textual variants, which is "parallel-segmentation" in this case.
       - `location`: Indicates where the variant text is located, which is "internal" here. This means that all variants are encoded within the same file or document.
 
-  The `encodingDesc` provides critical meta-information that helps users understand the editorial choices made during the digital transcription process.
+  The `encodingDesc` provides critical meta-information that helps users understand the editorial choices made during the digital transcription.
 
 - `profileDesc`: This section contains contextual information about the text.
     - `langUsage`
         - `language`: Specifies the language of the text, which is Russian in this case. It also notes that the text uses old Russian orthography.
 
 - `revisionDesc` Section: This section logs changes made to the document:
-    - `change`: Describes a significant revision made to the markup to align it with the latest TEI guidelines.
+    - `change`: Describes a significant revision to align the markup with the latest TEI guidelines.
     - `when`: Indicates the date of the change, which is October 2023.
     - `who`: Specifies who made the change, denoted by the initials "ML".
 
@@ -328,11 +345,11 @@ This section is useful for tracing the provenance and location of specific versi
 
 # 6 Semantic markup
 ## 6.1 List of persons
-This section is designed to semantically annotate persons mentioned in the text.
+This section is designed to annotate persons mentioned in the text semantically.
 - `person`
     - `xml:id`: Unique identifier for the person.
     - `sameAs`: Provides a reference to an external database, in this case, DBpedia.
-    - `persName`: Lists the name of the person in different languages (English, Russian, Italian).
+    - `persName`: Lists the person's name in different languages (English, Russian, Italian).
     - `idno`: Provides an identifier from an external authority (VIAF).
     - `birth` and `death`: Specifies the birth and death dates and places.
         `when`: Date of the event.

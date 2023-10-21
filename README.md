@@ -9,6 +9,11 @@ This project [The Digital Stone](https://mary-lev.github.io/kamen/), built upon 
 ## Framework
 - **EVT (Edition Visualization Technology)**: A foundational choice for its adaptability and efficiency in visualizing scholarly digital editions. EVT ensures a smooth user experience complemented by advanced textual comparison tools.
 
+## TEI model
+This project’s TEI model, based on http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng, is designed for encoding books and includes different text versions within a single XML file. 
+
+[The detailed description of TEI model](model.md)
+
 ## Source Data
 - **First edition**: Камень. Петербург: Акмэ, 1913 (36 pp., Old Russian orthography)
 - **Second edition**: Камень. Петроград: Гиперборей, 1916 (90 pp., Old Russian orthography)
