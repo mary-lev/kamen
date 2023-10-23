@@ -1,0 +1,54 @@
+<group>
+<!-- Variant 1: naive -->
+<text xml:id="example_1">
+    <div type="original" xml:lang="ru">
+        <p>Она еще не родилась,</p>
+    </div>
+    <div type="translation" xml:lang="it" resp="Poggioli ">
+        <p>Lei dal suo mare non è ancora nata,</p>
+    </div>
+</text>
+
+<!-- Variant 2: <variantEncoding method='double-end-point' location='external'> -->
+<text>
+    <body>
+    <l n="1" id="K102.1">Она <anchor id="a1.1"/>еще не родилась,</l>
+    <l n="2" id="K102.2">Она — и музыка и <anchor id="a2.1"/>слово,</l>
+    <l n="3" id="K102.3">И потому <anchor id="a3.1"/>всего живого</l>
+    <l n="4" id="k102.4">Ненарушаемая <anchor id="a4.1"/>связь.</l>
+
+    <!-- Translation -->
+    <l n="1"><app to="a1.1">Lei</app> dal suo mare <app from="a1.1">non è ancora nata,</app></l>
+    <l n="2"><app to="a2.1">lei è musica ed è</app> insieme <app from="a2.1">parola;</app></l>
+    <l n="3">è <app from="a4.1">il legame</app> <app to="a4.1">che mai si potrà sciogliere</app></l>
+    <l n="4"><app from="a3.1">fra tutto ciò che vive</app> nel creato.</l>
+</body>
+</text>
+
+<!-- Variant 3: <variantEncoding method='location-referenced' location='external'> -->
+    <text>
+        <body>
+          <div xml:id="silentium">
+            <l xml:id="s-n1" target="mandelstam/silentium.xml#s_10001" targetEnd="mandelstam/silentium.xml#s_10004">Lei dal suo mare non è ancora nata,</l>
+            <l xml:id="s-n2" target="mandelstam/silentium.xml#s_10005" targetEnd="mandelstam/silentium.xml#s_10009">lei è musica ed è insieme parola;</l>
+            <l xml:id="s-n3" target="mandelstam/silentium.xml#s_10010" targetEnd="mandelstam/silentium.xml#s_10013">è il legame che mai si potrà sciogliere</l>
+            <l xml:id="s-n4" target="mandelstam/silentium.xml#s_10014" targetEnd="mandelstam/silentium.xml#s_10015">fra tutto ciò che vive nel creato.</l>
+    
+            <l xml:id="s-n5" target="mandelstam/silentium.xml#s_10016" targetEnd="mandelstam/silentium.xml#s_10019">Respirano calmi i seni delle onde,</l>
+            <l xml:id="s-n6" target="mandelstam/silentium.xml#s_10020" targetEnd="mandelstam/silentium.xml#s_10024">ma un chiarore impazzito il giorno illumina,</l>
+            <l xml:id="s-n7" target="mandelstam/silentium.xml#s_10025" targetEnd="mandelstam/silentium.xml#s_10028">e stanno i lillà scialbi della schiuma</l>
+            <l xml:id="s-n8" target="mandelstam/silentium.xml#s_10029" targetEnd="mandelstam/silentium.xml#s_10031">dentro un vaso color celeste-nero.</l>
+    
+            <l xml:id="s-n9" target="mandelstam/silentium.xml#s_10032" targetEnd="mandelstam/silentium.xml#s_10035">Ritrovino le mie labbra, recuperino</l>
+            <l xml:id="s-n10" target="mandelstam/silentium.xml#s_10036" targetEnd="mandelstam/silentium.xml#s_10037">la mutezza lontana, primordiale,</l>
+            <l xml:id="s-n11" target="mandelstam/silentium.xml#s_10038" targetEnd="mandelstam/silentium.xml#s_10040">simile a una nota di cristallo</l>
+            <l xml:id="s-n12" target="mandelstam/silentium.xml#s_10041" targetEnd="mandelstam/silentium.xml#s_10044">che vibra, fin dal suo nascere, pura!</l>
+    
+            <l xml:id="s-n13" target="mandelstam/silentium.xml#s_10045" targetEnd="mandelstam/silentium.xml#s_10047">Rimani quel che sei – schiuma, o Afrodite,</l>
+            <l xml:id="s-n14" target="mandelstam/silentium.xml#s_10048" targetEnd="mandelstam/silentium.xml#s_10052">tu, parola, rifluisci in musica,</l>
+            <l xml:id="s-n15" target="mandelstam/silentium.xml#s_10053" targetEnd="mandelstam/silentium.xml#s_10056">vergognati del cuore, o cuore, fuso</l>
+            <l xml:id="s-n16" target="mandelstam/silentium.xml#s_10057" targetEnd="mandelstam/silentium.xml#s_10060">con l’elemento primo della vita!</l>
+          </div>
+        </body>
+      </text>
+</group>
