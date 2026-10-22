@@ -6,7 +6,7 @@
     "dataUrl": "data/text/kamen.xml",
     "sourcesUrl": "",
     "analoguesUrl": "",
-    "sourcesTextsUrl": "data/text/sources/",
+    "sourcesTextsUrl": "",
     "singleImagesUrl": "data/images/single/",
     "enableXMLdownload": true,
     
@@ -52,7 +52,7 @@
             "label": "SOURCE_TEXT",
             "icon": "mode-srcTxt",
             "viewMode": "srcTxt",
-            "visible": true
+            "visible": false
         },
         {
             "label"    : "3DHOP",

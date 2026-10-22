@@ -172,27 +172,28 @@ Attributes:
 Child Elements:
 
 - `<lem>`: The lemma, or the "original" reading, which is accompanied by wit attributes listing the witnesses that support this reading. For example, `<lem wit="#K1 #K2 #K3 #C #BP">SILENTIUM</lem>`.
-- `<rdg>`: Stands for "reading" and represents a variant reading. It also has a wit attribute listing the witnesses that support this reading. Optional attributes like type and cause can be used to specify the nature of the variant. For example, `<rdg wit="P">XIII</rdg> or <rdg cause="om" wit="#A"/>`.
+- `<rdg>`: Stands for "reading" and represents a variant reading. It also has a wit attribute listing the witnesses that support this reading. Optional attributes like type and cause can be used to specify the nature of the variant. For example, `<rdg wit="#P">XIII</rdg>` or `<rdg cause="om" wit="#A"/>`.
 
 Example:
 ```xml
 <head>
   <app resp="#maria">
     <lem wit="#K1 #K2 #K3 #C #BP">SILENTIUM</lem>
-    <rdg wit="P">XIII</rdg>
+    <rdg wit="#P">XIII</rdg>
     <rdg cause="om" wit="#A"/>
   </app>
 </head>
 <l n="1">
-  <lb/>Она еще не <rhyme label="a">родилась</rhyme>
-  <app>
-    <lem wit="#K1 #K2 #K3 #C #BP">,</lem>
-    <rdg type="subs" wit="#A">—</rdg>
+  <lb/>Она еще не <rhyme label="a">родилась</rhyme><app>
+    <lem wit="#K1 #K2 #K3 #C">,</lem>
+    <rdg type="subs" wit="#A"> —</rdg>
   </app>
 </l>
 ```
 
-In this example, the lemma "SILENTIUM" is supported by witnesses `#K1`, `#K2`, `#K3`, `#C`, and `#BP`. A different reading "XIII" is supported by witness `P`. There is also a reading that is omitted (`om`) in witness `#A`.
+In this example, the lemma "SILENTIUM" is supported by witnesses `#K1`, `#K2`, `#K3`, `#C`, and `#BP`. A different reading "XIII" is supported by witness `#P`. There is also a reading that is omitted (`om`) in witness `#A`.
+
+Whitespace is rendered exactly as encoded. Put no whitespace (not even a line break) between a word and an `<app>` whose readings are punctuation, otherwise the site shows a gap («родилась ,»). If a reading needs a space before it, as a dash does, put the space inside that reading: `<rdg wit="#A"> —</rdg>`.
 
 ## 4.2 Facsimile Markup for Text-Image Alignment
 
@@ -300,8 +301,8 @@ The `listWit` element contains a list of witnesses for a particular version of t
 
 Example:
 ```xml
-<listWit xml:id="rec1_wits" ana="#rec1">
-    <head>Witnesses of version A</head>
+<listWit xml:id="rec1_wits" resp="#maria">
+    <head>Other witnesses</head>
     <witness xml:id="P">Принстонский архив Мандельштама
         <msDesc>
             <msIdentifier>

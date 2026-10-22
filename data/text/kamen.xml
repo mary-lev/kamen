@@ -256,8 +256,8 @@
                         <witness xml:id="C">Стихотворения. М.: Государственное издательство,
                             1928.</witness>
                     </listWit>
-                    <listWit xml:id="rec1_wits" ana="#rec1" resp="#maria">
-                        <head>Witnesses of version A</head>
+                    <listWit xml:id="rec1_wits" resp="#maria">
+                        <head>Other witnesses</head>
                         <witness xml:id="P">Принстонский архив Мандельштама
                             <msDesc>
                                 <msIdentifier>
@@ -473,6 +473,18 @@
                     <person xml:id="p_Adam" sameAs="http://dbpedia.org/resource/Adam">
                         <persName xml:lang="en">Adam</persName>
                         <persName xml:lang="ru">Адам</persName>
+                    </person>
+                    <person xml:id="p_Mets" sortKey="Mets_A">
+                        <persName xml:lang="ru">Мец А. Г.</persName>
+                    </person>
+                    <person xml:id="p_Gasparov" sortKey="Gasparov_M">
+                        <persName xml:lang="ru">Гаспаров М. Л.</persName>
+                    </person>
+                    <person xml:id="p_Lekmanov" sortKey="Lekmanov_O">
+                        <persName xml:lang="ru">Лекманов О. А.</persName>
+                    </person>
+                    <person xml:id="p_Amelin" sortKey="Amelin_M">
+                        <persName xml:lang="ru">Амелин М. А.</persName>
                     </person>
                 </listPerson>
                 <listPlace>
@@ -1097,15 +1109,14 @@
                         <head>Parallel passages</head>
                         <cit xml:id="gasparov_2-9-178-17-19">
                             <bibl>
-                                <author ref="#p_Avicenna">Та же детская удивленная интонация — в
+                                <author ref="#p_Gasparov">Та же детская удивленная интонация — в
                                     стих. «Дано мне тело — что мне делать с ним...» [с. 25] —
                                     подчеркнута логиче­ской попыткой осмыслить свою хрупкую
                                     мгновенность в огром­ной вечности: мир — теплица (слово, по
                                     созвучию просвечива­ющее сквозь слово темница ), снаружи —
                                     мороз, внутри — мое дыхание, оно ложится на стекла и застывает
                                     на них неповтори­мым (неузнаваемым ) узором</author>
-                                <title ref="#w_burhan">Гаспаров.</title>
-                                <citedRange corresp="#Afifi1956">Источник</citedRange>
+                                <title ref="#w_gasparov">Гаспаров.</title>
                             </bibl>
                             <quote/>
                         </cit>
@@ -1119,7 +1130,7 @@
                     <div type="2">
                         <!--Beginning of Head-->
                         <head>
-                            <app resp="#silvia">
+                            <app resp="#maria">
                                 <lem wit="#K1 #K2 #K3 #C #BP">SILENTIUM</lem>
                                 <rdg wit="#P">XIII</rdg>
                                 <rdg cause="om" wit="#A"/>
@@ -1128,7 +1139,7 @@
                         <l n="1"><lb facs="#P_Silentium_line_01" n="1" xml:id="P_Silentium_lb_01"
                             />Она еще не <rhyme label="a">родилась</rhyme><app>
                                 <lem wit="#K1 #K2 #K3 #C">,</lem>
-                                <rdg type="subs" wit="#A">—</rdg>
+                                <rdg type="subs" wit="#A"> —</rdg>
                             </app></l>
                         <l n="2"><lb facs="#P_Silentium_line_02" n="2" xml:id="P_Silentium_lb_02"
                             />Она <app>
@@ -1148,8 +1159,7 @@
                                 <lem wit="#K1 #K2 #K3 #C #A">дышатъ</lem>
                                 <rdg type="subs" wit="#P">дышутъ</rdg>
                             </app>
-                             моря <rhyme label="a">груди</rhyme>
-                            <app>
+                             моря <rhyme label="a">груди</rhyme><app>
                                 <lem wit="#K1 #K2 #K3 #C">,</lem>
                                 <rdg type="subs" wit="#A"> —</rdg>
                             </app></l>
@@ -1350,8 +1360,7 @@
                             </app>если въ ледяныхъ <rhyme label="e">алмазахъ</rhyme></l>
                         <l n="10"><lb facs="#P_Medlitelnee_line_10" n="10"
                                 xml:id="P_Medlitelnee_lb_10"/>Струится вѣчности <rhyme label="f"
-                                >морозъ</rhyme>
-                            <app>
+                                >морозъ</rhyme><app>
                                 <lem wit="#K1 #K2 #K2-Av #K3 #P">,</lem>
                                 <rdg type="subs" wit="#A"> —</rdg>
                             </app>
@@ -1565,7 +1574,7 @@
                         <l n="13"><lb facs="#OM_kamen_line_1913_09_13" n="1"
                                 xml:id="OM_kamen_lb_1913_09_13"/>И хрупкой раковины <rhyme label="a">стѣны</rhyme>, —</l>
                         <l n="14"><lb facs="#OM_kamen_line_1913_09_14" n="1"
-                                xml:id="OM_kamen_lb_1913_09_14"/>Какъ нежилого сердца <rhyme label="a">домъ</rhyme> <app>
+                                xml:id="OM_kamen_lb_1913_09_14"/>Какъ нежилого сердца <rhyme label="a">домъ</rhyme><app>
                                 <lem wit="#K1 #K3">, —</lem>
                                 <rdg type="punctuation" wit="#K2"> —</rdg>
                             </app>
@@ -2087,7 +2096,7 @@
                     <div>
                         <head>КАЗИНО</head>
                         <l n="1"><lb facs="#OM_kamen_line_1913_17_01" n="1"
-                                xml:id="OM_kamen_lb_1913_17_01"/>Я не поклонникъ радости <rhyme
+                                xml:id="OM_kamen_lb_1913_17_01"/>Я не поклонникъ <seg source="#metz-1990-294-30-32" resp="#maria">радости</seg> <rhyme
                                 label="a">предвзятой</rhyme><app>
                                 <lem wit="#K2 #K3 #C">,</lem>
                                 <rdg type="subs" wit="#K1">, —</rdg>
@@ -2163,40 +2172,11 @@
                         <head>Parallel passages</head>
                         <cit xml:id="metz-1990-294-30-32">
                             <bibl>
-                                <author ref="#p_Avicenna">Речь идет об отношении к тезису «радости»
+                                <author ref="#p_Mets">Речь идет об отношении к тезису «радости»
                                     ( «жизнеутверждения» ) в разрабатывавшейся программе акмеизма
                                     (Заметки об акмеизме, с. 29).</author>
                                 <title ref="#w_Kamen_1990_komm">(А. Г. Мец)</title>
-                                <citedRange corresp="#Afifi1956">II, 7, p. 165, 7-10</citedRange>
-                            </bibl>
-                            <quote/>
-                        </cit>
-                        <cit xml:id="metz-1990-295">
-                            <bibl>
-                                <author ref="#p_Avicenna">На неточность в этом ст-нии — уланы
-                                    никогда не стояли в Царском Селе — указал Э. Голлербах: «Пусть
-                                    уланы, о которых говорит другой поэт, никогда не стояли в
-                                    Царском Селе — они могли бы быть там и дело не в них, а в том
-                                    парадно-гвардейском колорите, который так ярко окрашивал в былое
-                                    время этот город (далее цитируется строфа 1 из ст-ния «Царское
-                                    Село». — А. М.)» (Голлербах Э. Город муз. Л., 1927. С. 69).
-                                    Мандельштам читал эту книгу; основная редакция ст. 2—4 (см.
-                                    выше), очевидно, возникла в результате этого чтения</author>
-                                <title ref="#w_Kamen_1990_komm">(А. Г. Мец)</title>
-                                <citedRange corresp="#Afifi1956">Источник</citedRange>
-                            </bibl>
-                            <quote/>
-                        </cit>
-                        <cit xml:id="lekmanov-2017-327">
-                            <bibl>
-                                <author ref="#p_Avicenna">«Нива» — популярный русский еженедельный
-                                    журнал с приложениями. Издавался с 1869 по 1918 г.
-                                    Позиционировал себя как периодическое издание, ориентированное
-                                    на семейное чтение буржуазии и мещан. Романы Дюма-отца и
-                                    Дюма-сына считались яркими образцами беллетристики.</author>
-                                <title ref="#w_lekmanov-amelin-2017">(О. Лекманов, М.
-                                    Амелин)</title>
-                                <citedRange corresp="#Afifi1956">Источник</citedRange>
+                                <citedRange>С. 294</citedRange>
                             </bibl>
                             <quote/>
                         </cit>
@@ -2432,7 +2412,7 @@
                         <head>Parallel passages</head>
                         <cit xml:id="metz-1990-295-2-7">
                             <bibl>
-                                <author ref="#p_Avicenna">Печатается с исправлением цензурного
+                                <author ref="#p_Mets">Печатается с исправлением цензурного
                                     искажения в ст. 2 (в К2 /и рьяны,/), на что указывала и М.
                                     Цветаева: «Пьяны ему цензура переменила на рьяны, ибо в Царском
                                     Селе пьяных не бывает — только рьяные!» (Лит. Грузия. 1970. № 7.
@@ -2442,13 +2422,13 @@
                                     слова в публикации ст-ния «От легкой жизни мы сошли с ума. . .»
                                     (примеч.)</author>
                                 <title ref="#w_Kamen_1990_komm">(А. Г. Мец)</title>
-                                <citedRange corresp="#Afifi1956">II, 7, p. 165, 7-10</citedRange>
+                                <citedRange>С. 295</citedRange>
                             </bibl>
                             <quote/>
                         </cit>
                         <cit xml:id="metz-1990-295-16-22">
                             <bibl>
-                                <author ref="#p_Avicenna">На неточность в этом ст-нии — уланы
+                                <author ref="#p_Mets">На неточность в этом ст-нии — уланы
                                     никогда не стояли в Царском Селе — указал Э. Голлербах: «Пусть
                                     уланы, о которых говорит другой поэт, никогда не стояли в
                                     Царском Селе — они могли бы быть там и дело не в них, а в том
@@ -2458,20 +2438,20 @@
                                     Мандельштам читал эту книгу; основная редакция ст. 2—4 (см.
                                     выше), очевидно, возникла в результате этого чтения</author>
                                 <title ref="#w_Kamen_1990_komm">(А. Г. Мец)</title>
-                                <citedRange corresp="#Afifi1956">Источник</citedRange>
+                                <citedRange>С. 295</citedRange>
                             </bibl>
                             <quote/>
                         </cit>
                         <cit xml:id="lekmanov-2017-327-1-6">
                             <bibl>
-                                <author ref="#p_Avicenna">«Нива» — популярный русский еженедельный
+                                <author ref="#p_Lekmanov #p_Amelin">«Нива» — популярный русский еженедельный
                                     журнал с приложениями. Издавался с 1869 по 1918 г.
                                     Позиционировал себя как периодическое издание, ориентированное
                                     на семейное чтение буржуазии и мещан. Романы Дюма-отца и
                                     Дюма-сына считались яркими образцами беллетристики.</author>
-                                <title ref="#w_lekmanov-amelin-2017">(О. Лекманов, М.
+                                <title ref="#w_lekmanov">(О. Лекманов, М.
                                     Амелин)</title>
-                                <citedRange corresp="#Afifi1956">Источник</citedRange>
+                                <citedRange>С. 327</citedRange>
                             </bibl>
                             <quote/>
                         </cit>
@@ -2545,7 +2525,7 @@
                         </l>
                         <l n="15"><lb facs="#P-Zolotoy_1_line_15" n="15"
                                 xml:id="P-Zolotoy_1_lb_15"/>Только мнѣ бумажекъ не <rhyme
-                                label="a">давайте</rhyme> <app>
+                                label="a">давайте</rhyme><app>
                                 <lem wit="#K1 #K2">, —</lem>
                                 <rdg type="subs" wit="#K3 #C"> —</rdg>
                             </app>
