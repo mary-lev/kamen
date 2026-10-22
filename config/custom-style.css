@@ -42,3 +42,14 @@ span.quote sup.iconbis-evt_quote-left,
 span.quote sup.iconbis-evt_quote-right {
 	display: none;
 }
+
+/* Hide the div selector above the text: every poem has a single body <div>, so it offers one option */
+evt-select[data-type="div"] {
+	display: none !important;
+}
+
+/* Witness groups in the apparatus: start each distinct reading of a group on its own line */
+.critical-apparatus-entry_main-content ul.app_reading_list li span.witGrp_content > .inWitGrp:not(:first-child)::before {
+	content: "";
+	display: block;
+}

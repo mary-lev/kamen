@@ -29,6 +29,15 @@ This project’s TEI model, based on http://www.tei-c.org/release/xml/tei/custom
 - **Manuscript Image Mapping**: Used Oxygen XML Editor for precise image map generation.
 - **Platform Visualization**: Processed the enriched TEI XML through EVT's rendering engine.
 
+### Local patch to EVT
+`scripts/evtviewer.95fa09ca.js` is EVT's built bundle with a small local patch (marked `kamen patch` at the top of the file):
+- text inside `<lem>`/`<rdg>` is no longer trimmed around inline elements, so `опьяненная <rhyme>собой</rhyme>` no longer renders as «опьяненнаясобой»;
+- inter-tag whitespace was removed from the named-entity, analogue and reading templates, so `</placeName>!` no longer renders as «Село !» and `слито<app><lem>.</lem>…` no longer as «слито .».
+
+Because of this, spaces are now rendered exactly as encoded: write `слово<app><lem>,</lem>…` with no whitespace before `<app>` when the variant is punctuation.
+
+Reapply it if EVT is ever replaced with a newer build.
+
 ## Key Features
 - **Granular comparison**: Enables detection of subtle changes often overlooked in traditional analysis.
 - **Comprehensive source inclusion**: Incorporates both primary editions and secondary sources.
