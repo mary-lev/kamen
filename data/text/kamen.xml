@@ -768,7 +768,7 @@
                 rendition="Line" corresp="#P_Silentium_lb_17" rend="visible"/>
         </surface>
         <surface corresp="#P_Medlitelnee" xml:id="P_medlitelnee_surf">
-            <graphic url="../images/single/P_Princeton-Medlitelnee_snezhnyj_uley.jpg" width="529px"
+            <graphic url="../images/single/P-Princeton-Medlitelnee_snezhnyj_uley.jpg" width="529px"
                 height="663px"/>
             <zone xml:id="P_Medlitelnee_line_01" lry="114" lrx="349" uly="82" ulx="28"
                 rendition="Line" corresp="#P_Medlitelnee_lb_01" rend="visible"/>
@@ -821,7 +821,7 @@
                 rendition="Line" corresp="#P_Obraz_tvoy_lb_10" rend="visible"/>
         </surface>
         <surface corresp="#P_Tsarskoe_selo" xml:id="P_Tsarskoe_selo_surf">
-            <graphic url="../images/single/P_Princeton_Tsarskoe_selo.jpg" width="529px" height="809px"/>
+            <graphic url="../images/single/P-Princeton_Tsarskoe_selo.jpg" width="529px" height="809px"/>
             <zone xml:id="P_Tsarskoe_selo_line_01" lry="74" lrx="516" uly="5" ulx="329"
                 rendition="Line" corresp="#P_Tsarskoe_selo_lb_01" rend="visible"/>
             <zone xml:id="P_Tsarskoe_selo_line_02" lry="123" lrx="327" uly="66" ulx="48"
@@ -889,7 +889,7 @@
                 corresp="#P-Zolotoy_1_lb_17" rend="visible"/>
         </surface>
         <surface corresp="#P-Zolotoy_2" xml:id="P-Zolotoy_2_surf">
-            <graphic url="../images/single/P-Zolotoy_2.jpg" width="529px" height="795px"/>
+            <graphic url="../images/single/P-Princeton_Zolotoy_2.jpg" width="529px" height="760px"/>
             <zone xml:id="P-Zolotoy_2_line_01" lry="158" lrx="424" uly="107" ulx="42"
                 rendition="Line" corresp="#P-Zolotoy_2_lb_01" rend="visible"/>
             <zone xml:id="P-Zolotoy_2_line_02" lry="211" lrx="316" uly="157" ulx="45"
@@ -947,7 +947,7 @@
                 rendition="Line" corresp="#P-notre-dame_lb_17" rend="visible"/>
         </surface>
         <surface corresp="#OM_kamen_1913_05" xml:id="OM_kamen_1913_05_surf">
-            <graphic url="../images/single/K1-05.jpg" width="529px" height="875px"/>
+            <graphic url="../images/single/K1-K1_Nevyrazimaya_pechal.jpg" width="529px" height="875px"/>
             <zone xml:id="OM_kamen_line_1913_05_00" lry="504" lrx="592" uly="452" ulx="169"
                 rendition="Line" corresp="#OM_kamen_lb_1913_05_00" rend="visible"/>
             <zone xml:id="OM_kamen_line_1913_05_01" lry="550" lrx="860" uly="504" ulx="168"
@@ -1092,97 +1092,9 @@
                 <!--END OF BODY-->
                 <!--BEGINNING OF BACK-->
                 <back>
-                    <!--SOURCES DIV-->
-                    <div>
-                        <head>Sources</head>
-                        <cit xml:id="Ari_Meta_1-2-982b28-983a11">
-                            <bibl>
-                                <author ref="#p_Aristotle">Arist.</author>
-                                <title ref="#w_metaph">Metaph.</title>
-                                <citedRange corresp="#ar_met_perseus"
-                                    target="http://data.perseus.org/citations/urn:cts:greekLit:tlg0086.tlg025.perseus-grc1:1.982b"
-                                    >Α, 2, 982b28-983a11</citedRange>
-                            </bibl>
-                            <quote/>
-                        </cit>
-                        <!--**ASSIGNED**-->
-                        <cit xml:id="Ari_Meta_4-1-1003a31-32" source="#Ari_Meta_4-1-1003a31-32.xml">
-                            <bibl>
-                                <author ref="#p_Aristotle">Arist.</author>
-                                <title ref="#w_metaph">Metaph.</title>
-                                <citedRange corresp="#ar_met_perseus"
-                                    target="http://data.perseus.org/citations/urn:cts:greekLit:tlg0086.tlg025.perseus-grc1:4.1003a"
-                                    >Γ, 1, 1003a31-32</citedRange>
-                            </bibl>
-                            <quote/>
-                        </cit>
-                        <!--**UNASSIGNED**-->
-                        <cit xml:id="Ari_Meta_6-1-1025b1-2">
-                            <bibl>
-                                <author ref="#p_Aristotle">Arist.</author>
-                                <title ref="#w_metaph">Metaph.</title>
-                                <citedRange corresp="#ar_met_perseus"
-                                    target="http://data.perseus.org/citations/urn:cts:greekLit:tlg0086.tlg025.perseus-grc1:6.1025b"
-                                    >Ε, 1, 1025b1-2</citedRange>
-                            </bibl>
-                            <quote/>
-                        </cit>
-                        <cit xml:id="Ari_Meta_6-1-1026a16-21">
-                            <bibl>
-                                <author ref="#p_Aristotle">Arist.</author>
-                                <title ref="#w_metaph">Metaph.</title>
-                                <citedRange corresp="#ar_met_perseus"
-                                    target="http://data.perseus.org/citations/urn:cts:greekLit:tlg0086.tlg025.perseus-grc1:6.1026a"
-                                    >Ε, 1, 1026a16-21</citedRange>
-                            </bibl>
-                            <quote/>
-                        </cit>
-                        <cit xml:id="boe_inPorfIsag_I-80A-B">
-                            <bibl>
-                                <author ref="#p_Boethius">Boethius</author>
-                                <title ref="#w_inIsagogen">In Porph. Isag.</title>
-                                <citedRange corresp="#CPT_PLD64">I, coll. 80A-B</citedRange>
-                            </bibl>
-                            <quote>Rursus divisio est quoties vox plura significans aperitur, et
-                                quam multa sint quae ab ea voce signantur ostenditur, ut si quis
-                                dicat: nomen canis plura significat, et hunc latrabilem
-                                quadrupedemque, et coeleste sidus, et marinam bestiam, quae omnia a
-                                se diffinitione disjuncta sunt.</quote>
-                        </cit>
-                        <cit xml:id="boe_porpIsagTrans_II-91A" source="boe_porpIsagTrans_II-91A.xml">
-                            <bibl>
-                                <author ref="#p_Boethius">Boethius</author>
-                                <title ref="#w_boe-traslatio-isagoge">Porph. Isag.
-                                    translatio</title>
-                                <citedRange corresp="#CPT_PLD64">II, coll. 91A</citedRange>
-                            </bibl>
-                            <quote>Tripliciter igitur cum genus dicatur, de tertio apud philosophos
-                                est sermo, quod etiam describentes assignaverunt, dicentes genus
-                                esse quod de pluribus et differentibus specie in eo quod quid sit
-                                praedicatur, ut animal.</quote>
-                        </cit>
-                        <cit xml:id="boe_transAristTop_I-4-913B">
-                            <bibl>
-                                <author ref="#p_Boethius">Boethius</author>
-                                <title ref="#w_boe-traslatio-topicorum">Porph. Isag.
-                                    translatio</title>
-                                <citedRange corresp="#ATT_PLD64">I, 4, coll. 913B</citedRange>
-                            </bibl>
-                            <quote>Genus autem est, quod de pluribus et differentibus specie in eo
-                                quod quid est praedicatur.</quote>
-                        </cit>
-                    </div>
                     <!--PARALLEL PASSAGES DIV-->
                     <div>
                         <head>Parallel passages</head>
-                        <cit xml:id="burhan_2-7-165-7-10">
-                            <bibl>
-                                <author ref="#p_Avicenna">Avicenna</author>
-                                <title ref="#w_burhan">Burhān</title>
-                                <citedRange corresp="#Afifi1956">II, 7, p. 165, 7-10</citedRange>
-                            </bibl>
-                            <quote/>
-                        </cit>
                         <cit xml:id="gasparov_2-9-178-17-19">
                             <bibl>
                                 <author ref="#p_Avicenna">Та же детская удивленная интонация — в
@@ -1209,7 +1121,7 @@
                         <head>
                             <app resp="#silvia">
                                 <lem wit="#K1 #K2 #K3 #C #BP">SILENTIUM</lem>
-                                <rdg wit="P">XIII</rdg>
+                                <rdg wit="#P">XIII</rdg>
                                 <rdg cause="om" wit="#A"/>
                             </app>
                         </head>
@@ -1975,7 +1887,7 @@
                         <head>
                             <app resp="#maria">
                                 <lem wit="#K1 #K2 #C">ПЕШЕХОДЪ</lem>
-                                <rdg cause="om" wit="#К3">* * *</rdg>
+                                <rdg cause="om" wit="#K3">* * *</rdg>
                             </app>
                         </head>
                         <l n="1"><lb facs="#OM_kamen_line_1913_14_01" n="1"
@@ -2746,7 +2658,7 @@
                             <app>
                                 <lem wit="#K1 #K2 #K3 #C">Плетется онъ — <rhyme
                                     label="a">когда</rhyme></lem>
-                                <rdg type="om" wit="BP"/>
+                                <rdg type="om" wit="#BP"/>
                             </app>
                         </l>
                         <l n="19"><lb facs="#OM_kamen_line_1913_23_19" n="19"

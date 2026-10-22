@@ -4,17 +4,17 @@
     "logoUrl": "",
     
     "dataUrl": "data/text/kamen.xml",
-    "sourcesUrl": "data/text/sources.xml",
-    "analoguesUrl": "data/text/analogues.xml",
+    "sourcesUrl": "",
+    "analoguesUrl": "",
     "sourcesTextsUrl": "data/text/sources/",
     "singleImagesUrl": "data/images/single/",
     "enableXMLdownload": true,
     
     "visCollTextUrl": "",
     "visCollStyleUrl": "",
-    "visCollSvg": "data/viscoll/SVG/",
-    "visCollImageList": "data/viscoll/VB-imageList.xml",
-    "visCollDataModel": "data/viscoll/VB-dataModel.xml",
+    "visCollSvg": "",
+    "visCollImageList": "",
+    "visCollDataModel": "",
 
    "defaultViewMode": "imgTxt",
     "availableViewModes": [
