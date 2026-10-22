@@ -1690,6 +1690,7 @@
                         <l n="8"><lb facs="#OM_kamen_line_1913_11_08" n="8"
                                 xml:id="OM_kamen_lb_1913_11_08"/>И пустая клѣтка <rhyme
                                 label="a">позади</rhyme>...</l>
+                        <pb ed="#P" n="Princeton_Obraz_tvoy"/>
                         <pb ed="#K1" n="K1_11"/>
                         <pb ed="#K2" n="K2_034"/>
                         <pb ed="#K3" n="K3_028"/>
@@ -3249,6 +3250,17 @@
                         <pb ed="#K2" n="K2_043"/>
                         <pb ed="#K3" n="K3_036"/>
                         <pb ed="#C" n="C_042"/>
+                    </div>
+                </body>
+            </text>
+            <text type="Back_matter">
+                <body>
+                    <div type="Back_matter">
+                        <head><title>The Digital Stone</title></head>
+                        <p>End pages of the first edition (1913): table of contents, the publisher's announcement and the back cover.</p>
+                        <pb ed="#K1" n="K1_34"/>
+                        <pb ed="#K1" n="K1_35"/>
+                        <pb ed="#K1" n="K1_Back"/>
                     </div>
                 </body>
             </text>
